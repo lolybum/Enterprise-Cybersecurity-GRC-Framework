@@ -90,6 +90,39 @@ This section will include:
 - Framework Mapping
 - Cybersecurity Governance
 
+
+---
+
+# Governance Documents
+
+| ID | Document | Status |
+|----|----------|--------|
+| GOV-001 | Enterprise Information Security Governance Manual | ✅ Draft v1.1 |
+| GOV-002 | Information Security Charter | 🚧 Planned |
+| GOV-003 | Governance Committee Charter | 🚧 Planned |
+| GOV-004 | Policy Management Standard | 🚧 Planned |
+| GOV-005 | Roles & Responsibilities | 🚧 Planned |
+
+---
+
+# Current Progress
+
+- ✅ Governance repository established
+- ✅ Governance framework documented
+- ✅ GOV-001 draft created
+- 🚧 Volume 1 under development
+
+---
+
+# Framework Alignment
+
+This governance documentation aligns with:
+
+- NIST Cybersecurity Framework (CSF) 2.0
+- NIST SP 800-53 Revision 5
+- ISO/IEC 27001:2022
+- CIS Controls v8
+- COBIT 2019
 ---
 
 **Status:** 🚧 Under Development
