@@ -405,7 +405,6 @@ Failure to comply with this policy may result in:
 
 ---
 
-# 18.---
 
 # 18. Exceptions
 
