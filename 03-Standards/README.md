@@ -29,7 +29,7 @@ Enterprise Security Standards align with:
 | Standard ID | Standard Name | Owner | Review | Status |
 |-------------|---------------|-------|--------|--------|
 | STD-001 | Enterprise Password Standard | CISO | Annual | Approved |
-| STD-002 | Enterprise Multi-Factor Authentication Standard | CISO | Annual | Planned |
+| STD-002 | Enterprise Multi-Factor Authentication Standard | CISO | Annual | Approved |
 | STD-003 | Enterprise Identity and Access Management Standard | CISO | Annual | Planned |
 | STD-004 | Enterprise Privileged Access Standard | CISO | Annual | Planned |
 | STD-005 | Enterprise Secure Configuration Baseline Standard | CISO | Annual | Planned |
