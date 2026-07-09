@@ -78,3 +78,102 @@ Passwords shall be created, stored, transmitted, and managed using secure method
 Where supported, password-based authentication shall be strengthened through Multi-Factor Authentication (MFA) and integrated with the organization's Identity and Access Management (IAM) program.
 
 Enterprise systems shall enforce technical controls to ensure compliance with this standard.
+
+---
+
+# 5. Password Length Requirements
+
+The following minimum password length requirements shall apply:
+
+- User accounts shall use passwords or passphrases with a minimum length of 14 characters.
+- Privileged accounts shall use passwords with a minimum length of 16 characters.
+- Service accounts shall use passwords with a minimum length of 20 characters.
+- Default vendor passwords shall be changed before systems are placed into production.
+- Passwords shall not exceed system-supported limits but should support long passphrases where technically feasible.
+
+Longer passphrases are encouraged to improve resistance against brute-force and password guessing attacks.
+
+---
+
+# 6. Password Complexity Requirements
+
+Passwords shall meet the following complexity requirements where technically supported:
+
+- Contain uppercase letters.
+- Contain lowercase letters.
+- Contain numeric characters.
+- Contain special characters.
+- Avoid dictionary words used alone.
+- Avoid predictable keyboard patterns.
+- Avoid common passwords.
+- Avoid user names.
+- Avoid company names.
+- Avoid personal information.
+
+Where modern authentication platforms support passphrases, longer passphrases shall be preferred over overly complex short passwords in accordance with NIST guidance.
+
+---
+
+# 7. Password Storage Requirements
+
+Passwords shall never be stored in plaintext.
+
+Approved password storage methods include:
+
+- One-way salted hashing.
+- Approved cryptographic algorithms.
+- Secure credential vaults.
+- Enterprise password managers.
+- Hardware Security Modules (HSMs) where applicable.
+
+The following storage practices are prohibited:
+
+- Plaintext files.
+- Shared spreadsheets.
+- Email messages.
+- Sticky notes.
+- Browsers without enterprise management.
+- Source code repositories.
+
+---
+
+# 8. Password History
+
+Enterprise authentication systems shall maintain password history controls.
+
+Requirements include:
+
+- Prevent reuse of the previous 24 passwords where technically feasible.
+- Prevent immediate password reuse.
+- Validate password uniqueness during password changes.
+- Enforce password history for privileged accounts.
+- Monitor repeated password reuse attempts.
+
+---
+
+# 9. Password Expiration
+
+Routine password expiration shall not be required for standard user accounts unless:
+
+- A password compromise is suspected.
+- A security incident occurs.
+- Regulatory requirements require password changes.
+- Administrative action requires credential rotation.
+
+Privileged accounts and service accounts shall follow organization-approved credential rotation schedules based on risk.
+
+---
+
+# 10. Password Reset Requirements
+
+Password reset processes shall:
+
+- Verify user identity before resetting credentials.
+- Require Multi-Factor Authentication (MFA) where supported.
+- Generate temporary passwords securely.
+- Require password changes upon first login.
+- Log all password reset activities.
+- Prevent unauthorized password resets.
+- Follow documented service desk procedures.
+
+All password reset activities shall be auditable.
