@@ -203,3 +203,164 @@ Cloud storage requirements include:
 - Periodic storage security assessments.
 
 Sensitive organizational information shall not be stored in publicly accessible cloud storage unless specifically authorized through documented risk acceptance.
+
+---
+
+# 11. Cloud Encryption
+
+Enterprise cloud environments shall implement approved cryptographic controls to protect organizational information.
+
+Cloud encryption requirements include:
+
+- Encryption of data at rest.
+- Encryption of data in transit.
+- Enterprise-approved cryptographic algorithms.
+- Customer-managed encryption keys where business or regulatory requirements apply.
+- Secure key lifecycle management.
+- Integration with enterprise key management solutions.
+- Encryption of cloud databases.
+- Encryption of cloud object storage.
+- Encryption of cloud backup repositories.
+- Periodic validation of encryption effectiveness.
+
+Cloud encryption shall comply with the Enterprise Encryption and Key Management Standard.
+
+---
+
+# 12. Cloud Logging and Monitoring
+
+Cloud services shall generate security logs sufficient to support monitoring, incident response, forensic investigations, and regulatory compliance.
+
+Logging and monitoring requirements include:
+
+- Cloud audit logs.
+- Identity and authentication events.
+- Administrative actions.
+- API activity.
+- Network security events.
+- Storage access events.
+- Configuration changes.
+- Privileged account activities.
+- Security service alerts.
+- Cloud workload security events.
+
+Cloud logs shall be forwarded to the enterprise Security Information and Event Management (SIEM) platform.
+
+---
+
+# 13. Cloud Configuration Management
+
+Cloud resources shall be configured using approved enterprise security baselines.
+
+Configuration management requirements include:
+
+- Infrastructure-as-Code (IaC) security reviews.
+- Secure configuration templates.
+- Continuous configuration compliance monitoring.
+- Detection of configuration drift.
+- Automated configuration validation.
+- Secure default configurations.
+- Approved configuration change management.
+- Version control of infrastructure code.
+- Periodic configuration reviews.
+- Remediation of configuration deviations.
+
+Unauthorized configuration changes shall be investigated promptly.
+
+---
+
+# 14. Container and Kubernetes Security
+
+Containerized workloads and Kubernetes platforms shall be protected using enterprise-approved security controls.
+
+Requirements include:
+
+- Secure container images.
+- Approved container registries.
+- Image vulnerability scanning.
+- Runtime protection.
+- Least privilege container execution.
+- Kubernetes Role-Based Access Control (RBAC).
+- Network policies.
+- Secrets management.
+- Admission controller validation.
+- Continuous container monitoring.
+- Logging of Kubernetes administrative activities.
+- Regular cluster security assessments.
+
+Container orchestration platforms shall be configured according to enterprise hardening standards.
+
+---
+
+# 15. Cloud Compliance Monitoring
+
+Enterprise cloud environments shall be continuously monitored for compliance with security, regulatory, and organizational requirements.
+
+Monitoring requirements include:
+
+- Continuous cloud security posture assessments.
+- Cloud Security Posture Management (CSPM) monitoring where deployed.
+- Compliance dashboard reporting.
+- Continuous asset discovery.
+- Detection of publicly exposed resources.
+- Continuous identity monitoring.
+- Monitoring of encryption compliance.
+- Monitoring of security control health.
+- Automated compliance reporting.
+- Periodic independent cloud security assessments.
+
+Cloud compliance findings shall be tracked through the Enterprise Risk Management process.
+
+---
+
+# 16. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve enterprise cloud security requirements.
+- Review enterprise cloud security risks.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Cloud Security Team
+
+The Cloud Security Team shall:
+
+- Develop and maintain cloud security standards.
+- Review cloud architectures.
+- Monitor cloud security events.
+- Maintain cloud compliance dashboards.
+- Recommend improvements to cloud security capabilities.
+- Coordinate cloud security assessments.
+
+## Cloud Operations Team
+
+The Cloud Operations Team shall:
+
+- Deploy secure cloud infrastructure.
+- Maintain cloud security configurations.
+- Implement cloud monitoring solutions.
+- Apply cloud security updates.
+- Support cloud incident response activities.
+- Maintain cloud asset inventories.
+
+## System Owners
+
+System Owners shall:
+
+- Ensure assigned cloud workloads comply with this standard.
+- Participate in cloud risk assessments.
+- Approve cloud configuration changes.
+- Support cloud compliance reviews.
+- Request approved cloud security exceptions where necessary.
+
+## Users
+
+Users shall:
+
+- Access cloud services only through approved enterprise accounts.
+- Protect cloud authentication credentials.
+- Report suspected cloud security incidents immediately.
+- Comply with enterprise cloud security requirements.
