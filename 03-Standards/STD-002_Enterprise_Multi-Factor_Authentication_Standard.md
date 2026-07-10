@@ -202,3 +202,108 @@ Requests for exceptions to this standard shall:
 - Be reviewed annually.
 
 Approved exceptions shall be recorded in the Enterprise Exception Register.
+
+---
+
+# 11. Administrative Account Requirements
+
+Administrative accounts shall be protected using enhanced authentication controls.
+
+Requirements include:
+
+- Multi-Factor Authentication (MFA) shall be mandatory for all administrative accounts.
+- Administrative accounts shall use enterprise-approved MFA methods.
+- Shared administrative accounts shall be prohibited unless explicitly approved.
+- Administrative authentication events shall be logged.
+- Administrative sessions shall automatically timeout after periods of inactivity.
+- Administrative access shall follow the principle of least privilege.
+- Emergency administrative accounts shall be documented and monitored.
+- Administrative authentication shall be continuously monitored for suspicious activity.
+
+---
+
+# 12. Cloud Application Requirements
+
+All enterprise cloud applications shall enforce Multi-Factor Authentication where technically supported.
+
+Cloud authentication requirements include:
+
+- MFA for Software-as-a-Service (SaaS) applications.
+- MFA for cloud management consoles.
+- MFA for cloud administrators.
+- MFA for cloud-based email platforms.
+- MFA for enterprise collaboration platforms.
+- MFA for cloud storage services.
+- Integration with enterprise Identity and Access Management (IAM) systems.
+- Continuous monitoring of cloud authentication events.
+
+Cloud applications shall comply with enterprise identity governance requirements.
+
+---
+
+# 13. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve enterprise MFA requirements.
+- Review MFA-related risks.
+- Ensure alignment with applicable regulations and security frameworks.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Maintain the MFA standard.
+- Monitor compliance with MFA requirements.
+- Review authentication-related security events.
+- Recommend improvements to authentication controls.
+- Support MFA awareness and training initiatives.
+
+## Information Technology Team
+
+The Information Technology Team shall:
+
+- Implement and maintain enterprise MFA solutions.
+- Configure authentication systems.
+- Support secure enrollment and recovery processes.
+- Maintain authentication infrastructure.
+- Monitor operational effectiveness of MFA technologies.
+
+## Managers
+
+Managers shall:
+
+- Ensure personnel comply with MFA requirements.
+- Support timely onboarding and offboarding activities.
+- Report suspected authentication security issues.
+
+## Users
+
+Users shall:
+
+- Enroll in enterprise MFA as required.
+- Protect authentication devices and credentials.
+- Immediately report lost or stolen authentication devices.
+- Use only approved authentication methods.
+- Report suspected account compromise without delay.
+
+---
+
+# 14. Authentication Device Management
+
+Authentication devices shall be securely managed throughout their lifecycle.
+
+Requirements include:
+
+- Registration of enterprise-approved devices.
+- Protection of authentication devices from unauthorized use.
+- Secure replacement of lost or stolen devices.
+- Immediate reporting of compromised authentication devices.
+- Periodic review of registered authentication devices.
+- Secure disposal of retired authentication devices.
+- Revocation of authentication devices upon user separation.
+
+Authentication device inventories shall be maintained by the Information Technology team where applicable.
