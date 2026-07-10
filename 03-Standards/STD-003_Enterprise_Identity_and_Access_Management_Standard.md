@@ -190,3 +190,135 @@ Federation requirements include:
 - Periodic review of federation trust relationships.
 
 Federated identity services shall comply with enterprise authentication and access management requirements.
+
+---
+
+# 11. Privileged Identity Management (PIM)
+
+Privileged identities shall be managed using enhanced security controls to reduce the risk of unauthorized access and privilege misuse.
+
+Requirements include:
+
+- Identification of all privileged accounts.
+- Approval prior to privileged access assignment.
+- Just-In-Time (JIT) privileged access where supported.
+- Just-Enough Administration (JEA) where applicable.
+- Multi-Factor Authentication (MFA) for all privileged accounts.
+- Periodic privileged access reviews.
+- Continuous monitoring of privileged activities.
+- Timely removal of unnecessary privileged access.
+
+Privileged identities shall be managed in accordance with the Enterprise Privileged Access Management (PAM) Policy.
+
+---
+
+# 12. Service Account Management
+
+Service accounts shall be managed using secure enterprise processes.
+
+Requirements include:
+
+- Unique service account credentials.
+- Documented business ownership.
+- Least privilege permissions.
+- Secure credential storage.
+- Password rotation in accordance with enterprise requirements.
+- Prohibition of interactive logon unless explicitly approved.
+- Periodic account reviews.
+- Immediate removal of unused service accounts.
+
+Service accounts shall be monitored for unauthorized activity.
+
+---
+
+# 13. Identity Monitoring
+
+Identity-related activities shall be continuously monitored to detect unauthorized access, misuse, or suspicious behavior.
+
+Monitoring activities include:
+
+- Authentication events.
+- Failed login attempts.
+- Privileged account usage.
+- Account lockouts.
+- Identity lifecycle events.
+- New account creation.
+- Account modifications.
+- Account deletions.
+- Federation events.
+- Identity-related security alerts.
+
+Monitoring results shall be reviewed by the Information Security team.
+
+---
+
+# 14. Logging and Auditing
+
+Identity and access management activities shall be logged and retained to support security monitoring, incident response, and regulatory compliance.
+
+Logged events shall include:
+
+- User authentication.
+- Authentication failures.
+- Account creation.
+- Account modification.
+- Account deletion.
+- Privileged access events.
+- Access request approvals.
+- Access revocations.
+- Password reset activities.
+- MFA enrollment and authentication events.
+
+Audit logs shall be protected from unauthorized modification and retained in accordance with the Enterprise Logging and Monitoring Policy.
+
+---
+
+# 15. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve IAM security requirements.
+- Review identity-related risks.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Maintain IAM security standards.
+- Monitor identity security events.
+- Conduct access reviews.
+- Recommend security improvements.
+- Support identity governance initiatives.
+
+## Information Technology Team
+
+The Information Technology Team shall:
+
+- Implement and maintain IAM technologies.
+- Provision and deprovision user accounts.
+- Configure authentication services.
+- Maintain identity infrastructure.
+- Support federation services.
+
+## Managers
+
+Managers shall:
+
+- Approve user access requests.
+- Review user access periodically.
+- Notify Information Technology of personnel changes.
+- Ensure personnel comply with IAM requirements.
+
+## Users
+
+Users shall:
+
+- Protect authentication credentials.
+- Use only approved enterprise accounts.
+- Report suspected identity compromise immediately.
+- Comply with enterprise authentication requirements.
+- Complete required security awareness training.
