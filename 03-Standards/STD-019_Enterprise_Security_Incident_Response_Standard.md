@@ -242,3 +242,172 @@ Containment procedures include:
 - Preservation of forensic evidence.
 
 Containment actions shall be documented and approved where operationally feasible.
+
+---
+
+# 11. Eradication Procedures
+
+Following successful containment, the organization shall eradicate the root cause of the security incident and remove all malicious artifacts from affected systems.
+
+Eradication activities include:
+
+- Removal of malware.
+- Elimination of unauthorized user accounts.
+- Removal of malicious software and scripts.
+- Deletion of unauthorized scheduled tasks.
+- Revocation of compromised credentials.
+- Removal of unauthorized persistence mechanisms.
+- Application of required security patches.
+- Remediation of exploited vulnerabilities.
+- Validation that malicious activity has ceased.
+- Documentation of eradication activities.
+
+Eradication actions shall be verified before initiating system recovery.
+
+---
+
+# 12. Recovery Procedures
+
+Recovery activities shall restore affected systems to normal business operations while minimizing the risk of reinfection or recurrence.
+
+Recovery requirements include:
+
+- Restoration from approved backups.
+- Validation of system integrity.
+- Verification of application functionality.
+- Confirmation that vulnerabilities have been remediated.
+- Monitoring of restored systems.
+- Gradual restoration of production services.
+- Validation of user access.
+- Security testing prior to full production release.
+- Documentation of recovery activities.
+- Approval from the Incident Response Team before closure.
+
+Recovered systems shall be monitored for signs of recurring malicious activity.
+
+---
+
+# 13. Digital Forensics and Evidence Handling
+
+Digital evidence shall be collected, preserved, analyzed, and stored in a manner that maintains its integrity and admissibility where required.
+
+Evidence handling requirements include:
+
+- Collection of relevant logs.
+- Preservation of volatile memory where appropriate.
+- Collection of forensic disk images where necessary.
+- Preservation of cloud audit logs.
+- Secure evidence storage.
+- Documentation of evidence collection activities.
+- Maintenance of chain of custody records.
+- Restricted access to forensic evidence.
+- Integrity verification using approved hashing algorithms.
+- Secure retention of evidence.
+
+Digital forensic activities shall be performed only by authorized personnel or approved third-party forensic specialists.
+
+---
+
+# 14. Communications and Notifications
+
+Security incidents shall be communicated in accordance with approved incident response procedures and applicable legal, regulatory, and contractual obligations.
+
+Communication requirements include:
+
+- Internal stakeholder notifications.
+- Executive management notifications.
+- Legal department coordination.
+- Human Resources coordination where applicable.
+- Customer notifications where required.
+- Third-party vendor notifications.
+- Regulatory reporting.
+- Law enforcement engagement where appropriate.
+- Public relations coordination.
+- Documentation of all communications.
+
+External communications regarding cybersecurity incidents shall be coordinated through authorized organizational representatives.
+
+---
+
+# 15. Post-Incident Review and Lessons Learned
+
+Following resolution of a security incident, the organization shall conduct a formal post-incident review.
+
+Post-incident activities include:
+
+- Root cause analysis.
+- Timeline reconstruction.
+- Review of detection effectiveness.
+- Review of response effectiveness.
+- Identification of control gaps.
+- Recommendations for corrective actions.
+- Documentation of lessons learned.
+- Updates to security procedures.
+- Updates to detection rules.
+- Tracking of corrective action completion.
+
+Lessons learned shall be incorporated into continuous improvement initiatives.
+
+---
+
+# 16. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve enterprise Incident Response requirements.
+- Review significant cybersecurity incidents.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Security Operations Center (SOC)
+
+The SOC shall:
+
+- Monitor enterprise security events.
+- Detect and triage security incidents.
+- Escalate incidents according to severity.
+- Coordinate initial containment activities.
+- Maintain incident documentation.
+- Support forensic investigations.
+
+## Incident Response Team
+
+The Incident Response Team shall:
+
+- Investigate security incidents.
+- Coordinate containment, eradication, and recovery.
+- Preserve digital evidence.
+- Perform root cause analysis.
+- Conduct post-incident reviews.
+- Recommend improvements to Incident Response capabilities.
+
+## Information Technology Team
+
+The Information Technology Team shall:
+
+- Support containment activities.
+- Restore affected systems.
+- Apply remediation measures.
+- Validate system functionality after recovery.
+- Assist with forensic evidence collection where authorized.
+
+## Business Owners
+
+Business Owners shall:
+
+- Assess business impact.
+- Support incident response decision-making.
+- Participate in recovery planning.
+- Approve restoration of critical business services.
+- Participate in post-incident reviews.
+
+## Users
+
+Users shall:
+
+- Report suspected security incidents immediately.
+- Preserve potentially affected systems where instructed.
+- Cooperate with authorized investigations.
+- Comply with Incident Response procedures.
