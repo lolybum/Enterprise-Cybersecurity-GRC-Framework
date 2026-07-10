@@ -204,3 +204,169 @@ Training shall include:
 - Enterprise Identity and Access Management (IAM) requirements.
 
 Personnel shall never share passwords or authentication tokens with other individuals.
+
+---
+
+# 11. Insider Threat Awareness
+
+The organization shall provide awareness training to help personnel recognize, prevent, and report insider threats.
+
+Insider threat awareness training shall include:
+
+- Definition of insider threats.
+- Indicators of malicious insider activity.
+- Indicators of negligent user behavior.
+- Protection of confidential information.
+- Appropriate handling of sensitive organizational data.
+- Reporting suspicious behavior.
+- Data Loss Prevention (DLP) responsibilities.
+- Privacy and ethical considerations.
+- Protection against unauthorized disclosure.
+- Responsibilities during employee onboarding and offboarding.
+
+Personnel shall immediately report suspected insider threat activity through approved reporting channels.
+
+---
+
+# 12. Secure Remote Work Awareness
+
+Personnel authorized to work remotely shall receive training on secure remote work practices.
+
+Training requirements include:
+
+- Secure home network configuration.
+- Approved Virtual Private Network (VPN) usage.
+- Multi-Factor Authentication (MFA).
+- Protection of enterprise devices.
+- Secure handling of confidential information.
+- Safe use of cloud collaboration platforms.
+- Protection against shoulder surfing.
+- Physical security of mobile devices.
+- Secure Wi-Fi usage.
+- Reporting lost or stolen devices.
+
+Remote workers shall comply with all enterprise remote access and mobile security requirements.
+
+---
+
+# 13. Incident Reporting Awareness
+
+Personnel shall understand how to recognize and report suspected cybersecurity incidents.
+
+Incident reporting training shall include:
+
+- Identification of suspicious emails.
+- Reporting phishing attempts.
+- Reporting malware infections.
+- Reporting lost or stolen devices.
+- Reporting unauthorized access.
+- Reporting suspected data loss.
+- Reporting cloud security incidents.
+- Reporting physical security concerns.
+- Emergency contact procedures.
+- Incident reporting timelines.
+
+Personnel shall report suspected cybersecurity incidents immediately to the Security Operations Center (SOC) or designated Incident Response Team.
+
+---
+
+# 14. Training Records and Metrics
+
+The organization shall maintain records of security awareness and training activities.
+
+Training records shall include:
+
+- Training completion status.
+- Training completion dates.
+- Course assignments.
+- Assessment scores where applicable.
+- Phishing simulation participation.
+- Phishing simulation results.
+- Role-based training completion.
+- Outstanding training requirements.
+- Exceptions.
+- Corrective actions.
+
+Training metrics shall be reported regularly to executive management and the Information Security Governance Committee.
+
+---
+
+# 15. Program Effectiveness Reviews
+
+The Security Awareness and Training Program shall be evaluated regularly to measure effectiveness and identify opportunities for improvement.
+
+Program effectiveness reviews shall include:
+
+- Training completion rates.
+- Phishing simulation trends.
+- Security incident trends.
+- User reporting rates.
+- Assessment results.
+- Regulatory compliance reviews.
+- Employee feedback.
+- Benchmarking against industry best practices.
+- Lessons learned from security incidents.
+- Annual program review.
+
+Program improvements shall be documented and incorporated into future awareness activities.
+
+---
+
+# 16. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve the Security Awareness and Training Program.
+- Review enterprise awareness metrics.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Develop awareness content.
+- Deliver enterprise security awareness training.
+- Conduct phishing simulations.
+- Maintain awareness metrics.
+- Review program effectiveness.
+- Recommend program improvements.
+
+## Human Resources
+
+Human Resources shall:
+
+- Coordinate onboarding security training.
+- Track mandatory training completion.
+- Support enforcement of training requirements.
+- Coordinate awareness activities with Information Security.
+
+## Information Technology Team
+
+The Information Technology Team shall:
+
+- Support awareness technologies.
+- Assist with phishing simulation infrastructure.
+- Maintain training platforms.
+- Support secure authentication awareness initiatives.
+
+## Managers
+
+Managers shall:
+
+- Ensure personnel complete required training.
+- Reinforce secure behaviors within their teams.
+- Support awareness initiatives.
+- Escalate repeated non-compliance where appropriate.
+
+## Users
+
+Users shall:
+
+- Complete mandatory security awareness training.
+- Participate in phishing simulations.
+- Apply secure computing practices.
+- Report suspected cybersecurity incidents promptly.
+- Protect organizational information in accordance with enterprise policies.
