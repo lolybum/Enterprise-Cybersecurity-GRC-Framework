@@ -42,7 +42,7 @@ Enterprise Security Standards align with:
 | STD-012 | Enterprise Cloud Security Standard | CISO | Annual | Approved |
 | STD-013 | Enterprise Logging and Monitoring Standard | CISO | Annual | Approved |
 | STD-014 | Enterprise Vulnerability Management Standard | CISO | Annual | Approved |
-| STD-015 | Enterprise Patch Management Standard | CISO | Annual | Planned |
+| STD-015 | Enterprise Patch Management Standard | CISO | Annual | Approved |
 | STD-016 | Enterprise Encryption Standard | CISO | Annual | Planned |
 | STD-017 | Enterprise Backup Standard | CISO | Annual | Planned |
 | STD-018 | Enterprise Disaster Recovery Standard | CISO | Annual | Planned |

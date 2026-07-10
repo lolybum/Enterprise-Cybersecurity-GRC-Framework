@@ -364,3 +364,131 @@ Users shall:
 - Protect cloud authentication credentials.
 - Report suspected cloud security incidents immediately.
 - Comply with enterprise cloud security requirements.
+
+---
+
+# 17. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External security assessments.
+- Cloud Security Posture Management (CSPM) reviews.
+- Cloud configuration compliance assessments.
+- Identity and Access Management (IAM) reviews.
+- Vulnerability assessments.
+- Penetration testing where authorized.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Increased monitoring of affected cloud resources.
+- Suspension of non-compliant cloud services where unacceptable risk exists.
+- Formal risk acceptance by executive management where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This standard aligns with:
+
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST SP 800-144 – Guidelines on Security and Privacy in Public Cloud Computing
+- NIST SP 800-190 – Application Container Security Guide
+- NIST SP 800-207 – Zero Trust Architecture
+- NIST Cybersecurity Framework (CSF) 2.0
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- ISO/IEC 27017 – Code of Practice for Information Security Controls for Cloud Services
+- ISO/IEC 27018 – Protection of Personally Identifiable Information (PII) in Public Clouds
+- Cloud Security Alliance (CSA) Cloud Controls Matrix (CCM)
+- CIS Benchmarks for AWS, Microsoft Azure, and Google Cloud Platform
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- GOV-027 Enterprise Data Protection Policy
+- GOV-031 Enterprise Identity and Access Management Policy
+- GOV-039 Enterprise Logging and Monitoring Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-003 Enterprise Identity and Access Management (IAM) Standard
+- STD-004 Enterprise Privileged Access Management (PAM) Standard
+- STD-008 Enterprise Endpoint Protection Standard
+- STD-009 Enterprise Network Security Standard
+- STD-010 Enterprise Vulnerability Management Standard
+- STD-011 Enterprise Patch Management Standard
+- STD-012 Enterprise Security Logging and Monitoring Standard
+- STD-013 Enterprise Backup and Recovery Standard
+- STD-014 Enterprise Encryption and Key Management Standard
+
+---
+
+# 21. Definitions
+
+**Cloud Security** – The collection of technologies, policies, processes, and controls used to protect cloud-based systems, services, and information.
+
+**Infrastructure as a Service (IaaS)** – A cloud computing model providing virtualized infrastructure resources such as servers, storage, and networking.
+
+**Platform as a Service (PaaS)** – A cloud computing model providing managed application development and deployment platforms.
+
+**Software as a Service (SaaS)** – A cloud computing model delivering software applications over the Internet.
+
+**Cloud Security Posture Management (CSPM)** – Technologies and processes used to continuously monitor cloud environments for configuration weaknesses, compliance violations, and security risks.
+
+**Shared Responsibility Model** – A cloud security framework defining the division of security responsibilities between the cloud service provider and the customer.
+
+**Container** – A lightweight, portable software package that includes an application and all dependencies required for execution.
+
+**Kubernetes** – An open-source container orchestration platform used to automate deployment, scaling, and management of containerized applications.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-015 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
