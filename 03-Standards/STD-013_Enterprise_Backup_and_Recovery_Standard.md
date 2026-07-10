@@ -210,3 +210,155 @@ Encryption requirements include:
 - Validation of encrypted backup recoverability.
 
 Unencrypted backups containing confidential or regulated information are prohibited unless explicitly approved through the Enterprise Exception Management process.
+
+---
+
+# 11. Backup Storage
+
+Enterprise backups shall be stored securely to ensure confidentiality, integrity, and availability.
+
+Backup storage requirements include:
+
+- Use enterprise-approved backup storage solutions.
+- Maintain geographically separate backup copies where appropriate.
+- Protect backup repositories against unauthorized access.
+- Implement redundancy for critical backup systems.
+- Monitor storage capacity and availability.
+- Secure physical backup media.
+- Maintain documented backup inventories.
+- Periodically verify backup media integrity.
+
+Backup storage locations shall align with business continuity and disaster recovery requirements.
+
+---
+
+# 12. Immutable Backups
+
+The organization shall implement immutable backup capabilities to strengthen resilience against ransomware and unauthorized modification.
+
+Immutable backup requirements include:
+
+- Maintain at least one immutable backup copy of critical business data.
+- Configure write-once or immutable storage technologies where supported.
+- Prevent deletion or modification of immutable backups during the retention period.
+- Restrict administrative access to immutable backup repositories.
+- Monitor immutable backup health and availability.
+- Validate recoverability of immutable backups during testing.
+- Document immutable backup retention periods.
+- Protect immutable backup credentials using privileged access controls.
+
+Immutable backups shall be included within the Enterprise Cyber Recovery Strategy.
+
+---
+
+# 13. Backup Testing and Validation
+
+Enterprise backups shall be tested regularly to verify recoverability.
+
+Testing requirements include:
+
+- Scheduled restoration testing.
+- Verification of backup integrity.
+- Validation of Recovery Point Objectives (RPO).
+- Validation of Recovery Time Objectives (RTO).
+- Application functionality testing following restoration.
+- Database consistency verification.
+- Documentation of testing results.
+- Remediation of identified recovery issues.
+
+Critical business systems shall undergo recovery testing at least annually or more frequently based on business risk.
+
+---
+
+# 14. Disaster Recovery Integration
+
+Backup and recovery processes shall support the organization's Disaster Recovery (DR) Program.
+
+Requirements include:
+
+- Integration with Disaster Recovery Plans.
+- Alignment with Business Continuity Plans.
+- Recovery prioritization based on Business Impact Analysis (BIA).
+- Documentation of recovery procedures.
+- Coordination with Incident Response activities.
+- Validation during disaster recovery exercises.
+- Secure recovery of cloud-hosted services.
+- Post-recovery review and continuous improvement.
+
+Recovery procedures shall be maintained for all business-critical systems.
+
+---
+
+# 15. Backup Monitoring
+
+Backup operations shall be continuously monitored to ensure successful execution and rapid identification of failures.
+
+Monitoring requirements include:
+
+- Backup job completion status.
+- Failed backup alerts.
+- Backup storage utilization.
+- Backup encryption status.
+- Backup replication status.
+- Recovery testing results.
+- Backup infrastructure health.
+- Unauthorized access attempts.
+- Backup retention compliance.
+- Immutable backup status.
+
+Backup failures shall be investigated and remediated promptly.
+
+---
+
+# 16. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve enterprise backup and recovery requirements.
+- Review enterprise backup risks.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Develop backup security requirements.
+- Monitor backup compliance.
+- Review backup encryption controls.
+- Validate recovery testing.
+- Produce backup security reports.
+- Recommend improvements to backup resilience.
+
+## Information Technology Team
+
+The Information Technology Team shall:
+
+- Configure and maintain backup infrastructure.
+- Execute backup schedules.
+- Perform recovery testing.
+- Monitor backup operations.
+- Remediate backup failures.
+- Maintain backup documentation.
+
+## System Owners
+
+System Owners shall:
+
+- Identify systems requiring backup.
+- Approve backup schedules.
+- Define Recovery Point Objectives (RPO).
+- Define Recovery Time Objectives (RTO).
+- Participate in recovery testing.
+- Review backup exceptions.
+
+## Users
+
+Users shall:
+
+- Store organizational data only within approved enterprise systems.
+- Report suspected data loss promptly.
+- Cooperate with recovery activities when required.
+- Comply with enterprise backup requirements.
