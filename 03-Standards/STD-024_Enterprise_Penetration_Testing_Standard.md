@@ -403,3 +403,128 @@ Users shall:
 - Report suspected security issues.
 - Comply with organizational security requirements.
 - Refrain from interfering with approved testing activities.
+
+---
+
+# 17. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal Information Security audits.
+- External security assessments.
+- Penetration testing program reviews.
+- Validation of penetration testing schedules.
+- Review of Rules of Engagement documentation.
+- Verification of remediation activities.
+- Retesting validation.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Additional penetration testing requirements.
+- Increased management oversight.
+- Formal risk acceptance by executive management where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This standard aligns with:
+
+- NIST SP 800-115 – Technical Guide to Information Security Testing and Assessment
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST Cybersecurity Framework (CSF) 2.0
+- Penetration Testing Execution Standard (PTES)
+- OWASP Web Security Testing Guide (WSTG)
+- OWASP Testing Guide
+- OWASP API Security Top 10
+- OWASP Mobile Application Security Testing Guide (MASTG)
+- PCI DSS v4.0 Requirement 11
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- GOV-029 Enterprise Vulnerability Management Policy
+- GOV-039 Enterprise Logging and Monitoring Policy
+- GOV-040 Enterprise Incident Management Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-010 Enterprise Vulnerability Management Standard
+- STD-011 Enterprise Patch Management Standard
+- STD-015 Enterprise Cloud Security Standard
+- STD-016 Enterprise Secure Software Development (Secure SDLC) Standard
+- STD-017 Enterprise Third-Party Risk Management Standard
+- STD-019 Enterprise Security Incident Response Standard
+- STD-023 Enterprise Vulnerability Scanning Standard
+
+---
+
+# 21. Definitions
+
+**Penetration Test** – An authorized simulation of real-world attacks against systems, applications, or networks to identify exploitable security weaknesses.
+
+**Rules of Engagement (RoE)** – A formally approved document defining the scope, objectives, limitations, communication procedures, and authorization for a penetration testing engagement.
+
+**Proof of Concept (PoC)** – Technical evidence demonstrating that a vulnerability can be successfully exploited under controlled conditions.
+
+**Retesting** – The process of validating that identified vulnerabilities have been successfully remediated following corrective actions.
+
+**Social Engineering** – Authorized testing techniques that assess human susceptibility to manipulation, including phishing, vishing, smishing, and physical access attempts.
+
+**Attack Surface** – The collection of systems, services, interfaces, applications, APIs, and other assets that may be targeted by an attacker.
+
+**Red Team Exercise** – A goal-oriented assessment that simulates the tactics, techniques, and procedures (TTPs) of a real-world adversary to evaluate the organization's detection and response capabilities.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-024 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
