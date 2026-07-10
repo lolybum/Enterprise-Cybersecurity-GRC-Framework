@@ -83,3 +83,122 @@ MFA shall use at least two independent authentication factors from different cat
 SMS-based authentication should be avoided where stronger authentication methods are available.
 
 Enterprise authentication systems shall enforce MFA in accordance with organizational risk assessments and regulatory requirements.
+
+---
+
+# 5. Multi-Factor Authentication Requirements
+
+The organization shall require Multi-Factor Authentication (MFA) for all systems and services that support MFA capabilities.
+
+MFA shall be mandatory for:
+
+- Administrative accounts.
+- Privileged accounts.
+- Remote access connections.
+- Virtual Private Network (VPN) access.
+- Cloud services.
+- Software-as-a-Service (SaaS) applications.
+- Email systems.
+- Identity providers.
+- Financial systems.
+- Systems processing confidential or regulated information.
+
+Where MFA cannot be implemented due to technical limitations, a documented exception shall be approved by the Chief Information Security Officer (CISO).
+
+---
+
+# 6. Approved Authentication Methods
+
+The organization shall use approved authentication factors from at least two independent categories.
+
+Approved authentication methods include:
+
+### Something You Know
+
+- Password
+- Passphrase
+- Personal Identification Number (PIN)
+
+### Something You Have
+
+- Authenticator application
+- Hardware security token
+- Smart card
+- FIDO2 security key
+- Enterprise-issued cryptographic token
+
+### Something You Are
+
+- Fingerprint
+- Facial recognition
+- Iris recognition
+- Other approved biometric methods
+
+SMS-based authentication shall only be used where stronger authentication methods are not technically feasible.
+
+---
+
+# 7. Enrollment Requirements
+
+Users shall complete the MFA enrollment process before being granted access to enterprise resources requiring MFA.
+
+Enrollment requirements include:
+
+- Identity verification before enrollment.
+- Registration of approved authentication devices.
+- Validation of recovery methods.
+- Acceptance of applicable security policies.
+- Confirmation of successful enrollment.
+- Secure storage of recovery codes where applicable.
+
+Enrollment records shall be maintained for audit purposes.
+
+---
+
+# 8. MFA for Remote Access
+
+Multi-Factor Authentication shall be required for all remote access to enterprise resources.
+
+This includes:
+
+- Virtual Private Network (VPN) access.
+- Remote desktop services.
+- Cloud-hosted applications.
+- Administrative remote access.
+- Third-party remote access.
+- Remote support tools.
+
+Remote access sessions shall be authenticated using MFA before access is granted.
+
+---
+
+# 9. MFA for Privileged Accounts
+
+All privileged accounts shall use Multi-Factor Authentication without exception unless a documented risk-based exception has been approved.
+
+Requirements include:
+
+- MFA for all administrative logins.
+- MFA for privileged cloud accounts.
+- MFA for privileged service management platforms.
+- MFA for privileged remote access.
+- MFA for infrastructure administration.
+- MFA for identity management systems.
+
+Privileged account authentication shall be continuously monitored by the Information Security team.
+
+---
+
+# 10. MFA Exception Requirements
+
+Requests for exceptions to this standard shall:
+
+- Be documented.
+- Include business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed annually.
+
+Approved exceptions shall be recorded in the Enterprise Exception Register.
