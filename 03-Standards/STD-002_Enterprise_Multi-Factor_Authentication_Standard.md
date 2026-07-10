@@ -307,3 +307,116 @@ Requirements include:
 - Revocation of authentication devices upon user separation.
 
 Authentication device inventories shall be maintained by the Information Technology team where applicable.
+
+---
+
+# 15. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External audits.
+- Identity and Access Management (IAM) reviews.
+- Multi-Factor Authentication (MFA) configuration assessments.
+- Privileged Access Management (PAM) reviews.
+- Security control testing.
+- Vulnerability assessments.
+- Continuous monitoring.
+- Regulatory compliance reviews.
+- Periodic management reviews.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Suspension or revocation of system access.
+- Mandatory security awareness training.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 16. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 17. References
+
+This standard aligns with:
+
+- NIST SP 800-63B – Digital Identity Guidelines
+- NIST SP 800-53 Rev. 5
+- NIST Cybersecurity Framework (CSF) 2.0
+- NIST SP 800-207 – Zero Trust Architecture
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+- Microsoft Security Baselines
+- FIDO Alliance Authentication Standards
+
+---
+
+# 18. Related Documents
+
+- GOV-031 Enterprise Identity and Access Management (IAM) Policy
+- GOV-032 Enterprise Password Management Policy
+- GOV-033 Enterprise Privileged Access Management (PAM) Policy
+- GOV-044 Enterprise Remote Access Security Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-001 Enterprise Password Standard
+- Enterprise Identity and Access Management Standard
+
+---
+
+# 19. Definitions
+
+**Multi-Factor Authentication (MFA)** – An authentication method that requires two or more independent verification factors before granting access to systems or data.
+
+**Authentication Factor** – A category of credentials used to verify identity, such as something you know, something you have, or something you are.
+
+**Authenticator Application** – A software application that generates time-based or event-based one-time passcodes for authentication.
+
+**Privileged Account** – An account with elevated permissions used to administer systems, applications, or security controls.
+
+**Identity Provider (IdP)** – A service that authenticates users and provides identity information to enterprise applications and services.
+
+**FIDO2 Security Key** – A hardware-based authentication device that supports phishing-resistant authentication using public key cryptography.
+
+---
+
+# 20. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 21. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-002 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
