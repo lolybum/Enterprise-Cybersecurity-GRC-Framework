@@ -200,3 +200,173 @@ SAST requirements include:
 - Continuous improvement of scanning rules.
 
 Critical and High-risk SAST findings shall be remediated or formally accepted through the Enterprise Risk Acceptance process before production deployment.
+
+---
+
+# 11. Dynamic Application Security Testing (DAST)
+
+Dynamic Application Security Testing (DAST) shall be performed against running applications to identify security vulnerabilities that may not be detected through static analysis.
+
+DAST requirements include:
+
+- Automated dynamic security scanning.
+- Testing in staging or pre-production environments.
+- Authentication-enabled scanning where appropriate.
+- Detection of OWASP Top 10 vulnerabilities.
+- Validation of authentication controls.
+- Validation of authorization controls.
+- Detection of security misconfigurations.
+- Testing of exposed APIs.
+- Documentation of scan results.
+- Verification of remediation activities.
+
+Critical and High-risk DAST findings shall be remediated or formally accepted before production deployment.
+
+---
+
+# 12. Software Composition Analysis (SCA)
+
+Software Composition Analysis (SCA) shall be used to identify security risks associated with third-party and open-source software components.
+
+SCA requirements include:
+
+- Inventory of third-party software components.
+- Identification of vulnerable dependencies.
+- Continuous monitoring of software components.
+- License compliance verification.
+- Detection of outdated libraries.
+- Risk-based prioritization of vulnerable components.
+- Verification of dependency updates.
+- Documentation of remediation activities.
+- Integration into CI/CD pipelines.
+- Continuous monitoring of software supply chain risks.
+
+Unsupported or high-risk software components shall not be deployed into production without documented risk acceptance.
+
+---
+
+# 13. CI/CD Pipeline Security
+
+Continuous Integration and Continuous Deployment (CI/CD) pipelines shall implement security controls that protect software throughout the build and deployment process.
+
+CI/CD security requirements include:
+
+- Secure build environments.
+- Multi-Factor Authentication (MFA) for pipeline administrators.
+- Role-Based Access Control (RBAC).
+- Protection of build artifacts.
+- Secure storage of secrets and credentials.
+- Automated security testing.
+- Artifact integrity verification.
+- Audit logging of pipeline activities.
+- Separation of development, testing, and production environments.
+- Periodic review of pipeline configurations.
+
+CI/CD pipelines shall be protected from unauthorized modification.
+
+---
+
+# 14. DevSecOps Requirements
+
+Security shall be integrated into DevOps processes through a DevSecOps approach.
+
+DevSecOps requirements include:
+
+- Automated security testing.
+- Infrastructure-as-Code (IaC) security scanning.
+- Container image scanning.
+- Secrets detection.
+- Continuous compliance monitoring.
+- Security gates within deployment pipelines.
+- Automated policy enforcement.
+- Continuous vulnerability management.
+- Integration with enterprise SIEM where appropriate.
+- Continuous improvement of DevSecOps practices.
+
+Security controls shall be implemented as early as possible in the software development lifecycle.
+
+---
+
+# 15. Release Management
+
+Software releases shall follow an approved release management process prior to production deployment.
+
+Release management requirements include:
+
+- Documented release approvals.
+- Successful completion of required security testing.
+- Resolution of Critical and High-risk vulnerabilities or approved risk acceptance.
+- Verification of change management approvals.
+- Deployment rollback procedures.
+- Release documentation.
+- Production deployment monitoring.
+- Post-release validation.
+- Secure storage of release artifacts.
+- Version control of released software.
+
+Emergency releases shall follow the organization's Emergency Change Management process.
+
+---
+
+# 16. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve Secure SDLC requirements.
+- Review application security risks.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Application Security Team
+
+The Application Security Team shall:
+
+- Develop Secure SDLC requirements.
+- Conduct application security assessments.
+- Review threat models.
+- Maintain SAST, DAST, and SCA tooling.
+- Produce application security metrics.
+- Recommend improvements to Secure SDLC practices.
+
+## Development Team
+
+The Development Team shall:
+
+- Follow approved secure coding standards.
+- Remediate identified security vulnerabilities.
+- Participate in code reviews.
+- Support security testing.
+- Maintain secure source code repositories.
+- Participate in Secure SDLC training.
+
+## DevOps / Platform Engineering Team
+
+The DevOps / Platform Engineering Team shall:
+
+- Secure CI/CD pipelines.
+- Maintain build infrastructure.
+- Protect deployment credentials.
+- Support automated security testing.
+- Monitor pipeline security events.
+- Implement Infrastructure-as-Code (IaC) security controls.
+
+## System Owners
+
+System Owners shall:
+
+- Ensure applications comply with this standard.
+- Participate in application risk assessments.
+- Approve production releases.
+- Review security findings.
+- Request approved exceptions where necessary.
+
+## Users
+
+Users shall:
+
+- Report suspected application security issues.
+- Protect application credentials.
+- Use enterprise applications in accordance with organizational policies.
+- Cooperate with authorized security investigations.
