@@ -203,3 +203,161 @@ Cloud DLP requirements include:
 - Continuous monitoring of cloud data movement.
 
 Cloud DLP controls shall align with the Enterprise Cloud Security Standard.
+
+---
+
+# 11. Removable Media Controls
+
+The organization shall implement controls to prevent unauthorized use of removable media and reduce the risk of data loss.
+
+Removable media control requirements include:
+
+- Restriction of USB storage devices.
+- Approval process for authorized removable media.
+- Mandatory encryption of approved removable media.
+- Automatic malware scanning of connected media.
+- Monitoring of file copy activities.
+- Blocking unauthorized file transfers.
+- Logging of removable media usage.
+- Secure disposal of removable media.
+- Periodic review of authorized devices.
+- Enforcement through enterprise endpoint management solutions.
+
+Only authorized personnel shall use approved removable media for legitimate business purposes.
+
+---
+
+# 12. Data Exfiltration Prevention
+
+The organization shall implement technical controls to detect and prevent unauthorized transmission of sensitive information.
+
+Data exfiltration prevention requirements include:
+
+- Detection of abnormal outbound data transfers.
+- Monitoring of large file transfers.
+- Detection of unauthorized cloud uploads.
+- Blocking unauthorized file-sharing services.
+- Monitoring of web uploads.
+- Detection of suspicious email attachments.
+- Monitoring of encrypted outbound traffic where permitted.
+- Alerting on policy violations.
+- Automated blocking of high-risk transfers.
+- Documentation of exfiltration events.
+
+Potential data exfiltration events shall be investigated promptly.
+
+---
+
+# 13. DLP Incident Management
+
+Data Loss Prevention (DLP) events shall be managed in accordance with the Enterprise Incident Management Policy.
+
+Requirements include:
+
+- Detection and triage of DLP alerts.
+- Classification of DLP incidents.
+- Investigation of suspected policy violations.
+- Preservation of relevant evidence.
+- Escalation of significant incidents.
+- Coordination with Human Resources and Legal where appropriate.
+- Notification of affected business owners.
+- Documentation of remediation actions.
+- Root cause analysis.
+- Post-incident review and lessons learned.
+
+Confirmed data loss incidents shall be reported in accordance with regulatory and contractual obligations.
+
+---
+
+# 14. Monitoring and Reporting
+
+The organization shall continuously monitor DLP controls and produce metrics to evaluate program effectiveness.
+
+Monitoring and reporting requirements include:
+
+- Number of DLP policy violations.
+- Number of blocked data transfers.
+- Number of DLP incidents.
+- Endpoint DLP events.
+- Email DLP events.
+- Cloud DLP events.
+- Network DLP events.
+- Trends in sensitive data movement.
+- False positive rates.
+- Executive DLP dashboard reporting.
+
+Metrics shall be reviewed regularly by Information Security management and the Information Security Governance Committee.
+
+---
+
+# 15. DLP Awareness and Training
+
+Personnel with access to organizational information shall receive Data Loss Prevention awareness training.
+
+Training requirements include:
+
+- Information classification requirements.
+- Secure handling of sensitive information.
+- Acceptable use of removable media.
+- Secure email practices.
+- Cloud data sharing responsibilities.
+- Reporting suspected data loss incidents.
+- Regulatory obligations.
+- Insider threat awareness.
+- Annual refresher training.
+- Role-based training for high-risk personnel.
+
+Training completion shall be tracked and reported.
+
+---
+
+# 16. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve enterprise DLP requirements.
+- Review enterprise data protection risks.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Develop and maintain DLP policies.
+- Monitor DLP alerts and incidents.
+- Review DLP metrics and trends.
+- Conduct DLP investigations.
+- Recommend improvements to DLP capabilities.
+- Coordinate DLP awareness initiatives.
+
+## Information Technology Team
+
+The Information Technology Team shall:
+
+- Deploy and maintain DLP technologies.
+- Configure DLP policies.
+- Integrate DLP solutions with enterprise systems.
+- Maintain DLP infrastructure.
+- Support incident response activities.
+
+## Business Owners
+
+Business Owners shall:
+
+- Identify sensitive business information.
+- Support data classification activities.
+- Review DLP incidents affecting their business areas.
+- Approve business-related DLP exceptions where appropriate.
+
+## Users
+
+Users shall:
+
+- Handle organizational information in accordance with its classification.
+- Comply with DLP policies.
+- Report suspected data loss incidents immediately.
+- Use approved methods for transferring organizational information.
+- Protect sensitive information from unauthorized disclosure.
