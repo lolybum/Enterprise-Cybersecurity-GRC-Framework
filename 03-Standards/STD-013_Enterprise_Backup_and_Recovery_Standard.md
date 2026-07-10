@@ -362,3 +362,126 @@ Users shall:
 - Report suspected data loss promptly.
 - Cooperate with recovery activities when required.
 - Comply with enterprise backup requirements.
+
+---
+
+# 17. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External security assessments.
+- Backup configuration reviews.
+- Recovery testing assessments.
+- Backup encryption compliance reviews.
+- Disaster Recovery (DR) exercise evaluations.
+- Business Continuity (BC) testing.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Increased monitoring of backup operations.
+- Formal risk acceptance by executive management where appropriate.
+- Suspension of non-compliant backup processes where security risk exists.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This standard aligns with:
+
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST SP 800-34 Rev. 1 – Contingency Planning Guide for Federal Information Systems
+- NIST Cybersecurity Framework (CSF) 2.0
+- NIST SP 800-61 Rev. 2 – Computer Security Incident Handling Guide
+- NIST SP 800-184 – Guide for Cybersecurity Event Recovery
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+- Cloud Security Alliance (CSA) Security Guidance
+- Vendor backup solution documentation
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- GOV-036 Enterprise Backup and Recovery Policy
+- GOV-039 Enterprise Logging and Monitoring Policy
+- GOV-040 Enterprise Incident Management Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-005 Enterprise Secure Configuration Baseline Standard
+- STD-006 Enterprise Windows Server Hardening Standard
+- STD-007 Enterprise Linux Server Hardening Standard
+- STD-008 Enterprise Endpoint Protection Standard
+- STD-010 Enterprise Vulnerability Management Standard
+- STD-011 Enterprise Patch Management Standard
+- STD-012 Enterprise Security Logging and Monitoring Standard
+
+---
+
+# 21. Definitions
+
+**Backup** – A protected copy of data, applications, or system configurations created to enable recovery following data loss, corruption, or system failure.
+
+**Recovery** – The process of restoring systems, applications, or data to an operational state following an outage or disruption.
+
+**Recovery Point Objective (RPO)** – The maximum acceptable amount of data loss measured in time.
+
+**Recovery Time Objective (RTO)** – The maximum acceptable time required to restore a system or business process following a disruption.
+
+**Immutable Backup** – A backup that cannot be modified or deleted during its defined retention period, providing protection against ransomware and unauthorized changes.
+
+**Disaster Recovery (DR)** – The coordinated process of restoring technology services and infrastructure following a significant disruption.
+
+**Business Continuity (BC)** – The capability of the organization to continue delivering critical business services during and after a disruptive event.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-013 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
