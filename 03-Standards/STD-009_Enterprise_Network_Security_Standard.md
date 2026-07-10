@@ -198,3 +198,159 @@ Wireless security requirements include:
 - Continuous monitoring of wireless infrastructure.
 
 Unauthorized wireless access points are prohibited.
+
+---
+
+# 11. Intrusion Detection and Prevention Systems (IDS/IPS)
+
+The organization shall deploy Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS) to monitor network traffic and detect malicious activity.
+
+IDS/IPS requirements include:
+
+- Continuous inspection of inbound and outbound network traffic.
+- Detection of known attack signatures.
+- Behavioral and anomaly-based threat detection where supported.
+- Automated prevention of high-confidence malicious traffic where approved.
+- Integration with enterprise threat intelligence feeds.
+- Centralized alerting to the Security Operations Center (SOC).
+- Regular signature and detection rule updates.
+- Periodic tuning to reduce false positives.
+- Logging of all detection and prevention events.
+- Documentation and review of significant alerts.
+
+IDS/IPS solutions shall be regularly tested to verify operational effectiveness.
+
+---
+
+# 12. Domain Name System (DNS) Security
+
+Enterprise DNS services shall be protected against unauthorized modification, abuse, and data exfiltration.
+
+DNS security requirements include:
+
+- Use of secure internal DNS servers.
+- Restrict recursive DNS services to authorized systems.
+- Enable DNS logging.
+- Monitor DNS queries for malicious activity.
+- Implement DNS filtering where approved.
+- Protect DNS administration using Multi-Factor Authentication (MFA).
+- Restrict zone transfers to authorized DNS servers.
+- Validate DNS configuration changes through change management.
+- Monitor for DNS tunneling and other suspicious behavior.
+- Maintain redundancy for critical DNS infrastructure.
+
+DNS infrastructure shall be reviewed periodically for security and resilience.
+
+---
+
+# 13. Network Monitoring
+
+Enterprise networks shall be continuously monitored to detect security threats, operational issues, and unauthorized activities.
+
+Monitoring requirements include:
+
+- Network performance monitoring.
+- Network availability monitoring.
+- Bandwidth utilization monitoring.
+- Detection of unauthorized devices.
+- Detection of unusual traffic patterns.
+- Monitoring of firewall events.
+- Monitoring of VPN activity.
+- Monitoring of network segmentation controls.
+- Detection of denial-of-service (DoS) activity.
+- Continuous security event monitoring.
+
+Network monitoring shall integrate with centralized enterprise monitoring platforms.
+
+---
+
+# 14. Network Logging
+
+Network devices shall generate audit logs sufficient to support security monitoring, incident response, and regulatory compliance.
+
+Logging requirements include:
+
+- Firewall events.
+- Router and switch events.
+- VPN authentication events.
+- Administrative login events.
+- Configuration changes.
+- Access control events.
+- IDS/IPS alerts.
+- Wireless authentication events.
+- DNS security events.
+- Network management activities.
+
+Network logs shall be forwarded to the enterprise Security Information and Event Management (SIEM) platform and protected from unauthorized modification.
+
+---
+
+# 15. Secure Network Management
+
+Enterprise network infrastructure shall be managed using secure administrative practices.
+
+Requirements include:
+
+- Use secure management protocols such as SSH and HTTPS.
+- Protect administrative accounts with Multi-Factor Authentication (MFA).
+- Restrict administrative access to authorized personnel.
+- Perform regular configuration backups.
+- Apply security updates to network devices.
+- Maintain accurate network asset inventories.
+- Review administrative access periodically.
+- Monitor privileged network administrator activities.
+- Document network configuration changes.
+- Conduct periodic configuration compliance assessments.
+
+Network management interfaces shall not be directly exposed to the public Internet unless explicitly approved.
+
+---
+
+# 16. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve enterprise network security requirements.
+- Review network security risks.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Develop and maintain network security standards.
+- Monitor network security events.
+- Conduct network security assessments.
+- Review network security exceptions.
+- Recommend improvements to network security controls.
+
+## Network Engineering Team
+
+The Network Engineering Team shall:
+
+- Deploy and maintain secure network infrastructure.
+- Configure firewalls, routers, switches, VPNs, and wireless infrastructure.
+- Apply secure configuration baselines.
+- Perform configuration backups.
+- Remediate identified network security issues.
+
+## System Owners
+
+System Owners shall:
+
+- Ensure systems comply with enterprise network security requirements.
+- Support vulnerability remediation.
+- Participate in security reviews.
+- Approve business-related network changes.
+
+## Users
+
+Users shall:
+
+- Use enterprise network resources in accordance with organizational policies.
+- Report suspected network security incidents promptly.
+- Refrain from connecting unauthorized devices to enterprise networks.
+- Comply with enterprise acceptable use and network access requirements.
