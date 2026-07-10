@@ -377,3 +377,126 @@ Users shall:
 - Use approved encrypted communication methods.
 - Report suspected key compromise immediately.
 - Comply with enterprise encryption requirements.
+
+---
+
+# 17. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External security assessments.
+- Cryptographic implementation reviews.
+- Encryption compliance assessments.
+- Public Key Infrastructure (PKI) reviews.
+- Certificate lifecycle management assessments.
+- Hardware Security Module (HSM) security reviews.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Increased monitoring of cryptographic controls.
+- Revocation of unauthorized cryptographic implementations.
+- Formal risk acceptance by executive management where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This standard aligns with:
+
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST SP 800-57 Part 1 Rev. 5 – Recommendation for Key Management
+- NIST SP 800-175B Rev. 1 – Guideline for Using Cryptographic Standards
+- NIST SP 800-131A Rev. 2 – Transitioning the Use of Cryptographic Algorithms and Key Lengths
+- NIST Cybersecurity Framework (CSF) 2.0
+- FIPS 140-3 – Security Requirements for Cryptographic Modules
+- FIPS 197 – Advanced Encryption Standard (AES)
+- RFC 8446 – Transport Layer Security (TLS) 1.3
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- GOV-027 Enterprise Data Protection Policy
+- GOV-031 Enterprise Identity and Access Management Policy
+- GOV-039 Enterprise Logging and Monitoring Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-001 Enterprise Password Standard
+- STD-002 Enterprise Multi-Factor Authentication Standard
+- STD-003 Enterprise Identity and Access Management (IAM) Standard
+- STD-004 Enterprise Privileged Access Management (PAM) Standard
+- STD-008 Enterprise Endpoint Protection Standard
+- STD-009 Enterprise Network Security Standard
+- STD-013 Enterprise Backup and Recovery Standard
+
+---
+
+# 21. Definitions
+
+**Encryption** – The process of converting plaintext into ciphertext using approved cryptographic algorithms to protect information from unauthorized access.
+
+**Cryptographic Key** – A value used by a cryptographic algorithm to encrypt, decrypt, sign, or verify information.
+
+**Key Management** – The processes used to generate, distribute, store, rotate, archive, revoke, recover, and destroy cryptographic keys.
+
+**Public Key Infrastructure (PKI)** – A framework of technologies, policies, and procedures used to issue, manage, distribute, validate, and revoke digital certificates.
+
+**Digital Certificate** – An electronic credential that binds a public cryptographic key to the identity of an individual, system, or service.
+
+**Hardware Security Module (HSM)** – A dedicated hardware device designed to securely generate, store, manage, and protect cryptographic keys.
+
+**Key Rotation** – The scheduled replacement of cryptographic keys to reduce the risk associated with long-term key usage.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-014 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
