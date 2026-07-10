@@ -354,3 +354,125 @@ Users shall:
 - Report suspected network security incidents promptly.
 - Refrain from connecting unauthorized devices to enterprise networks.
 - Comply with enterprise acceptable use and network access requirements.
+
+---
+
+# 17. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External security assessments.
+- Firewall configuration reviews.
+- Network device configuration compliance assessments.
+- Vulnerability assessments.
+- Penetration testing where applicable.
+- Continuous network monitoring.
+- Regulatory compliance assessments.
+- Management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Increased monitoring of affected network segments.
+- Temporary isolation of non-compliant network devices where necessary.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This standard aligns with:
+
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST SP 800-41 Rev. 1 – Guidelines on Firewalls and Firewall Policy
+- NIST SP 800-115 – Technical Guide to Information Security Testing and Assessment
+- NIST Cybersecurity Framework (CSF) 2.0
+- NIST SP 800-207 – Zero Trust Architecture
+- CIS Controls v8
+- CIS Benchmarks
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- MITRE ATT&CK Framework
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- GOV-026 Enterprise Network Security Policy
+- GOV-029 Enterprise Vulnerability Management Policy
+- GOV-039 Enterprise Logging and Monitoring Policy
+- GOV-040 Enterprise Incident Management Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-001 Enterprise Password Standard
+- STD-002 Enterprise Multi-Factor Authentication Standard
+- STD-005 Enterprise Secure Configuration Baseline Standard
+- STD-006 Enterprise Windows Server Hardening Standard
+- STD-007 Enterprise Linux Server Hardening Standard
+- STD-008 Enterprise Endpoint Protection Standard
+
+---
+
+# 21. Definitions
+
+**Network Segmentation** – The practice of dividing a network into separate security zones to reduce attack surfaces and limit lateral movement.
+
+**Firewall** – A security device or software that filters and controls network traffic based on defined security rules.
+
+**Intrusion Detection System (IDS)** – A security solution that monitors network traffic for malicious activity and generates alerts.
+
+**Intrusion Prevention System (IPS)** – A security solution that detects and automatically blocks malicious network traffic.
+
+**Network Access Control (NAC)** – A security capability that verifies users and devices before granting access to enterprise networks.
+
+**Virtual Private Network (VPN)** – A secure encrypted connection used to provide remote access to enterprise resources.
+
+**Zero Trust Network** – A security model that assumes no user or device is trusted by default and continuously verifies access requests.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-009 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
