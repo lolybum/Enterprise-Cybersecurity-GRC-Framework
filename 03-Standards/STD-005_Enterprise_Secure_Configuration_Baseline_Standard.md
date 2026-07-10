@@ -332,3 +332,120 @@ Users shall:
 - Report suspected unauthorized system modifications.
 - Comply with organizational security requirements.
 - Cooperate with configuration compliance activities.
+
+---
+
+# 16. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External audits.
+- Secure configuration baseline assessments.
+- Configuration compliance scans.
+- Vulnerability assessments.
+- Penetration testing where applicable.
+- Continuous configuration monitoring.
+- Regulatory compliance assessments.
+- Management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Suspension of non-compliant systems from production.
+- Increased security monitoring.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 17. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 18. References
+
+This standard aligns with:
+
+- NIST SP 800-53 Rev. 5
+- NIST SP 800-128 – Guide for Security-Focused Configuration Management
+- NIST Cybersecurity Framework (CSF) 2.0
+- NIST SP 800-207 – Zero Trust Architecture
+- CIS Benchmarks
+- CIS Controls v8
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- COBIT 2019
+- Vendor Security Hardening Guides
+
+---
+
+# 19. Related Documents
+
+- GOV-016 Enterprise Change Management Policy
+- GOV-024 Enterprise Security Architecture Policy
+- GOV-025 Enterprise Endpoint Security Policy
+- GOV-026 Enterprise Network Security Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-001 Enterprise Password Standard
+- STD-002 Enterprise Multi-Factor Authentication Standard
+- STD-003 Enterprise Identity and Access Management (IAM) Standard
+- STD-004 Enterprise Privileged Access Management (PAM) Standard
+
+---
+
+# 20. Definitions
+
+**Configuration Baseline** – A formally approved set of security configuration settings used as the standard for deploying and maintaining enterprise technology assets.
+
+**Configuration Drift** – Any unauthorized or unintended deviation from an approved secure configuration baseline.
+
+**System Hardening** – The process of reducing a system's attack surface by securely configuring software, services, operating systems, and network settings.
+
+**Configuration Compliance** – The process of verifying that systems remain aligned with approved secure configuration baselines.
+
+**Configuration Management** – The process of establishing, documenting, implementing, monitoring, and maintaining approved configurations throughout a system's lifecycle.
+
+**Compensating Control** – An alternative security control implemented to reduce risk when a standard requirement cannot be fully met.
+
+---
+
+# 21. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 22. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-005 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
