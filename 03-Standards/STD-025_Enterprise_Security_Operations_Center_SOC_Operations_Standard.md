@@ -200,3 +200,200 @@ Detection Engineering requirements include:
 - Documentation of detection logic.
 
 Detection content shall be reviewed and updated following significant threat intelligence, security incidents, or technology changes.
+
+---
+
+# 11. Threat Hunting
+
+The organization shall maintain a proactive Threat Hunting capability to identify malicious activity that may evade automated detection mechanisms.
+
+Threat hunting requirements include:
+
+- Risk-based threat hunting activities.
+- Hypothesis-driven investigations.
+- Threat intelligence-informed hunting.
+- MITRE ATT&CK technique mapping.
+- Endpoint artifact analysis.
+- Network traffic analysis.
+- Cloud workload investigations.
+- Identity and authentication analysis.
+- Detection of anomalous user behavior.
+- Documentation of threat hunting results.
+
+Threat hunting activities shall be performed on a scheduled basis and following significant threat intelligence or major security incidents.
+
+---
+
+# 12. Endpoint Detection and Response (EDR) Operations
+
+Enterprise-managed endpoints shall be protected using approved Endpoint Detection and Response (EDR) technologies.
+
+EDR operational requirements include:
+
+- Continuous endpoint monitoring.
+- Behavioral threat detection.
+- Malware detection.
+- Ransomware detection.
+- Memory-based attack detection.
+- Endpoint isolation capabilities.
+- Automated response actions where approved.
+- Collection of forensic artifacts.
+- Detection rule tuning.
+- Integration with SIEM and Incident Response processes.
+
+EDR alerts shall be reviewed promptly according to their assigned severity.
+
+---
+
+# 13. Case Management
+
+The Security Operations Center (SOC) shall maintain a formal case management process for security investigations.
+
+Case management requirements include:
+
+- Unique case identification.
+- Incident ownership assignment.
+- Investigation documentation.
+- Evidence collection.
+- Timeline reconstruction.
+- Threat intelligence correlation.
+- Root cause documentation.
+- Escalation tracking.
+- Remediation tracking.
+- Case closure approval.
+
+Case records shall be retained in accordance with organizational record retention requirements.
+
+---
+
+# 14. Escalation Procedures
+
+The organization shall maintain documented escalation procedures to ensure timely response to cybersecurity events.
+
+Escalation requirements include:
+
+- Severity-based escalation criteria.
+- Escalation to Incident Response Team.
+- Escalation to executive management.
+- Escalation to Legal where appropriate.
+- Escalation to Human Resources where applicable.
+- Third-party notification procedures.
+- Regulatory reporting procedures where required.
+- Customer notification coordination where applicable.
+- Documentation of escalation decisions.
+- Post-escalation review.
+
+Escalation procedures shall support rapid containment and recovery while minimizing business impact.
+
+---
+
+# 15. SOC Metrics and Key Performance Indicators (KPIs)
+
+The organization shall establish metrics to evaluate the effectiveness of Security Operations Center (SOC) activities.
+
+SOC metrics shall include:
+
+- Mean Time to Detect (MTTD).
+- Mean Time to Respond (MTTR).
+- Mean Time to Contain (MTTC).
+- Number of security events processed.
+- Number of incidents investigated.
+- Alert false positive rate.
+- Threat hunting activities completed.
+- Detection coverage by MITRE ATT&CK techniques.
+- Incident escalation rates.
+- Executive SOC dashboard reporting.
+
+Metrics shall be reviewed regularly by executive management and the Information Security Governance Committee to support continuous improvement.
+
+---
+
+# 16. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve enterprise SOC operational requirements.
+- Review SOC performance metrics.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Security Operations Center (SOC) Manager
+
+The SOC Manager shall:
+
+- Manage day-to-day SOC operations.
+- Ensure adequate staffing and coverage.
+- Review SOC performance metrics.
+- Approve operational procedures.
+- Coordinate continuous improvement initiatives.
+- Report SOC performance to executive management.
+
+## SOC Analysts
+
+SOC Analysts shall:
+
+- Monitor enterprise security events.
+- Triage and investigate security alerts.
+- Escalate incidents according to approved procedures.
+- Document investigation activities.
+- Support threat hunting activities.
+- Maintain accurate case records.
+
+## Detection Engineering Team
+
+The Detection Engineering Team shall:
+
+- Develop and maintain detection rules.
+- Tune SIEM and EDR detections.
+- Reduce false positives.
+- Integrate threat intelligence into detection logic.
+- Validate detection effectiveness.
+
+## Incident Response Team
+
+The Incident Response Team shall:
+
+- Respond to escalated cybersecurity incidents.
+- Coordinate containment, eradication, and recovery.
+- Preserve digital evidence.
+- Conduct post-incident reviews.
+- Recommend improvements to SOC operations.
+
+## Information Technology Team
+
+The Information Technology Team shall:
+
+- Support SOC investigations.
+- Maintain logging infrastructure.
+- Implement corrective actions.
+- Support endpoint isolation and recovery.
+- Coordinate system restoration activities.
+
+## System Owners
+
+System Owners shall:
+
+- Support security investigations affecting their systems.
+- Review findings related to assigned assets.
+- Coordinate remediation activities.
+- Participate in post-incident reviews where required.
+
+## Internal Audit
+
+Internal Audit shall:
+
+- Assess compliance with this standard.
+- Review SOC governance processes.
+- Validate corrective actions.
+- Report significant deficiencies to executive management.
+
+## Users
+
+Users shall:
+
+- Report suspected cybersecurity incidents promptly.
+- Cooperate with authorized investigations.
+- Comply with organizational security policies.
+- Refrain from interfering with approved security monitoring activities.
