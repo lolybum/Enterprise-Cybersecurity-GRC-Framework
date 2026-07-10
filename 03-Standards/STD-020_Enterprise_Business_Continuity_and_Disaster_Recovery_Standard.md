@@ -363,3 +363,125 @@ Users shall:
 - Follow Business Continuity procedures.
 - Report issues affecting business continuity.
 - Cooperate during recovery activities.
+
+---
+
+# 17. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal Business Continuity audits.
+- Internal Information Security audits.
+- External compliance assessments.
+- Disaster Recovery capability assessments.
+- Business Continuity Plan reviews.
+- Recovery exercise evaluations.
+- Backup and recovery validation reviews.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Increased management oversight.
+- Additional recovery testing requirements.
+- Formal risk acceptance by executive management where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This standard aligns with:
+
+- NIST SP 800-34 Rev. 1 – Contingency Planning Guide for Federal Information Systems
+- NIST SP 800-61 Rev. 2 – Computer Security Incident Handling Guide
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST Cybersecurity Framework (CSF) 2.0
+- ISO 22301:2019 – Security and Resilience – Business Continuity Management Systems
+- ISO/IEC 27031 – Guidelines for ICT Readiness for Business Continuity
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- GOV-035 Enterprise Business Continuity Policy
+- GOV-036 Enterprise Backup and Recovery Policy
+- GOV-040 Enterprise Incident Management Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-010 Enterprise Vulnerability Management Standard
+- STD-011 Enterprise Patch Management Standard
+- STD-012 Enterprise Security Logging and Monitoring Standard
+- STD-013 Enterprise Backup and Recovery Standard
+- STD-015 Enterprise Cloud Security Standard
+- STD-017 Enterprise Third-Party Risk Management Standard
+- STD-019 Enterprise Security Incident Response Standard
+
+---
+
+# 21. Definitions
+
+**Business Continuity (BC)** – The capability of an organization to continue delivering products or services at acceptable predefined levels following a disruptive incident.
+
+**Disaster Recovery (DR)** – The coordinated process of restoring technology infrastructure, systems, applications, and data following a disruption.
+
+**Business Impact Analysis (BIA)** – A structured assessment used to identify critical business functions, dependencies, recovery priorities, and the operational impact of disruptions.
+
+**Recovery Time Objective (RTO)** – The maximum acceptable amount of time required to restore a business process, application, or system after a disruption.
+
+**Recovery Point Objective (RPO)** – The maximum acceptable amount of data loss measured in time following a disruption.
+
+**Alternate Processing Site** – A facility or cloud environment capable of supporting business operations during a disruption.
+
+**Crisis Management** – The coordinated leadership activities performed to direct organizational response and recovery during a significant disruptive event.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-020 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
