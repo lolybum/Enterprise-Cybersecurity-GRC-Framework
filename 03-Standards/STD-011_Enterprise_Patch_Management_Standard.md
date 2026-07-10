@@ -199,3 +199,151 @@ Emergency patching requirements include:
 - Documentation of emergency actions taken.
 
 Emergency patch activities shall be reviewed after implementation to identify opportunities for process improvement.
+
+---
+
+# 11. Patch Verification
+
+Following deployment, patches shall be verified to ensure successful installation and effective remediation of identified vulnerabilities.
+
+Verification requirements include:
+
+- Confirm successful installation of patches.
+- Validate system functionality after deployment.
+- Perform post-deployment vulnerability scans where appropriate.
+- Verify remediation of identified vulnerabilities.
+- Confirm no unauthorized configuration changes occurred.
+- Validate application functionality.
+- Review deployment logs.
+- Document verification results.
+
+Systems failing verification shall be remediated promptly or reverted using approved rollback procedures.
+
+---
+
+# 12. Rollback Procedures
+
+Rollback procedures shall be established for all significant patch deployments.
+
+Rollback requirements include:
+
+- Documented rollback plans.
+- Backup of affected systems before deployment.
+- Recovery procedures.
+- Defined rollback decision criteria.
+- Verification of rollback success.
+- Communication to affected stakeholders.
+- Documentation of rollback activities.
+- Post-rollback review.
+
+Rollback procedures shall be tested periodically for critical systems.
+
+---
+
+# 13. Patch Compliance Monitoring
+
+The organization shall continuously monitor patch compliance across enterprise technology assets.
+
+Monitoring requirements include:
+
+- Patch installation status.
+- Missing security updates.
+- Failed patch deployments.
+- Unsupported operating systems.
+- Unsupported software versions.
+- Patch compliance dashboards.
+- Risk-based compliance reporting.
+- Continuous monitoring of critical assets.
+
+Patch compliance results shall be reviewed regularly by Information Security and Information Technology management.
+
+---
+
+# 14. Patch Metrics and Reporting
+
+The organization shall establish performance metrics to evaluate the effectiveness of the Patch Management Program.
+
+Metrics shall include:
+
+- Patch compliance percentage.
+- Mean Time to Patch (MTTP).
+- Number of missing security patches.
+- Percentage of systems meeting remediation timelines.
+- Number of emergency patches deployed.
+- Patch deployment success rate.
+- Patch deployment failure rate.
+- Outstanding patch exceptions.
+- Trends in patch compliance.
+- Executive dashboard reporting.
+
+Patch metrics shall be reported regularly to executive management and the Information Security Governance Committee.
+
+---
+
+# 15. Patch Exception Management
+
+Patch exceptions shall be formally managed when security updates cannot be applied within established timelines.
+
+Exception requests shall include:
+
+- Business justification.
+- Risk assessment.
+- Description of affected assets.
+- Compensating security controls.
+- Planned remediation strategy.
+- Exception expiration date.
+- Approval by the Chief Information Security Officer (CISO) or authorized delegate.
+
+Approved exceptions shall be reviewed at least annually or upon significant changes to risk.
+
+---
+
+# 16. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve enterprise patch management requirements.
+- Review patch management risks.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Monitor enterprise patch compliance.
+- Review vulnerability and patch status.
+- Validate remediation activities.
+- Produce patch management reports.
+- Recommend improvements to the Patch Management Program.
+
+## Information Technology Team
+
+The Information Technology Team shall:
+
+- Test and deploy approved patches.
+- Maintain patch deployment tools.
+- Monitor deployment success.
+- Remediate failed deployments.
+- Maintain patch documentation.
+
+## System Owners
+
+System Owners shall:
+
+- Review patch schedules affecting assigned systems.
+- Support patch testing and validation.
+- Approve business-related maintenance windows.
+- Request documented exceptions where necessary.
+- Participate in compliance reviews.
+
+## Users
+
+Users shall:
+
+- Allow enterprise-managed devices to receive security updates.
+- Reboot systems when required for patch installation.
+- Report patch-related issues promptly.
+- Avoid interfering with approved patch deployment activities.
