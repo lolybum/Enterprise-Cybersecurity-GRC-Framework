@@ -83,3 +83,119 @@ The organization shall implement a formal Patch Management Program that ensures 
 Patch management activities shall prioritize business risk, asset criticality, exploitability, operational impact, and applicable regulatory requirements.
 
 All enterprise systems shall maintain supported software versions and receive security updates within established remediation timelines unless an approved exception exists.
+
+---
+
+# 5. Patch Identification
+
+The organization shall identify security patches and software updates using approved information sources.
+
+Patch identification activities include:
+
+- Vendor security advisories.
+- Operating system update notifications.
+- Application security bulletins.
+- Vulnerability scanner results.
+- Threat intelligence feeds.
+- Common Vulnerabilities and Exposures (CVE) notifications.
+- Cybersecurity and Infrastructure Security Agency (CISA) advisories.
+- Third-party software update notifications.
+
+Security bulletins shall be reviewed on a regular basis to identify newly released patches affecting enterprise technology assets.
+
+---
+
+# 6. Patch Evaluation and Risk Assessment
+
+Identified patches shall be evaluated using a documented risk-based methodology before deployment.
+
+Evaluation criteria include:
+
+- Vulnerability severity.
+- CVSS score.
+- Known active exploitation.
+- Asset criticality.
+- Business impact.
+- Operational dependencies.
+- Compatibility requirements.
+- Vendor recommendations.
+- Availability of compensating controls.
+- Regulatory obligations.
+
+Risk assessments shall be documented prior to deployment of high-risk patches.
+
+---
+
+# 7. Patch Testing
+
+Security patches shall be tested before deployment to production environments whenever practical.
+
+Testing requirements include:
+
+- Validation within a non-production environment.
+- Verification of application compatibility.
+- Functional testing.
+- Security testing.
+- Performance validation.
+- Rollback testing.
+- Documentation of test results.
+- Approval prior to production deployment.
+
+Emergency security patches may follow expedited testing procedures where business risk justifies accelerated deployment.
+
+---
+
+# 8. Patch Approval
+
+Patch deployment shall be approved through the organization's Change Management process.
+
+Approval requirements include:
+
+- Documented change request.
+- Business owner approval.
+- Information Technology approval.
+- Information Security review for high-risk updates.
+- Maintenance window approval.
+- Rollback plan.
+- Communication to affected stakeholders.
+- Documentation of implementation activities.
+
+Emergency patch approvals shall follow the Emergency Change Management process.
+
+---
+
+# 9. Patch Deployment
+
+Approved patches shall be deployed using enterprise-approved deployment tools and procedures.
+
+Deployment requirements include:
+
+- Automated deployment where supported.
+- Deployment during approved maintenance windows.
+- Verification of successful installation.
+- Monitoring for deployment failures.
+- Staged deployment for critical systems where appropriate.
+- Secure distribution of patches.
+- Logging of deployment activities.
+- Documentation of deployment status.
+
+Deployment failures shall be investigated and remediated promptly.
+
+---
+
+# 10. Emergency Patch Management
+
+Emergency security patches shall be deployed as quickly as practical when significant cyber risk exists.
+
+Emergency patching requirements include:
+
+- Documented emergency risk assessment.
+- Accelerated approval process.
+- Expedited testing where feasible.
+- Immediate stakeholder notification.
+- Continuous monitoring during deployment.
+- Verification of successful installation.
+- Post-implementation review.
+- Documentation of emergency actions taken.
+
+Emergency patch activities shall be reviewed after implementation to identify opportunities for process improvement.
