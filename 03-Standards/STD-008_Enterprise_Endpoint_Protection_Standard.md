@@ -346,3 +346,124 @@ Users shall:
 - Promptly report lost, stolen, or compromised devices.
 - Refrain from disabling security controls.
 - Comply with all endpoint security requirements.
+
+---
+
+# 17. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External security assessments.
+- Endpoint security compliance reviews.
+- Endpoint Detection and Response (EDR) health monitoring.
+- Antivirus compliance assessments.
+- Vulnerability assessments.
+- Continuous endpoint monitoring.
+- Regulatory compliance assessments.
+- Management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Increased endpoint monitoring.
+- Temporary removal of non-compliant endpoints from the enterprise network.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This standard aligns with:
+
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST SP 800-40 Rev. 4 – Enterprise Patch Management Planning
+- NIST Cybersecurity Framework (CSF) 2.0
+- NIST SP 800-207 – Zero Trust Architecture
+- CIS Controls v8
+- CIS Benchmarks
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- Microsoft Defender for Endpoint Documentation
+- MITRE ATT&CK Framework
+
+---
+
+# 20. Related Documents
+
+- GOV-025 Enterprise Endpoint Security Policy
+- GOV-029 Enterprise Vulnerability Management Policy
+- GOV-030 Enterprise Patch Management Policy
+- GOV-039 Enterprise Logging and Monitoring Policy
+- GOV-040 Enterprise Incident Management Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-001 Enterprise Password Standard
+- STD-002 Enterprise Multi-Factor Authentication Standard
+- STD-005 Enterprise Secure Configuration Baseline Standard
+- STD-006 Enterprise Windows Server Hardening Standard
+- STD-007 Enterprise Linux Server Hardening Standard
+
+---
+
+# 21. Definitions
+
+**Endpoint** – Any desktop, laptop, virtual machine, mobile device, or other computing device that connects to enterprise resources.
+
+**Endpoint Detection and Response (EDR)** – A security solution that continuously monitors endpoint activity, detects threats, and supports automated response actions.
+
+**Anti-malware** – Software designed to detect, prevent, quarantine, and remove malicious software from endpoint devices.
+
+**Application Allowlisting** – A security control that permits execution only of approved applications while blocking unauthorized software.
+
+**Mobile Device Management (MDM)** – A centralized platform used to manage, secure, monitor, and enforce security policies on enterprise mobile devices.
+
+**Full Disk Encryption** – Encryption technology that protects all data stored on an endpoint by encrypting the entire storage device.
+
+**Configuration Drift** – A deviation from an approved endpoint security configuration baseline.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-008 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
