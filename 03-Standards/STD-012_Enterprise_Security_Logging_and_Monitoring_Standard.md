@@ -219,3 +219,179 @@ Retention requirements include:
 - Documentation of retention periods.
 
 Unless superseded by legal or regulatory requirements, security logs shall be retained in accordance with the organization's Enterprise Records Retention Policy.
+
+---
+
+# 11. Security Monitoring
+
+The organization shall continuously monitor enterprise technology assets to detect cybersecurity threats, operational anomalies, and policy violations.
+
+Security monitoring requirements include:
+
+- Continuous monitoring of security events.
+- Real-time monitoring of critical systems.
+- Detection of unauthorized access attempts.
+- Monitoring of privileged account activity.
+- Monitoring of endpoint security events.
+- Monitoring of firewall activity.
+- Monitoring of VPN activity.
+- Monitoring of cloud security events.
+- Detection of malware and ransomware activity.
+- Detection of suspicious network behavior.
+- Monitoring of configuration changes.
+- Monitoring of authentication failures.
+- Detection of lateral movement indicators.
+- Monitoring of data exfiltration attempts.
+- Monitoring of security control health.
+
+Security monitoring shall operate on a 24x7 basis where required by business risk.
+
+---
+
+# 12. Alerting and Escalation
+
+Security monitoring solutions shall generate alerts for events requiring investigation or response.
+
+Alerting requirements include:
+
+- Risk-based alert prioritization.
+- Automated alert generation.
+- Alert correlation.
+- Threat intelligence enrichment.
+- Duplicate alert suppression.
+- Alert ownership assignment.
+- Escalation of Critical security events.
+- Escalation of High-risk security events.
+- Notification of appropriate stakeholders.
+- Documentation of alert disposition.
+
+Critical alerts shall be escalated immediately in accordance with the Enterprise Incident Management Policy.
+
+---
+
+# 13. Security Operations Center (SOC)
+
+The Security Operations Center (SOC) shall monitor enterprise security events and coordinate security incident detection activities.
+
+SOC responsibilities include:
+
+- Continuous security monitoring.
+- Alert triage.
+- Event correlation.
+- Threat hunting.
+- Initial incident investigation.
+- Security event classification.
+- Escalation of confirmed incidents.
+- Threat intelligence integration.
+- Monitoring of detection rule effectiveness.
+- Continuous improvement of monitoring capabilities.
+
+The SOC shall maintain documented operational procedures for monitoring, escalation, and incident handling.
+
+---
+
+# 14. Log Review and Analysis
+
+Security logs shall be reviewed regularly to identify threats, operational issues, and compliance concerns.
+
+Review requirements include:
+
+- Daily review of high-priority security alerts.
+- Periodic review of administrative activities.
+- Analysis of authentication events.
+- Review of privileged account usage.
+- Analysis of firewall and VPN logs.
+- Review of endpoint security events.
+- Analysis of malware detections.
+- Review of configuration changes.
+- Investigation of anomalous behavior.
+- Documentation of review results.
+
+Log reviews shall support proactive threat detection and continuous improvement.
+
+---
+
+# 15. Metrics and Reporting
+
+The organization shall establish security logging and monitoring metrics to evaluate program effectiveness.
+
+Metrics shall include:
+
+- Number of security events collected.
+- Number of correlated events.
+- Number of security alerts generated.
+- Mean Time to Detect (MTTD).
+- Mean Time to Respond (MTTR).
+- False positive rate.
+- Log source coverage.
+- SIEM availability.
+- Log ingestion success rate.
+- Incident escalation metrics.
+- Threat detection trends.
+- Executive security dashboards.
+
+Metrics shall be reported regularly to executive management and the Information Security Governance Committee.
+
+---
+
+# 16. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve enterprise logging and monitoring requirements.
+- Review enterprise monitoring risks.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Develop and maintain logging standards.
+- Monitor enterprise security events.
+- Maintain SIEM use cases.
+- Validate log integrity.
+- Produce monitoring metrics and reports.
+- Recommend improvements to monitoring capabilities.
+
+## Security Operations Center (SOC)
+
+The SOC shall:
+
+- Monitor security alerts.
+- Investigate suspicious activity.
+- Escalate confirmed security incidents.
+- Perform threat hunting activities.
+- Tune SIEM detection rules.
+- Maintain monitoring playbooks.
+- Coordinate with Incident Response teams.
+
+## Information Technology Team
+
+The Information Technology Team shall:
+
+- Configure enterprise systems to generate required logs.
+- Maintain logging infrastructure.
+- Ensure log forwarding to the SIEM platform.
+- Support troubleshooting of logging failures.
+- Implement approved logging configurations.
+
+## System Owners
+
+System Owners shall:
+
+- Ensure systems generate required security logs.
+- Support investigations involving assigned systems.
+- Approve system-specific logging exceptions.
+- Participate in compliance reviews.
+
+## Users
+
+Users shall:
+
+- Report suspected security incidents promptly.
+- Protect authentication credentials.
+- Comply with enterprise security monitoring requirements.
+- Cooperate with authorized security investigations.
