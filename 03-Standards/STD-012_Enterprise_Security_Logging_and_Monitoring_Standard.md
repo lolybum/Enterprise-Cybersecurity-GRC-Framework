@@ -81,3 +81,141 @@ The organization shall implement centralized security logging and continuous mon
 Security logs shall be monitored using approved enterprise security tools, integrated into the organization's Security Information and Event Management (SIEM) platform, and reviewed in accordance with established operational procedures.
 
 Logging and monitoring activities shall support timely detection of cybersecurity threats, policy violations, operational anomalies, and compliance requirements.
+
+---
+
+# 5. Log Source Requirements
+
+The organization shall collect security logs from enterprise technology assets capable of generating security-relevant events.
+
+Log source requirements include:
+
+- Windows Servers.
+- Linux Servers.
+- Active Directory.
+- Identity and Access Management (IAM) systems.
+- Privileged Access Management (PAM) platforms.
+- Firewalls.
+- Routers.
+- Switches.
+- Wireless controllers.
+- Endpoint Detection and Response (EDR) solutions.
+- Antivirus platforms.
+- Virtual Private Network (VPN) gateways.
+- Cloud infrastructure.
+- Databases.
+- Web applications.
+- Email security gateways.
+- Domain Name System (DNS) servers.
+- Proxy servers.
+- Security appliances.
+
+Log collection shall be reviewed periodically to ensure adequate coverage of enterprise assets.
+
+---
+
+# 6. Security Event Logging
+
+Enterprise systems shall generate security logs sufficient to support threat detection, investigations, and regulatory compliance.
+
+Minimum security events to be logged include:
+
+- Successful user authentication.
+- Failed authentication attempts.
+- Multi-Factor Authentication (MFA) events.
+- Privileged account activity.
+- Account creation, modification, and deletion.
+- Password changes and resets.
+- Administrative actions.
+- Security policy changes.
+- Firewall rule modifications.
+- VPN connection events.
+- Malware detection.
+- Endpoint isolation events.
+- Configuration changes.
+- System startup and shutdown.
+- Service failures.
+- Audit log access.
+- File integrity monitoring alerts.
+- Security tool alerts.
+
+Logging shall be enabled by default unless an approved exception exists.
+
+---
+
+# 7. Security Information and Event Management (SIEM)
+
+Enterprise security logs shall be centralized using an approved Security Information and Event Management (SIEM) platform.
+
+SIEM requirements include:
+
+- Centralized log collection.
+- Secure log transmission.
+- Event normalization.
+- Correlation of security events.
+- Threat intelligence integration.
+- Automated alert generation.
+- Dashboard reporting.
+- Search and investigation capabilities.
+- Long-term log storage.
+- Support for regulatory reporting.
+
+The SIEM platform shall support enterprise security monitoring and incident response activities.
+
+---
+
+# 8. Time Synchronization
+
+All enterprise systems shall synchronize system time using approved Network Time Protocol (NTP) services.
+
+Requirements include:
+
+- Approved enterprise NTP servers.
+- Accurate timestamp synchronization.
+- Consistent time zones.
+- Monitoring of synchronization failures.
+- Secure NTP configuration.
+- Redundant time sources where appropriate.
+- Documentation of time synchronization configuration.
+- Periodic validation of system clocks.
+
+Accurate timestamps shall be maintained to support forensic investigations and incident response.
+
+---
+
+# 9. Log Protection and Integrity
+
+Security logs shall be protected against unauthorized access, modification, deletion, or disclosure.
+
+Requirements include:
+
+- Role-based access control.
+- Encryption of logs in transit.
+- Encryption of logs at rest.
+- Centralized log storage.
+- Digital integrity verification where supported.
+- Secure backup of log data.
+- Monitoring of log access.
+- Protection against log tampering.
+- Separation of duties for log administration.
+
+Security logs shall be considered confidential organizational information.
+
+---
+
+# 10. Log Retention Requirements
+
+Security logs shall be retained in accordance with legal, regulatory, contractual, and business requirements.
+
+Retention requirements include:
+
+- Defined retention schedules.
+- Secure archival of historical logs.
+- Protection of archived logs.
+- Controlled log disposal procedures.
+- Legal hold support.
+- Retrieval capabilities for investigations.
+- Periodic review of retention policies.
+- Documentation of retention periods.
+
+Unless superseded by legal or regulatory requirements, security logs shall be retained in accordance with the organization's Enterprise Records Retention Policy.
