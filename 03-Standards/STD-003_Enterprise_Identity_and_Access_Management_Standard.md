@@ -76,3 +76,117 @@ The organization shall implement enterprise Identity and Access Management (IAM)
 Identity management processes shall ensure that only authorized individuals receive appropriate access to enterprise resources based on approved business requirements and the principle of least privilege.
 
 All identity and access management activities shall be performed using approved enterprise technologies, documented procedures, and standardized security controls.
+
+---
+
+# 5. Identity Lifecycle Management
+
+The organization shall manage digital identities throughout their entire lifecycle.
+
+Identity lifecycle management requirements include:
+
+- Identity creation upon approved onboarding.
+- Identity modification following approved role changes.
+- Periodic identity validation.
+- Identity suspension during extended absence where appropriate.
+- Identity deactivation upon employment termination.
+- Identity deletion in accordance with records retention requirements.
+- Continuous monitoring of identity status.
+- Documentation of identity lifecycle events.
+
+Identity lifecycle activities shall be automated where technically feasible.
+
+---
+
+# 6. User Provisioning
+
+User accounts shall only be provisioned following documented management approval.
+
+Provisioning requirements include:
+
+- Verified user identity.
+- Approved access request.
+- Role-based access assignment.
+- Least privilege access.
+- Unique user identifiers.
+- Enterprise directory integration.
+- Multi-Factor Authentication (MFA) enrollment.
+- Initial password assignment in accordance with the Enterprise Password Standard.
+
+Provisioning activities shall be logged for audit purposes.
+
+---
+
+# 7. User Deprovisioning
+
+User access shall be removed promptly when no longer required.
+
+Deprovisioning requirements include:
+
+- Immediate revocation following employment termination.
+- Removal of privileged access.
+- Disabling inactive accounts.
+- Removal of shared resource access.
+- Revocation of cloud access.
+- Revocation of remote access.
+- Recovery of authentication devices where applicable.
+- Documentation of deprovisioning activities.
+
+Deprovisioning shall be completed in accordance with organizational offboarding procedures.
+
+---
+
+# 8. Role-Based Access Control (RBAC)
+
+Enterprise systems shall implement Role-Based Access Control (RBAC) to assign access based on job responsibilities.
+
+RBAC requirements include:
+
+- Documented access roles.
+- Separation of duties.
+- Least privilege enforcement.
+- Role ownership.
+- Periodic role review.
+- Role approval.
+- Standardized access profiles.
+- Removal of unnecessary permissions.
+
+Role definitions shall be reviewed periodically to ensure continued business alignment.
+
+---
+
+# 9. Access Reviews
+
+The organization shall perform periodic access reviews to validate user access rights.
+
+Access review requirements include:
+
+- Quarterly privileged access reviews.
+- Annual user access reviews.
+- Manager certification of user access.
+- Review of dormant accounts.
+- Review of third-party accounts.
+- Review of service accounts.
+- Documentation of review results.
+- Timely remediation of identified issues.
+
+Access review results shall be retained in accordance with enterprise record retention requirements.
+
+---
+
+# 10. Identity Federation
+
+Identity federation shall be implemented where appropriate to provide secure authentication across enterprise systems and trusted third-party services.
+
+Federation requirements include:
+
+- Use of approved federation protocols (e.g., SAML 2.0, OpenID Connect, OAuth 2.0).
+- Integration with enterprise Identity Providers (IdPs).
+- Secure trust relationships.
+- Encrypted authentication assertions.
+- Centralized identity management.
+- Single Sign-On (SSO) where appropriate.
+- Continuous monitoring of federation services.
+- Periodic review of federation trust relationships.
+
+Federated identity services shall comply with enterprise authentication and access management requirements.
