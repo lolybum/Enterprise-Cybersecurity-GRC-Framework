@@ -411,3 +411,127 @@ Users shall:
 - Preserve potentially affected systems where instructed.
 - Cooperate with authorized investigations.
 - Comply with Incident Response procedures.
+
+---
+
+# 17. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External security assessments.
+- Incident response capability assessments.
+- Security Operations Center (SOC) maturity reviews.
+- Incident documentation reviews.
+- Digital forensic process reviews.
+- Tabletop exercises.
+- Incident response simulations.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Additional monitoring of affected business units.
+- Increased security oversight.
+- Formal risk acceptance by executive management where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This standard aligns with:
+
+- NIST SP 800-61 Rev. 2 – Computer Security Incident Handling Guide
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST Cybersecurity Framework (CSF) 2.0
+- NIST SP 800-86 – Guide to Integrating Forensic Techniques into Incident Response
+- MITRE ATT&CK Framework
+- MITRE D3FEND
+- ISO/IEC 27035-1 – Information Security Incident Management
+- ISO/IEC 27035-2 – Guidelines for Incident Response Planning and Preparation
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- GOV-039 Enterprise Logging and Monitoring Policy
+- GOV-040 Enterprise Incident Management Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-008 Enterprise Endpoint Protection Standard
+- STD-009 Enterprise Network Security Standard
+- STD-010 Enterprise Vulnerability Management Standard
+- STD-012 Enterprise Security Logging and Monitoring Standard
+- STD-013 Enterprise Backup and Recovery Standard
+- STD-017 Enterprise Third-Party Risk Management Standard
+- STD-018 Enterprise Data Loss Prevention (DLP) Standard
+
+---
+
+# 21. Definitions
+
+**Security Incident** – An actual or suspected event that compromises the confidentiality, integrity, or availability of organizational information, systems, or services.
+
+**Incident Response** – The coordinated process of detecting, analyzing, containing, eradicating, recovering from, and documenting cybersecurity incidents.
+
+**Security Operations Center (SOC)** – A centralized function responsible for continuously monitoring, detecting, analyzing, and responding to cybersecurity events.
+
+**Digital Forensics** – The identification, collection, preservation, analysis, and presentation of digital evidence to support investigations.
+
+**Chain of Custody** – A documented record demonstrating the collection, handling, transfer, storage, and disposition of digital evidence to preserve its integrity.
+
+**Indicator of Compromise (IOC)** – Evidence suggesting that a system or network has been compromised, such as malicious IP addresses, domains, file hashes, registry changes, or attacker behaviors.
+
+**Root Cause Analysis (RCA)** – The structured process of identifying the underlying cause of a security incident to prevent recurrence.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-019 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
