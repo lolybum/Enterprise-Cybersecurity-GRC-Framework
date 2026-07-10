@@ -370,3 +370,133 @@ Users shall:
 - Protect application credentials.
 - Use enterprise applications in accordance with organizational policies.
 - Cooperate with authorized security investigations.
+
+---
+
+# 17. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External security assessments.
+- Secure SDLC maturity assessments.
+- Application security reviews.
+- Source code repository access reviews.
+- Static Application Security Testing (SAST) compliance reviews.
+- Dynamic Application Security Testing (DAST) compliance reviews.
+- Software Composition Analysis (SCA) reviews.
+- CI/CD pipeline security assessments.
+- DevSecOps maturity assessments.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Delay or suspension of software releases.
+- Increased monitoring of application development activities.
+- Formal risk acceptance by executive management where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This standard aligns with:
+
+- NIST SP 800-218 – Secure Software Development Framework (SSDF)
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST SP 800-204 – Security Strategies for Microservices-based Applications
+- NIST Cybersecurity Framework (CSF) 2.0
+- OWASP Application Security Verification Standard (ASVS)
+- OWASP Software Assurance Maturity Model (SAMM)
+- OWASP Top 10
+- OWASP API Security Top 10
+- CIS Software Supply Chain Security Guide
+- CIS Controls v8
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- ISO/IEC 27034 – Application Security
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- GOV-027 Enterprise Data Protection Policy
+- GOV-029 Enterprise Vulnerability Management Policy
+- GOV-040 Enterprise Incident Management Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-005 Enterprise Secure Configuration Baseline Standard
+- STD-008 Enterprise Endpoint Protection Standard
+- STD-009 Enterprise Network Security Standard
+- STD-010 Enterprise Vulnerability Management Standard
+- STD-011 Enterprise Patch Management Standard
+- STD-012 Enterprise Security Logging and Monitoring Standard
+- STD-014 Enterprise Encryption and Key Management Standard
+- STD-015 Enterprise Cloud Security Standard
+
+---
+
+# 21. Definitions
+
+**Secure Software Development Life Cycle (Secure SDLC)** – A software development methodology that integrates security activities into every phase of the software development lifecycle.
+
+**Threat Modeling** – A structured process for identifying, analyzing, and mitigating potential security threats during application design.
+
+**Static Application Security Testing (SAST)** – The analysis of source code, bytecode, or binaries to identify security vulnerabilities without executing the application.
+
+**Dynamic Application Security Testing (DAST)** – Security testing performed against a running application to identify exploitable vulnerabilities.
+
+**Software Composition Analysis (SCA)** – The process of identifying, analyzing, and managing security and licensing risks associated with third-party software components and open-source libraries.
+
+**DevSecOps** – The integration of security controls, testing, and automation throughout the software development and deployment lifecycle.
+
+**CI/CD Pipeline** – The automated process used to build, test, validate, and deploy software changes through Continuous Integration and Continuous Deployment practices.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-016 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
