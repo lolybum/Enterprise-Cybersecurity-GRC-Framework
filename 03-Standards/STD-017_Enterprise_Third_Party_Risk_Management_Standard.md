@@ -215,3 +215,171 @@ Onboarding requirements include:
 - Entry into the Enterprise Vendor Inventory.
 
 Third-party access shall not be granted until all onboarding requirements have been completed and approved.
+
+---
+
+# 11. Continuous Third-Party Monitoring
+
+The organization shall continuously monitor third parties to ensure security risks remain within approved risk tolerances throughout the vendor relationship.
+
+Continuous monitoring requirements include:
+
+- Periodic vendor security assessments.
+- Annual review of vendor risk ratings.
+- Continuous monitoring of cybersecurity posture where available.
+- Review of independent audit reports (e.g., SOC 2, ISO/IEC 27001).
+- Monitoring of regulatory compliance status.
+- Review of vulnerability management practices.
+- Verification of remediation of identified findings.
+- Monitoring of financial stability where appropriate.
+- Review of changes to critical services.
+- Continuous monitoring of contractual security obligations.
+
+High-risk and Critical vendors shall be monitored more frequently based on business risk.
+
+---
+
+# 12. Fourth-Party Risk Management
+
+The organization shall manage risks associated with subcontractors and other fourth-party service providers used by third parties.
+
+Fourth-party risk management requirements include:
+
+- Identification of critical subcontractors.
+- Documentation of fourth-party relationships.
+- Assessment of fourth-party security controls where applicable.
+- Contractual requirements for subcontractor oversight.
+- Notification of material changes to subcontractor arrangements.
+- Review of cloud service dependencies.
+- Monitoring of supply chain risks.
+- Verification of compliance with contractual obligations.
+- Documentation of identified fourth-party risks.
+- Escalation of significant fourth-party risks.
+
+Third parties shall not engage critical subcontractors that materially increase organizational risk without prior approval.
+
+---
+
+# 13. Vendor Security Incident Management
+
+Third parties shall promptly report security incidents that may affect organizational information, systems, or services.
+
+Requirements include:
+
+- Documented incident notification procedures.
+- Defined notification timelines within contractual agreements.
+- Immediate notification of confirmed data breaches.
+- Notification of ransomware events affecting organizational services.
+- Cooperation during security investigations.
+- Preservation of relevant forensic evidence.
+- Participation in coordinated incident response activities.
+- Documentation of incident remediation actions.
+- Submission of post-incident reports where requested.
+- Review of lessons learned following significant incidents.
+
+Security incidents involving third parties shall be managed in accordance with the Enterprise Incident Management Policy.
+
+---
+
+# 14. Third-Party Offboarding
+
+Third-party relationships shall be securely terminated when contracts expire or services are no longer required.
+
+Offboarding requirements include:
+
+- Revocation of logical access.
+- Recovery of enterprise-owned assets.
+- Secure return or destruction of organizational information.
+- Removal of network connectivity.
+- Revocation of privileged access.
+- Termination of remote access.
+- Verification of contractual obligations.
+- Documentation of offboarding activities.
+- Update of the Enterprise Vendor Inventory.
+- Confirmation of completion by the business owner.
+
+All organizational data shall be securely returned or destroyed in accordance with contractual and regulatory requirements.
+
+---
+
+# 15. Metrics and Reporting
+
+The organization shall establish metrics to evaluate the effectiveness of the Third-Party Risk Management Program.
+
+Metrics shall include:
+
+- Number of active vendors.
+- Vendors by risk classification.
+- Percentage of vendors with completed risk assessments.
+- Percentage of overdue vendor assessments.
+- Number of third-party security incidents.
+- Outstanding remediation actions.
+- Number of approved vendor exceptions.
+- Percentage of contracts containing required security clauses.
+- Fourth-party risk assessments completed.
+- Executive third-party risk dashboard.
+
+Metrics shall be reported regularly to executive management and the Information Security Governance Committee.
+
+---
+
+# 16. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve enterprise third-party security requirements.
+- Review enterprise third-party cyber risks.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Third-Party Risk Management Team
+
+The Third-Party Risk Management Team shall:
+
+- Develop and maintain the TPRM program.
+- Perform vendor risk assessments.
+- Review security questionnaires.
+- Monitor vendor risk throughout the relationship.
+- Track remediation activities.
+- Produce third-party risk reports.
+
+## Procurement Team
+
+The Procurement Team shall:
+
+- Ensure security assessments are completed before contract execution.
+- Coordinate with Information Security during vendor selection.
+- Maintain procurement records.
+- Verify inclusion of required security clauses in contracts.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Conduct technical security assessments.
+- Review evidence provided by vendors.
+- Validate remediation of security findings.
+- Support incident response involving third parties.
+- Recommend risk treatment strategies.
+
+## Business Owners
+
+Business Owners shall:
+
+- Sponsor vendor engagements.
+- Ensure business requirements are documented.
+- Review vendor performance.
+- Participate in vendor risk reviews.
+- Approve business-related exceptions where appropriate.
+
+## Vendors
+
+Vendors shall:
+
+- Comply with contractual security obligations.
+- Protect organizational information.
+- Notify the organization of security incidents as required.
+- Cooperate during security assessments and audits.
+- Maintain appropriate security controls throughout the engagement.
