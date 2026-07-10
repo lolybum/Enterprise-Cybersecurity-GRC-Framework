@@ -389,3 +389,123 @@ Windows Server Administrators shall:
 - Protect administrative credentials.
 - Report security incidents promptly.
 - Comply with enterprise change management requirements.
+
+---
+
+# 19. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External audits.
+- Windows Server configuration assessments.
+- CIS Benchmark compliance reviews.
+- Vulnerability assessments.
+- Penetration testing where applicable.
+- Continuous security monitoring.
+- Regulatory compliance assessments.
+- Management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Increased security monitoring.
+- Suspension of non-compliant systems from production where necessary.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 20. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 21. References
+
+This standard aligns with:
+
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST SP 800-123 – Guide to General Server Security
+- NIST Cybersecurity Framework (CSF) 2.0
+- NIST SP 800-207 – Zero Trust Architecture
+- CIS Microsoft Windows Server Benchmarks
+- CIS Controls v8
+- Microsoft Security Baselines
+- Microsoft Defender Security Documentation
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+
+---
+
+# 22. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- GOV-025 Enterprise Endpoint Security Policy
+- GOV-029 Enterprise Vulnerability Management Policy
+- GOV-030 Enterprise Patch Management Policy
+- GOV-036 Enterprise Backup and Recovery Policy
+- GOV-039 Enterprise Logging and Monitoring Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-001 Enterprise Password Standard
+- STD-002 Enterprise Multi-Factor Authentication Standard
+- STD-005 Enterprise Secure Configuration Baseline Standard
+
+---
+
+# 23. Definitions
+
+**Windows Server Hardening** – The process of securely configuring Microsoft Windows Server operating systems to reduce vulnerabilities and strengthen security.
+
+**Security Baseline** – A documented set of approved security configuration settings that serves as the minimum standard for enterprise systems.
+
+**Group Policy Object (GPO)** – A centralized Windows management feature used to configure security and operational settings across domain-joined systems.
+
+**BitLocker** – Microsoft's full-disk encryption technology used to protect data stored on Windows devices.
+
+**Windows Defender Firewall** – Microsoft's built-in host-based firewall used to control inbound and outbound network traffic.
+
+**PowerShell Logging** – Security logging capabilities that record PowerShell execution events for monitoring, auditing, and incident investigations.
+
+**Configuration Drift** – Any unauthorized or unintended deviation from an approved security configuration baseline.
+
+---
+
+# 24. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 25. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-006 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
