@@ -241,3 +241,156 @@ Firewall requirements include:
 - Document firewall exceptions.
 
 Firewall configurations shall align with the Enterprise Network Security Standard.
+
+---
+
+# 13. Patch Management
+
+Linux servers shall be maintained with current security updates to reduce exposure to known vulnerabilities.
+
+Patch management requirements include:
+
+- Deploy operating system security updates in accordance with the Enterprise Patch Management Policy.
+- Apply Critical and High severity security patches within organization-defined service level objectives (SLOs).
+- Test updates in non-production environments before deployment where appropriate.
+- Validate successful installation of patches.
+- Remove unsupported software packages.
+- Monitor patch compliance across all Linux servers.
+- Maintain documented maintenance windows.
+- Track and remediate failed patch deployments.
+
+Emergency security updates shall follow the organization's Emergency Change Management process.
+
+---
+
+# 14. Audit Logging
+
+Linux servers shall generate audit logs sufficient to support security monitoring, forensic investigations, and regulatory compliance.
+
+Audit logging requirements include:
+
+- User authentication events.
+- Failed login attempts.
+- SSH authentication events.
+- sudo activity.
+- Privileged command execution.
+- User account creation and deletion.
+- File permission changes.
+- Configuration modifications.
+- Service start and stop events.
+- Kernel and system events.
+
+Where applicable, Linux Audit Framework (auditd) shall be enabled and configured to record security-relevant events.
+
+Audit logs shall be forwarded to the organization's centralized Security Information and Event Management (SIEM) platform.
+
+---
+
+# 15. System Monitoring
+
+Linux servers shall be continuously monitored for security, performance, and operational health.
+
+Monitoring requirements include:
+
+- CPU utilization.
+- Memory utilization.
+- Disk utilization.
+- Service availability.
+- System uptime.
+- Authentication failures.
+- Security events.
+- File integrity monitoring.
+- Configuration changes.
+- Malware detection events where applicable.
+
+Critical security alerts shall be investigated promptly by the Security Operations Center (SOC).
+
+---
+
+# 16. Backup and Recovery
+
+Linux servers shall support secure backup and recovery operations.
+
+Requirements include:
+
+- Scheduled backups of critical systems.
+- Encryption of backup data.
+- Secure storage of backup media.
+- Periodic restoration testing.
+- Verification of backup integrity.
+- Monitoring of backup success and failures.
+- Retention of backups according to enterprise policy.
+- Protection of backup repositories from unauthorized access.
+
+Backup configurations shall align with the Enterprise Backup and Recovery Policy.
+
+---
+
+# 17. Malware Protection
+
+Where supported and appropriate, Linux servers shall implement enterprise-approved malware detection and endpoint security solutions.
+
+Requirements include:
+
+- Approved anti-malware or Endpoint Detection and Response (EDR) solution.
+- Scheduled malware scans where applicable.
+- Real-time monitoring of suspicious activity.
+- Signature and detection rule updates.
+- Continuous integration with centralized monitoring platforms.
+- Investigation of detected threats.
+- Isolation of compromised systems where necessary.
+- Documentation of malware-related incidents.
+
+Linux malware protection shall be integrated into the organization's incident response process.
+
+---
+
+# 18. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve Linux server security baseline requirements.
+- Review Linux server security risks.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Develop and maintain Linux hardening baselines.
+- Monitor compliance with security configuration requirements.
+- Conduct security assessments.
+- Review security exceptions.
+- Recommend improvements to Linux server security controls.
+
+## Information Technology Team
+
+The Information Technology Team shall:
+
+- Deploy Linux servers using approved secure baseline configurations.
+- Apply security updates and configuration changes.
+- Configure logging, monitoring, and endpoint protection.
+- Perform routine compliance checks.
+- Remediate identified configuration deficiencies.
+
+## System Owners
+
+System Owners shall:
+
+- Ensure Linux servers remain compliant with this standard.
+- Support vulnerability remediation.
+- Approve business-related configuration changes.
+- Participate in periodic compliance reviews.
+
+## Linux Administrators
+
+Linux Administrators shall:
+
+- Follow approved hardening procedures.
+- Use privileged accounts only for authorized administrative tasks.
+- Protect administrative credentials.
+- Report security incidents promptly.
+- Comply with enterprise change management requirements.
