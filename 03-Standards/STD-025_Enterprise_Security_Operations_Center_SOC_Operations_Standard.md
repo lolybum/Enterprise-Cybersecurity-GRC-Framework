@@ -397,3 +397,127 @@ Users shall:
 - Cooperate with authorized investigations.
 - Comply with organizational security policies.
 - Refrain from interfering with approved security monitoring activities.
+
+---
+
+# 17. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal Information Security audits.
+- SOC operational assessments.
+- SIEM configuration reviews.
+- Endpoint Detection and Response (EDR) operational reviews.
+- Detection engineering assessments.
+- Threat hunting program reviews.
+- Incident response performance reviews.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Increased management oversight.
+- Additional SOC monitoring requirements.
+- Formal risk acceptance by executive management where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This standard aligns with:
+
+- NIST SP 800-61 Rev. 2 – Computer Security Incident Handling Guide
+- NIST SP 800-137 – Information Security Continuous Monitoring (ISCM) for Federal Information Systems and Organizations
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST Cybersecurity Framework (CSF) 2.0
+- MITRE ATT&CK Framework
+- MITRE D3FEND
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+- SANS SOC Maturity Model
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- GOV-039 Enterprise Logging and Monitoring Policy
+- GOV-040 Enterprise Incident Management Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-008 Enterprise Endpoint Protection Standard
+- STD-009 Enterprise Network Security Standard
+- STD-010 Enterprise Vulnerability Management Standard
+- STD-012 Enterprise Security Logging and Monitoring Standard
+- STD-018 Enterprise Data Loss Prevention (DLP) Standard
+- STD-019 Enterprise Security Incident Response Standard
+- STD-022 Enterprise Security Configuration Compliance Monitoring Standard
+- STD-023 Enterprise Vulnerability Scanning Standard
+- STD-024 Enterprise Penetration Testing Standard
+
+---
+
+# 21. Definitions
+
+**Security Operations Center (SOC)** – A centralized function responsible for continuously monitoring, detecting, investigating, and responding to cybersecurity events and incidents.
+
+**Security Information and Event Management (SIEM)** – A platform that collects, normalizes, correlates, analyzes, and stores security events from multiple enterprise systems.
+
+**Endpoint Detection and Response (EDR)** – A security capability that continuously monitors endpoints to detect, investigate, and respond to malicious activity.
+
+**Threat Hunting** – A proactive cybersecurity activity that searches enterprise environments for malicious activity that may not have been detected by automated security controls.
+
+**Detection Engineering** – The process of designing, implementing, testing, tuning, and maintaining security detection rules and analytics to identify malicious behavior.
+
+**Mean Time to Detect (MTTD)** – The average amount of time required to identify a cybersecurity event or incident after it occurs.
+
+**Mean Time to Respond (MTTR)** – The average amount of time required to investigate, contain, and begin remediation of a cybersecurity incident.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-025 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**

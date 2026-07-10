@@ -52,7 +52,7 @@ Enterprise Security Standards align with:
 | STD-022 | Enterprise Data Retention Standard | CISO | Annual | Approved |
 | STD-023 | Enterprise Artificial Intelligence (AI) Security Standard | CISO | Annual | Approved |
 | STD-024 | Enterprise Zero Trust Architecture Standard | CISO | Annual | Approved |
-| STD-025 | Enterprise Vendor Security Assessment Standard | CISO | Annual | Planned |
+| STD-025 | Enterprise Vendor Security Assessment Standard | CISO | Annual | Approved |
 
 ---
 
