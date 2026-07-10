@@ -240,3 +240,152 @@ RDP security requirements include:
 - Disable RDP when no longer required.
 
 Direct exposure of RDP services to the public Internet is prohibited unless explicitly approved and protected by compensating security controls.
+
+---
+
+# 13. Patch Management
+
+Windows Server systems shall be maintained with current security updates to reduce exposure to known vulnerabilities.
+
+Patch management requirements include:
+
+- Deploy Microsoft security updates in accordance with the Enterprise Patch Management Policy.
+- Apply critical security patches within organization-defined service level objectives (SLOs).
+- Test patches in non-production environments prior to production deployment where appropriate.
+- Verify successful installation of security updates.
+- Document approved maintenance windows.
+- Monitor patch deployment status.
+- Remediate failed patch installations promptly.
+- Maintain patch compliance records.
+
+Emergency security patches shall follow the organization's emergency change management procedures.
+
+---
+
+# 14. BitLocker and Disk Encryption
+
+Enterprise Windows Servers shall use approved encryption technologies to protect sensitive information stored on local disks.
+
+Encryption requirements include:
+
+- Enable BitLocker where supported.
+- Use Trusted Platform Module (TPM) protection where available.
+- Store recovery keys securely.
+- Protect encryption keys using approved enterprise key management solutions.
+- Encrypt operating system volumes.
+- Encrypt data volumes containing sensitive information.
+- Monitor encryption status.
+- Periodically validate recovery procedures.
+
+Encryption exceptions shall be documented and approved.
+
+---
+
+# 15. PowerShell Security
+
+PowerShell shall be configured securely to reduce the risk of unauthorized script execution and administrative misuse.
+
+Requirements include:
+
+- Enable PowerShell logging.
+- Enable Script Block Logging.
+- Enable Module Logging.
+- Enable PowerShell Transcription where appropriate.
+- Restrict execution policies based on organizational requirements.
+- Digitally sign administrative scripts where feasible.
+- Restrict PowerShell access to authorized administrators.
+- Monitor PowerShell activity using centralized logging.
+
+PowerShell activity shall be reviewed as part of the organization's security monitoring program.
+
+---
+
+# 16. Event Logging and Auditing
+
+Windows Server systems shall generate security logs sufficient to support monitoring, investigations, and compliance.
+
+Logging requirements include:
+
+- Successful logon events.
+- Failed logon events.
+- Account management events.
+- Privilege use events.
+- Process creation events.
+- PowerShell activity.
+- Object access events where required.
+- Policy change events.
+- System startup and shutdown events.
+- Windows Defender events.
+
+Windows Event Logs shall be forwarded to the organization's centralized Security Information and Event Management (SIEM) platform where applicable.
+
+---
+
+# 17. Backup and Recovery Configuration
+
+Windows Server systems shall be configured to support secure backup and recovery operations.
+
+Requirements include:
+
+- Scheduled backups of critical systems.
+- Encryption of backup data.
+- Secure storage of backup media.
+- Protection against unauthorized backup modification.
+- Periodic restoration testing.
+- Backup integrity validation.
+- Retention in accordance with organizational policy.
+- Monitoring of backup success and failures.
+
+Backup configurations shall align with the Enterprise Backup and Recovery Policy.
+
+---
+
+# 18. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve Windows Server security baseline requirements.
+- Review server hardening risks.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Develop and maintain Windows Server hardening baselines.
+- Monitor compliance with security configuration requirements.
+- Conduct periodic security assessments.
+- Review security exceptions.
+- Recommend improvements to server security controls.
+
+## Information Technology Team
+
+The Information Technology Team shall:
+
+- Deploy Windows Servers using approved secure baseline configurations.
+- Apply security updates and configuration changes.
+- Configure logging, monitoring, and endpoint protection.
+- Perform routine compliance checks.
+- Remediate identified configuration deficiencies.
+
+## System Owners
+
+System Owners shall:
+
+- Ensure Windows Servers remain compliant with this standard.
+- Support vulnerability remediation.
+- Approve business-related configuration changes.
+- Participate in periodic compliance reviews.
+
+## Administrators
+
+Windows Server Administrators shall:
+
+- Follow approved hardening procedures.
+- Use privileged accounts only for administrative activities.
+- Protect administrative credentials.
+- Report security incidents promptly.
+- Comply with enterprise change management requirements.
