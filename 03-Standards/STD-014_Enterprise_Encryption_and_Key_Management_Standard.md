@@ -203,3 +203,177 @@ Key storage requirements include:
 - Monitor key storage systems continuously.
 
 Private cryptographic keys shall never be stored in plaintext.
+
+---
+
+# 11. Cryptographic Key Lifecycle Management
+
+The organization shall manage cryptographic keys throughout their entire lifecycle using documented enterprise key management procedures.
+
+Key lifecycle management requirements include:
+
+- Secure key generation.
+- Key registration and inventory management.
+- Secure key distribution.
+- Controlled key activation.
+- Secure operational use.
+- Periodic key rotation.
+- Key archival where required.
+- Key revocation.
+- Secure key destruction.
+- Documentation of all lifecycle activities.
+
+All cryptographic key lifecycle events shall be logged and subject to periodic review.
+
+---
+
+# 12. Public Key Infrastructure (PKI)
+
+The organization shall implement an enterprise Public Key Infrastructure (PKI) to support digital certificates, authentication, encryption, and digital signatures.
+
+PKI requirements include:
+
+- Approved Certificate Authorities (CAs).
+- Secure certificate issuance.
+- Certificate lifecycle management.
+- Certificate revocation capabilities.
+- Certificate renewal procedures.
+- Secure storage of private keys.
+- Certificate policy documentation.
+- Periodic PKI security assessments.
+- Protection of Certification Authority infrastructure.
+- High availability for critical PKI services.
+
+PKI services shall support enterprise authentication and secure communications.
+
+---
+
+# 13. Certificate Management
+
+Digital certificates shall be managed throughout their lifecycle.
+
+Certificate management requirements include:
+
+- Approved certificate request procedures.
+- Identity validation before certificate issuance.
+- Automated certificate renewal where supported.
+- Monitoring of certificate expiration dates.
+- Revocation of compromised certificates.
+- Secure certificate storage.
+- Inventory of enterprise certificates.
+- Removal of expired certificates.
+- Documentation of certificate ownership.
+- Periodic certificate compliance reviews.
+
+Expired or compromised certificates shall be replaced immediately.
+
+---
+
+# 14. Hardware Security Modules (HSMs)
+
+Hardware Security Modules (HSMs) shall be used where required to protect highly sensitive cryptographic keys.
+
+HSM requirements include:
+
+- Secure cryptographic key generation.
+- Secure key storage.
+- Hardware-enforced key protection.
+- FIPS 140-3 validated HSMs where regulatory or contractual requirements apply.
+- Role-based administrative access.
+- Multi-factor authentication for HSM administration.
+- Audit logging of administrative actions.
+- Backup of HSM configurations.
+- Secure firmware updates.
+- Periodic security assessments.
+
+Access to HSMs shall be limited to authorized personnel.
+
+---
+
+# 15. Key Rotation, Revocation, Backup, and Recovery
+
+Cryptographic keys shall be periodically rotated and securely recoverable when required.
+
+Requirements include:
+
+### Key Rotation
+
+- Rotate keys according to enterprise-defined schedules.
+- Rotate keys immediately following suspected compromise.
+- Document key rotation activities.
+- Validate successful key replacement.
+
+### Key Revocation
+
+- Revoke compromised keys immediately.
+- Revoke keys no longer required.
+- Publish certificate revocation information where applicable.
+- Notify affected system owners.
+
+### Key Backup
+
+- Backup critical cryptographic keys.
+- Encrypt key backups.
+- Restrict access to key backup media.
+- Store backup copies separately from production environments.
+
+### Key Recovery
+
+- Maintain documented recovery procedures.
+- Test recovery procedures periodically.
+- Require dual authorization for sensitive key recovery activities.
+- Log all recovery operations.
+
+---
+
+# 16. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve enterprise cryptographic requirements.
+- Review enterprise cryptographic risks.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Develop cryptographic standards.
+- Maintain enterprise encryption requirements.
+- Monitor cryptographic compliance.
+- Review certificate management activities.
+- Validate key management controls.
+- Recommend improvements to enterprise cryptographic capabilities.
+
+## Information Technology Team
+
+The Information Technology Team shall:
+
+- Deploy approved encryption technologies.
+- Maintain enterprise key management systems.
+- Support PKI infrastructure.
+- Maintain Hardware Security Modules (HSMs).
+- Implement certificate lifecycle management.
+- Monitor encryption technologies.
+
+## System Owners
+
+System Owners shall:
+
+- Identify systems requiring encryption.
+- Ensure enterprise encryption requirements are implemented.
+- Participate in certificate lifecycle activities.
+- Support key management reviews.
+- Request approved cryptographic exceptions where necessary.
+
+## Users
+
+Users shall:
+
+- Protect cryptographic credentials assigned to them.
+- Use approved encrypted communication methods.
+- Report suspected key compromise immediately.
+- Comply with enterprise encryption requirements.
