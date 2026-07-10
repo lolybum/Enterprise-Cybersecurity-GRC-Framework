@@ -84,3 +84,159 @@ Windows Server configurations shall align with:
 - Organizational security requirements
 
 Unsupported operating systems shall not be deployed within the enterprise production environment unless formally approved through the Enterprise Exception Management process.
+
+---
+
+# 5. Windows Server Installation Requirements
+
+Windows Server installations shall follow approved enterprise build standards and secure deployment procedures.
+
+Installation requirements include:
+
+- Use only organization-approved Windows Server versions.
+- Deploy standardized enterprise server images.
+- Remove unnecessary roles and features before production deployment.
+- Assign unique hostnames following enterprise naming conventions.
+- Join servers to the enterprise Active Directory domain where applicable.
+- Configure secure time synchronization.
+- Enable Secure Boot where supported.
+- Validate system integrity before production deployment.
+
+Only authorized Information Technology personnel may deploy Windows Server systems.
+
+---
+
+# 6. Operating System Hardening
+
+All Windows Server systems shall be hardened prior to deployment into production.
+
+Hardening requirements include:
+
+- Disable unnecessary services.
+- Disable unused ports and protocols.
+- Remove or disable unnecessary software.
+- Configure secure file system permissions.
+- Disable legacy authentication protocols where possible.
+- Enable User Account Control (UAC).
+- Restrict anonymous access.
+- Configure secure network settings.
+- Enable exploit protection features.
+- Apply approved security baselines.
+
+Operating system hardening shall align with CIS Benchmarks and Microsoft Security Baselines.
+
+---
+
+# 7. Local Security Policies
+
+Windows Local Security Policies shall be configured using approved enterprise security settings.
+
+Minimum requirements include:
+
+- Account lockout policies.
+- Password complexity enforcement.
+- Minimum password length.
+- Audit policy configuration.
+- User rights assignment.
+- Security options configuration.
+- Interactive logon restrictions.
+- Administrative privilege restrictions.
+
+Local policy settings shall not conflict with enterprise Group Policy Objects (GPOs).
+
+---
+
+# 8. Group Policy Security Settings
+
+Enterprise Windows Servers shall receive centrally managed Group Policy Objects (GPOs).
+
+Group Policy requirements include:
+
+- Password policies.
+- Account lockout policies.
+- Windows Defender settings.
+- Firewall configuration.
+- Security auditing.
+- PowerShell logging.
+- BitLocker settings where applicable.
+- Windows Update configuration.
+- Remote Desktop restrictions.
+- Administrative template security settings.
+
+Unauthorized modification of enterprise GPOs is prohibited.
+
+---
+
+# 9. Account Security
+
+Administrative and local accounts shall be secured using enterprise identity management controls.
+
+Requirements include:
+
+- Disable or rename default local administrator accounts where appropriate.
+- Enforce Multi-Factor Authentication (MFA) for privileged administrative access where supported.
+- Remove unused local accounts.
+- Restrict local administrator group membership.
+- Enforce least privilege.
+- Use unique administrative accounts.
+- Monitor privileged account activity.
+- Disable guest accounts.
+
+Administrative accounts shall comply with the Enterprise Identity and Access Management (IAM) Standard and Enterprise Privileged Access Management (PAM) Standard.
+
+---
+
+# 10. Windows Defender and Endpoint Protection
+
+Enterprise Windows Servers shall be protected using approved endpoint security technologies.
+
+Requirements include:
+
+- Microsoft Defender Antivirus or an approved enterprise endpoint protection solution.
+- Microsoft Defender for Endpoint (or equivalent EDR solution) where deployed.
+- Real-time protection enabled.
+- Automatic signature updates.
+- Scheduled malware scans.
+- Tamper protection enabled where supported.
+- Cloud-delivered protection enabled where approved.
+- Detection and response monitoring integrated with the Security Operations Center (SOC).
+
+Endpoint protection configurations shall be monitored continuously.
+
+---
+
+# 11. Windows Firewall Configuration
+
+Windows Defender Firewall shall be enabled on all Windows Server systems unless an approved exception exists.
+
+Firewall requirements include:
+
+- Enable firewall profiles for Domain, Private, and Public networks as appropriate.
+- Block inbound traffic by default unless explicitly authorized.
+- Allow only approved services and ports.
+- Log firewall events.
+- Review firewall rules periodically.
+- Remove obsolete firewall rules.
+- Restrict administrative management interfaces.
+- Document firewall exceptions.
+
+Firewall configurations shall align with enterprise network security requirements.
+
+---
+
+# 12. Remote Desktop (RDP) Hardening
+
+Remote Desktop Protocol (RDP) shall be secured before being enabled on any Windows Server.
+
+RDP security requirements include:
+
+- Enable RDP only when required.
+- Restrict RDP access to authorized administrators.
+- Require Multi-Factor Authentication (MFA) where supported.
+- Require Network Level Authentication (NLA).
+- Restrict RDP through firewalls and network segmentation.
+- Log all RDP sessions.
+- Monitor failed RDP authentication attempts.
+- Disable RDP when no longer required.
+
+Direct exposure of RDP services to the public Internet is prohibited unless explicitly approved and protected by compensating security controls.
