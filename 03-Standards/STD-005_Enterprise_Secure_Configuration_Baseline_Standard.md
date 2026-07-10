@@ -205,3 +205,130 @@ Cloud baseline requirements include:
 - Automated configuration validation.
 
 Cloud baseline configurations shall align with enterprise cloud security standards and provider security best practices.
+
+---
+
+# 11. Configuration Compliance Monitoring
+
+The organization shall continuously monitor enterprise technology assets to verify compliance with approved secure configuration baselines.
+
+Configuration compliance monitoring requirements include:
+
+- Automated configuration compliance scanning.
+- Continuous monitoring of critical systems.
+- Periodic manual configuration reviews where automation is unavailable.
+- Compliance dashboards for management reporting.
+- Risk-based prioritization of configuration findings.
+- Documentation of non-compliant systems.
+- Tracking of remediation activities.
+- Verification of corrective actions.
+
+Configuration compliance reports shall be reviewed regularly by Information Security and Information Technology management.
+
+---
+
+# 12. Configuration Drift Detection
+
+The organization shall implement mechanisms to detect unauthorized or unintended deviations from approved configuration baselines.
+
+Configuration drift detection requirements include:
+
+- Automated baseline comparison.
+- Detection of unauthorized configuration changes.
+- Real-time alerts for critical deviations.
+- Investigation of configuration drift.
+- Validation of authorized changes.
+- Documentation of identified deviations.
+- Remediation of unauthorized changes.
+- Periodic review of configuration drift trends.
+
+Configuration drift shall be investigated promptly to determine potential security risks.
+
+---
+
+# 13. Change Control Integration
+
+Configuration changes shall be managed through the organization's Enterprise Change Management process.
+
+Requirements include:
+
+- Approved change requests prior to implementation.
+- Risk assessment of proposed configuration changes.
+- Security review for high-risk changes.
+- Testing in non-production environments where appropriate.
+- Rollback procedures for failed changes.
+- Documentation of implemented changes.
+- Verification of successful implementation.
+- Post-implementation review.
+
+Emergency changes shall follow the organization's emergency change management procedures and be reviewed after implementation.
+
+---
+
+# 14. Baseline Exceptions
+
+Exceptions to approved secure configuration baselines shall be formally managed.
+
+Requirements include:
+
+- Documented business justification.
+- Risk assessment.
+- Identification of compensating security controls.
+- Approval by the Chief Information Security Officer (CISO) or authorized delegate.
+- Defined expiration date.
+- Periodic review.
+- Documentation within the Enterprise Exception Register.
+- Removal of the exception when no longer required.
+
+Baseline exceptions shall not become permanent without formal review and approval.
+
+---
+
+# 15. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve enterprise configuration baseline requirements.
+- Review configuration-related risks.
+- Ensure alignment with applicable regulations and security frameworks.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Develop and maintain secure configuration baselines.
+- Monitor configuration compliance.
+- Conduct configuration security assessments.
+- Review configuration exceptions.
+- Recommend baseline improvements.
+
+## Information Technology Team
+
+The Information Technology Team shall:
+
+- Implement approved secure configuration baselines.
+- Maintain enterprise systems in accordance with baseline requirements.
+- Perform configuration updates through approved change management processes.
+- Monitor system configuration compliance.
+- Remediate identified configuration deviations.
+
+## System Owners
+
+System Owners shall:
+
+- Ensure systems comply with approved configuration baselines.
+- Approve system-specific configuration changes.
+- Support compliance reviews and remediation activities.
+- Maintain system configuration documentation.
+
+## Users
+
+Users shall:
+
+- Refrain from making unauthorized configuration changes.
+- Report suspected unauthorized system modifications.
+- Comply with organizational security requirements.
+- Cooperate with configuration compliance activities.
