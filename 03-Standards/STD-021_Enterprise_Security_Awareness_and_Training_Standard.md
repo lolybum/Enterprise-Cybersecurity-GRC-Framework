@@ -370,3 +370,127 @@ Users shall:
 - Apply secure computing practices.
 - Report suspected cybersecurity incidents promptly.
 - Protect organizational information in accordance with enterprise policies.
+
+---
+
+# 17. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External security assessments.
+- Security awareness program reviews.
+- Training completion audits.
+- Phishing simulation assessments.
+- Role-based training compliance reviews.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+- Continuous monitoring of training metrics.
+
+Failure to comply with this standard may result in:
+
+- Mandatory completion of overdue training.
+- Temporary restriction of access to enterprise systems.
+- Corrective action plans.
+- Increased management oversight.
+- Additional role-based training requirements.
+- Formal risk acceptance by executive management where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This standard aligns with:
+
+- NIST SP 800-50 – Building an Information Technology Security Awareness and Training Program
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations (AT Family)
+- NIST Cybersecurity Framework (CSF) 2.0
+- NIST SP 800-61 Rev. 2 – Computer Security Incident Handling Guide
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- ISO/IEC 27035 – Information Security Incident Management
+- CIS Controls v8 – Control 14 (Security Awareness and Skills Training)
+- SANS Security Awareness Best Practices
+- OWASP Top 10 (Awareness Guidance)
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- GOV-026 Enterprise Information Security Policy
+- GOV-031 Enterprise Identity and Access Management Policy
+- GOV-040 Enterprise Incident Management Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-001 Enterprise Password Standard
+- STD-002 Enterprise Multi-Factor Authentication Standard
+- STD-003 Enterprise Identity and Access Management (IAM) Standard
+- STD-008 Enterprise Endpoint Protection Standard
+- STD-018 Enterprise Data Loss Prevention (DLP) Standard
+- STD-019 Enterprise Security Incident Response Standard
+- STD-020 Enterprise Business Continuity and Disaster Recovery (BC/DR) Standard
+
+---
+
+# 21. Definitions
+
+**Security Awareness** – Activities designed to increase personnel understanding of cybersecurity risks and their responsibilities for protecting organizational information.
+
+**Role-Based Training** – Security training tailored to the specific responsibilities, access privileges, and risks associated with an individual's job function.
+
+**Phishing Simulation** – A controlled exercise designed to measure and improve personnel ability to recognize and respond appropriately to phishing attempts.
+
+**Social Engineering** – The use of deception to manipulate individuals into disclosing confidential information or performing actions that compromise security.
+
+**Insider Threat** – The risk posed by individuals with authorized access who intentionally or unintentionally compromise organizational information or systems.
+
+**Security Culture** – The collective values, behaviors, and practices that influence how personnel approach cybersecurity responsibilities.
+
+**Training Effectiveness** – The measurable impact of awareness and training activities on reducing organizational cybersecurity risk.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-021 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**

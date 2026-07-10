@@ -48,7 +48,7 @@ Enterprise Security Standards align with:
 | STD-018 | Enterprise Disaster Recovery Standard | CISO | Annual | Approved |
 | STD-019 | Enterprise Incident Response Standard | CISO | Annual | Approved |
 | STD-020 | Enterprise Email Security Standard | CISO | Annual | Approved |
-| STD-021 | Enterprise Data Classification Standard | CISO | Annual | Planned |
+| STD-021 | Enterprise Data Classification Standard | CISO | Annual | Approved |
 | STD-022 | Enterprise Data Retention Standard | CISO | Annual | Planned |
 | STD-023 | Enterprise Artificial Intelligence (AI) Security Standard | CISO | Annual | Planned |
 | STD-024 | Enterprise Zero Trust Architecture Standard | CISO | Annual | Planned |
