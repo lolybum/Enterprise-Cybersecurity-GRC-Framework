@@ -192,3 +192,174 @@ Disaster Recovery plan requirements include:
 - Plan maintenance and version control.
 
 Disaster Recovery plans shall be readily available to authorized personnel during emergencies.
+
+---
+
+# 11. Disaster Recovery Testing and Exercises
+
+The organization shall conduct regular testing and exercises to validate the effectiveness of Business Continuity (BC) and Disaster Recovery (DR) plans.
+
+Testing requirements include:
+
+- Tabletop exercises.
+- Disaster recovery simulation exercises.
+- Technical recovery testing.
+- Backup restoration testing.
+- Application recovery validation.
+- Cloud recovery testing.
+- Network recovery testing.
+- Failover and failback testing.
+- Recovery Time Objective (RTO) validation.
+- Recovery Point Objective (RPO) validation.
+
+Testing results shall be documented, reviewed, and used to improve recovery capabilities.
+
+---
+
+# 12. Crisis Management Coordination
+
+Business Continuity and Disaster Recovery activities shall be coordinated with the organization's Crisis Management Program.
+
+Requirements include:
+
+- Executive crisis management procedures.
+- Incident escalation procedures.
+- Emergency communications.
+- Stakeholder notification processes.
+- Coordination with Legal, Human Resources, and Communications.
+- Regulatory notification procedures.
+- Third-party coordination.
+- Customer communication planning.
+- Public relations coordination.
+- Executive decision-making procedures.
+
+Crisis Management activities shall support timely decision-making during disruptive events.
+
+---
+
+# 13. Alternate Processing Sites
+
+The organization shall establish alternate processing capabilities for critical business services where justified by business risk.
+
+Alternate processing site requirements include:
+
+- Hot sites where immediate recovery is required.
+- Warm sites for critical business functions.
+- Cold sites where appropriate.
+- Cloud-based recovery environments.
+- Redundant communications infrastructure.
+- Secure remote access capabilities.
+- Availability of critical applications.
+- Availability of required data.
+- Physical security controls.
+- Periodic validation of alternate processing capabilities.
+
+Alternate processing environments shall be protected in accordance with enterprise security requirements.
+
+---
+
+# 14. Plan Maintenance and Continuous Improvement
+
+Business Continuity and Disaster Recovery plans shall be maintained throughout their lifecycle.
+
+Maintenance requirements include:
+
+- Annual plan reviews.
+- Updates following organizational changes.
+- Updates following technology changes.
+- Updates following regulatory changes.
+- Updates following recovery exercises.
+- Updates following actual incidents.
+- Version control.
+- Document approval.
+- Distribution to authorized personnel.
+- Periodic verification of contact information.
+
+Lessons learned shall be incorporated into future plan revisions.
+
+---
+
+# 15. BC/DR Metrics and Reporting
+
+The organization shall establish metrics to evaluate the effectiveness of the Business Continuity and Disaster Recovery Program.
+
+Metrics shall include:
+
+- Number of completed recovery exercises.
+- Recovery exercise success rate.
+- Recovery Time Objective (RTO) achievement.
+- Recovery Point Objective (RPO) achievement.
+- Number of plan updates completed.
+- Number of unresolved corrective actions.
+- Number of business units with current BC plans.
+- Number of Disaster Recovery plans reviewed.
+- Recovery testing participation rates.
+- Executive BC/DR dashboard reporting.
+
+Metrics shall be reviewed regularly by executive management and the Information Security Governance Committee.
+
+---
+
+# 16. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve enterprise BC/DR requirements.
+- Review enterprise resilience risks.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Business Continuity Manager
+
+The Business Continuity Manager shall:
+
+- Develop and maintain the Business Continuity Program.
+- Coordinate Business Impact Analyses.
+- Maintain Business Continuity Plans.
+- Coordinate recovery exercises.
+- Track corrective actions.
+- Report BC program performance.
+
+## Disaster Recovery Team
+
+The Disaster Recovery Team shall:
+
+- Develop Disaster Recovery Plans.
+- Coordinate technical recovery activities.
+- Conduct recovery testing.
+- Restore critical technology services.
+- Validate recovery objectives.
+- Maintain recovery documentation.
+
+## Information Technology Team
+
+The Information Technology Team shall:
+
+- Support system recovery activities.
+- Maintain backup infrastructure.
+- Restore applications and infrastructure.
+- Validate system functionality.
+- Maintain disaster recovery technologies.
+
+## Business Owners
+
+Business Owners shall:
+
+- Identify critical business processes.
+- Participate in Business Impact Analyses.
+- Approve Recovery Time Objectives (RTO).
+- Approve Recovery Point Objectives (RPO).
+- Participate in recovery exercises.
+- Review Business Continuity Plans annually.
+
+## Users
+
+Users shall:
+
+- Understand their responsibilities during disruptive events.
+- Participate in required continuity training and exercises.
+- Follow Business Continuity procedures.
+- Report issues affecting business continuity.
+- Cooperate during recovery activities.
