@@ -199,3 +199,170 @@ Non-compliance management requirements include:
 - Retention of compliance records for audit purposes.
 
 Critical configuration deviations shall be remediated or formally accepted through the Enterprise Risk Acceptance process within approved organizational timelines.
+
+---
+
+# 11. Configuration Remediation
+
+The organization shall establish processes to remediate configuration compliance findings in a timely and risk-based manner.
+
+Configuration remediation requirements include:
+
+- Assignment of remediation ownership.
+- Risk-based prioritization of findings.
+- Defined remediation timelines based on severity.
+- Validation of corrective actions.
+- Retesting following remediation.
+- Documentation of remediation activities.
+- Change Management approval where required.
+- Emergency remediation procedures for critical findings.
+- Escalation of overdue remediation activities.
+- Closure of remediation records after verification.
+
+Critical configuration weaknesses shall be remediated as soon as practicable or managed through the Enterprise Risk Acceptance process.
+
+---
+
+# 12. Compliance Reporting and Dashboards
+
+The organization shall maintain reporting capabilities that provide visibility into configuration compliance across enterprise technology assets.
+
+Reporting requirements include:
+
+- Enterprise compliance dashboards.
+- Compliance trends over time.
+- Configuration drift metrics.
+- Asset compliance status.
+- Outstanding remediation activities.
+- Exception reporting.
+- High-risk asset reporting.
+- Executive summary reporting.
+- Regulatory compliance reporting where applicable.
+- Historical compliance analysis.
+
+Configuration compliance reports shall be reviewed regularly by executive management and the Information Security Governance Committee.
+
+---
+
+# 13. Integration with Vulnerability and Change Management
+
+Configuration compliance monitoring shall integrate with enterprise Vulnerability Management and Change Management processes.
+
+Integration requirements include:
+
+- Correlation of configuration findings with vulnerability assessments.
+- Verification that approved changes maintain compliance.
+- Identification of unauthorized configuration changes.
+- Automated notification of significant configuration changes.
+- Coordination with Patch Management activities.
+- Integration with Configuration Management Databases (CMDB).
+- Integration with Security Information and Event Management (SIEM).
+- Coordination with Incident Response for critical deviations.
+- Tracking of remediation activities.
+- Continuous improvement through change review processes.
+
+Configuration compliance monitoring shall support enterprise risk reduction by identifying changes that introduce security weaknesses.
+
+---
+
+# 14. Exception Management
+
+Configuration compliance exceptions shall be managed through a formal approval process.
+
+Exception management requirements include:
+
+- Documented business justification.
+- Risk assessment for each exception.
+- Identification of compensating controls.
+- Approval by the Chief Information Security Officer (CISO) or delegated authority.
+- Defined expiration date.
+- Periodic review of active exceptions.
+- Documentation within the Enterprise Exception Register.
+- Monitoring of exception effectiveness.
+- Timely removal of expired exceptions.
+- Reporting of exception status to management.
+
+Exceptions shall not be used to permanently bypass approved security baselines without executive approval.
+
+---
+
+# 15. Metrics and Key Performance Indicators (KPIs)
+
+The organization shall establish metrics to evaluate the effectiveness of configuration compliance monitoring activities.
+
+Metrics shall include:
+
+- Percentage of compliant assets.
+- Number of non-compliant assets.
+- Number of configuration drift events.
+- Average remediation time.
+- Percentage of overdue remediation actions.
+- Number of approved exceptions.
+- Compliance by business unit.
+- Compliance by technology platform.
+- Compliance trend analysis.
+- Executive configuration compliance dashboard.
+
+Metrics shall support risk-based decision-making and continuous improvement initiatives.
+
+---
+
+# 16. Roles and Responsibilities
+
+## Chief Information Security Officer (CISO)
+
+The CISO shall:
+
+- Own this standard.
+- Approve enterprise configuration compliance requirements.
+- Review enterprise compliance metrics.
+- Ensure compliance with applicable regulations and security frameworks.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Develop and maintain configuration compliance standards.
+- Monitor enterprise compliance status.
+- Investigate significant configuration deviations.
+- Validate remediation activities.
+- Produce compliance reports.
+- Recommend improvements to configuration management practices.
+
+## Information Technology Team
+
+The Information Technology Team shall:
+
+- Implement approved security baselines.
+- Perform configuration remediation.
+- Maintain configuration management tools.
+- Support automated compliance assessments.
+- Document approved configuration changes.
+
+## System Owners
+
+System Owners shall:
+
+- Ensure systems remain compliant with approved baselines.
+- Review compliance findings affecting their systems.
+- Support remediation activities.
+- Request configuration exceptions where justified.
+- Participate in compliance reviews.
+
+## Internal Audit
+
+Internal Audit shall:
+
+- Independently assess compliance with this standard.
+- Review governance effectiveness.
+- Validate remediation of audit findings.
+- Report material deficiencies to executive management.
+
+## Users
+
+Users shall:
+
+- Refrain from making unauthorized configuration changes.
+- Report suspected configuration issues.
+- Comply with enterprise security requirements.
+- Cooperate with configuration compliance activities.
