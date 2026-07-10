@@ -34,7 +34,7 @@ Enterprise Security Standards align with:
 | STD-004 | Enterprise Privileged Access Standard | CISO | Annual | Approved |
 | STD-005 | Enterprise Secure Configuration Baseline Standard | CISO | Annual | Approved |
 | STD-006 | Enterprise Windows Server Hardening Standard | CISO | Annual | Approved |
-| STD-007 | Enterprise Linux Hardening Standard | CISO | Annual | Planned |
+| STD-007 | Enterprise Linux Hardening Standard | CISO | Annual | Approved |
 | STD-008 | Enterprise Endpoint Protection Standard | CISO | Annual | Planned |
 | STD-009 | Enterprise Network Security Standard | CISO | Annual | Planned |
 | STD-010 | Enterprise Firewall Configuration Standard | CISO | Annual | Planned |
