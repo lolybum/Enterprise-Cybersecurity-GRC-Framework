@@ -361,3 +361,127 @@ Users shall:
 - Report suspected data loss incidents immediately.
 - Use approved methods for transferring organizational information.
 - Protect sensitive information from unauthorized disclosure.
+
+---
+
+# 17. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External security assessments.
+- Data Loss Prevention (DLP) policy compliance reviews.
+- Endpoint DLP assessments.
+- Network DLP assessments.
+- Cloud DLP assessments.
+- Email DLP assessments.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Increased monitoring of affected systems or users.
+- Temporary restriction of access to organizational information.
+- Formal risk acceptance by executive management where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This standard aligns with:
+
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST SP 800-122 – Guide to Protecting the Confidentiality of Personally Identifiable Information (PII)
+- NIST Cybersecurity Framework (CSF) 2.0
+- NIST SP 800-61 Rev. 2 – Computer Security Incident Handling Guide
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+- PCI DSS v4.0
+- HIPAA Security Rule
+- GDPR (General Data Protection Regulation)
+- Microsoft Purview Data Loss Prevention Documentation
+- Cloud Security Alliance (CSA) Guidance
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- GOV-027 Enterprise Data Protection Policy
+- GOV-039 Enterprise Logging and Monitoring Policy
+- GOV-040 Enterprise Incident Management Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-003 Enterprise Identity and Access Management (IAM) Standard
+- STD-008 Enterprise Endpoint Protection Standard
+- STD-012 Enterprise Security Logging and Monitoring Standard
+- STD-014 Enterprise Encryption and Key Management Standard
+- STD-015 Enterprise Cloud Security Standard
+- STD-017 Enterprise Third-Party Risk Management Standard
+
+---
+
+# 21. Definitions
+
+**Data Loss Prevention (DLP)** – Technologies and processes used to detect, monitor, and prevent the unauthorized disclosure, transmission, or loss of sensitive information.
+
+**Sensitive Information** – Organizational information classified as Confidential, Restricted, regulated, or otherwise requiring protection from unauthorized access or disclosure.
+
+**Data Exfiltration** – The unauthorized transfer of organizational information from enterprise systems to external destinations.
+
+**Endpoint DLP** – DLP controls implemented on workstations, laptops, and other endpoint devices to monitor and protect sensitive information.
+
+**Network DLP** – DLP controls that inspect network traffic to detect and prevent unauthorized transmission of sensitive information.
+
+**Cloud DLP** – DLP controls applied to cloud applications, cloud storage, and Software-as-a-Service (SaaS) platforms.
+
+**Policy Violation** – Any action that conflicts with approved organizational Data Loss Prevention policies or procedures.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-018 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
