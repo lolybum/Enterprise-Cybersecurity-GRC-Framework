@@ -366,3 +366,126 @@ Users shall:
 - Report suspected configuration issues.
 - Comply with enterprise security requirements.
 - Cooperate with configuration compliance activities.
+---
+
+# 17. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External compliance assessments.
+- Configuration compliance assessments.
+- Security baseline validation.
+- Configuration drift reviews.
+- Vulnerability management reviews.
+- Change Management audits.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Increased management oversight.
+- Additional configuration assessments.
+- Formal risk acceptance by executive management where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This standard aligns with:
+
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations (Configuration Management Family)
+- NIST SP 800-128 – Guide for Security-Focused Configuration Management of Information Systems
+- NIST Cybersecurity Framework (CSF) 2.0
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+- CIS Benchmarks
+- DISA Security Technical Implementation Guides (STIGs)
+- Center for Internet Security (CIS) Benchmark Guidance
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- GOV-029 Enterprise Vulnerability Management Policy
+- GOV-039 Enterprise Logging and Monitoring Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-005 Enterprise Secure Configuration Baseline Standard
+- STD-006 Enterprise Windows Server Hardening Standard
+- STD-007 Enterprise Linux Server Hardening Standard
+- STD-008 Enterprise Endpoint Protection Standard
+- STD-009 Enterprise Network Security Standard
+- STD-010 Enterprise Vulnerability Management Standard
+- STD-011 Enterprise Patch Management Standard
+- STD-012 Enterprise Security Logging and Monitoring Standard
+- STD-015 Enterprise Cloud Security Standard
+- STD-016 Enterprise Secure Software Development (Secure SDLC) Standard
+
+---
+
+# 21. Definitions
+
+**Configuration Baseline** – An approved and documented set of security configuration settings for an information system or technology platform.
+
+**Configuration Compliance** – The state in which a system adheres to approved security configuration requirements.
+
+**Configuration Drift** – Unauthorized or unintended deviation from an approved security configuration baseline.
+
+**Security Baseline** – A minimum set of security controls and configuration settings required to protect enterprise technology assets.
+
+**Configuration Assessment** – The process of evaluating systems against approved security baselines to identify compliance gaps.
+
+**Configuration Management Database (CMDB)** – A repository that stores information about enterprise configuration items and their relationships.
+
+**Configuration Monitoring** – The continuous process of evaluating enterprise technology assets for compliance with approved security configurations.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-022 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
