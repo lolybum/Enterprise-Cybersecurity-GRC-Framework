@@ -322,3 +322,118 @@ Users shall:
 - Report suspected identity compromise immediately.
 - Comply with enterprise authentication requirements.
 - Complete required security awareness training.
+
+---
+
+# 16. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External audits.
+- Identity and Access Management (IAM) assessments.
+- User access reviews.
+- Privileged access reviews.
+- Security control testing.
+- Continuous monitoring.
+- Regulatory compliance assessments.
+- Periodic management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Removal of unauthorized access.
+- Suspension or revocation of user accounts.
+- Mandatory security awareness training.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 17. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 18. References
+
+This standard aligns with:
+
+- NIST SP 800-53 Rev. 5
+- NIST SP 800-63 Digital Identity Guidelines
+- NIST Cybersecurity Framework (CSF) 2.0
+- NIST SP 800-207 – Zero Trust Architecture
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+- COBIT 2019
+- Microsoft Entra ID Security Best Practices
+- CIS Benchmarks
+
+---
+
+# 19. Related Documents
+
+- GOV-031 Enterprise Identity and Access Management (IAM) Policy
+- GOV-032 Enterprise Password Management Policy
+- GOV-033 Enterprise Privileged Access Management (PAM) Policy
+- GOV-044 Enterprise Remote Access Security Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-001 Enterprise Password Standard
+- STD-002 Enterprise Multi-Factor Authentication Standard
+
+---
+
+# 20. Definitions
+
+**Identity** – A unique digital representation of a user, service, device, or application that can be authenticated and authorized to access enterprise resources.
+
+**Identity and Access Management (IAM)** – The framework of policies, processes, and technologies used to manage digital identities and control access to enterprise systems and information.
+
+**Role-Based Access Control (RBAC)** – An access control model that grants permissions based on assigned job roles.
+
+**Identity Federation** – A trust relationship that enables users to authenticate across multiple systems using a common identity provider.
+
+**Provisioning** – The process of creating and assigning user accounts and access rights.
+
+**Deprovisioning** – The process of removing or disabling user accounts and access rights when they are no longer required.
+
+---
+
+# 21. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 22. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-003 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
