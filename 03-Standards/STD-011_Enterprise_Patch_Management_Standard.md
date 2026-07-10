@@ -347,3 +347,127 @@ Users shall:
 - Reboot systems when required for patch installation.
 - Report patch-related issues promptly.
 - Avoid interfering with approved patch deployment activities.
+
+---
+
+# 17. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External security assessments.
+- Enterprise patch management program reviews.
+- Patch deployment compliance assessments.
+- Vulnerability remediation verification.
+- Configuration compliance reviews.
+- Regulatory compliance assessments.
+- Continuous monitoring activities.
+- Executive management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Increased monitoring of affected systems.
+- Temporary isolation of systems presenting unacceptable security risk.
+- Formal risk acceptance by executive management where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This standard aligns with:
+
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST SP 800-40 Rev. 4 – Guide to Enterprise Patch Management Planning
+- NIST SP 800-128 – Guide for Security-Focused Configuration Management
+- NIST Cybersecurity Framework (CSF) 2.0
+- NIST SP 800-137 – Information Security Continuous Monitoring (ISCM)
+- NIST SP 800-207 – Zero Trust Architecture
+- CIS Controls v8
+- CIS Benchmarks
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- Vendor Security Advisories
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- GOV-029 Enterprise Vulnerability Management Policy
+- GOV-030 Enterprise Patch Management Policy
+- GOV-039 Enterprise Logging and Monitoring Policy
+- GOV-040 Enterprise Incident Management Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-005 Enterprise Secure Configuration Baseline Standard
+- STD-006 Enterprise Windows Server Hardening Standard
+- STD-007 Enterprise Linux Server Hardening Standard
+- STD-008 Enterprise Endpoint Protection Standard
+- STD-009 Enterprise Network Security Standard
+- STD-010 Enterprise Vulnerability Management Standard
+
+---
+
+# 21. Definitions
+
+**Patch** – A vendor-issued software update designed to correct security vulnerabilities, fix defects, improve stability, or enhance functionality.
+
+**Security Patch** – A software update specifically intended to remediate one or more security vulnerabilities.
+
+**Emergency Patch** – A security update requiring expedited deployment due to active exploitation or significant business risk.
+
+**Rollback** – The process of restoring a system to its previous operational state following a failed or problematic patch deployment.
+
+**Patch Compliance** – The degree to which enterprise systems have installed required security patches within established remediation timelines.
+
+**Mean Time to Patch (MTTP)** – The average time required to deploy and verify security patches following their release or identification.
+
+**Maintenance Window** – An approved period during which system maintenance activities, including patch deployment, may be performed.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-011 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
