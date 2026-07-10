@@ -323,3 +323,119 @@ Privileged users shall:
 - Never share privileged accounts.
 - Use Multi-Factor Authentication (MFA).
 - Report suspected privileged account compromise immediately.
+
+---
+
+# 16. Compliance
+
+Compliance with this standard shall be verified through:
+
+- Internal security audits.
+- External audits.
+- Privileged Access Management (PAM) assessments.
+- Identity and Access Management (IAM) reviews.
+- Privileged account reviews.
+- Security control testing.
+- Continuous monitoring.
+- Regulatory compliance assessments.
+- Periodic management reviews.
+- Independent assurance activities.
+
+Failure to comply with this standard may result in:
+
+- Corrective action plans.
+- Removal of privileged access.
+- Suspension or revocation of privileged accounts.
+- Mandatory security awareness training.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 17. Exceptions
+
+Exceptions to this standard shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Chief Information Security Officer (CISO).
+- Include an expiration date.
+- Be reviewed annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 18. References
+
+This standard aligns with:
+
+- NIST SP 800-53 Rev. 5
+- NIST SP 800-63 Digital Identity Guidelines
+- NIST SP 800-207 – Zero Trust Architecture
+- NIST Cybersecurity Framework (CSF) 2.0
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+- COBIT 2019
+- CIS Benchmarks
+- Microsoft Privileged Access Security Guidance
+
+---
+
+# 19. Related Documents
+
+- GOV-031 Enterprise Identity and Access Management (IAM) Policy
+- GOV-033 Enterprise Privileged Access Management (PAM) Policy
+- GOV-039 Enterprise Logging and Monitoring Policy
+- GOV-040 Enterprise Incident Management Policy
+- GOV-049 Enterprise Zero Trust Architecture Policy
+- STD-001 Enterprise Password Standard
+- STD-002 Enterprise Multi-Factor Authentication Standard
+- STD-003 Enterprise Identity and Access Management (IAM) Standard
+
+---
+
+# 20. Definitions
+
+**Privileged Account** – An account with elevated permissions that allows administrative control over systems, applications, infrastructure, or security settings.
+
+**Privileged Access Management (PAM)** – The policies, processes, and technologies used to secure, monitor, and control privileged accounts and administrative access.
+
+**Just-In-Time (JIT) Access** – A security practice that grants privileged access only when needed and automatically removes it after a defined period.
+
+**Just-Enough Administration (JEA)** – A security model that limits administrative users to only the permissions required to perform approved tasks.
+
+**Credential Vault** – A secure repository used to store, manage, rotate, and monitor privileged credentials.
+
+**Break-Glass Account** – A highly privileged emergency account used only when normal administrative access is unavailable during critical incidents.
+
+---
+
+# 21. Approval
+
+| Role | Approval |
+|------|----------|
+| Executive Management | Approved |
+| Chief Information Security Officer | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 22. Document Control
+
+| Item | Value |
+|------|-------|
+| Document ID | STD-004 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Standard Owner | Chief Information Security Officer |
+| Status | Approved |
+
+---
+
+**End of Document**
