@@ -18,7 +18,7 @@ All procedures are reviewed annually and updated following significant regulator
 
 | Procedure ID | Procedure | Owner | Review | Status |
 |--------------|-----------|-------|--------|--------|
-| PRC-001 | User Account Provisioning Procedure | IAM Manager | Annual | Planned |
+| PRC-001 | User Account Provisioning Procedure | IAM Manager | Annual | Approved |
 | PRC-002 | Password Reset Procedure | IAM Manager | Annual | Planned |
 | PRC-003 | Multi-Factor Authentication Enrollment Procedure | IAM Manager | Annual | Planned |
 | PRC-004 | Privileged Access Request Procedure | PAM Team | Annual | Planned |
