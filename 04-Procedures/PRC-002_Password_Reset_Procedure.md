@@ -224,3 +224,149 @@ Where MFA is required:
 - Log all MFA-related password reset activities.
 
 If MFA verification cannot be completed, the password reset request shall be escalated to the IAM Team for additional verification.
+
+---
+
+# 11. Password Policy Validation
+
+All password resets shall comply with the Enterprise Password Standard.
+
+Validation requirements include:
+
+- Minimum password length requirements.
+- Password complexity enforcement.
+- Password history enforcement.
+- Minimum password age where applicable.
+- Maximum password age where applicable.
+- Prevention of commonly used passwords.
+- Prevention of compromised passwords where supported.
+- Compliance with enterprise authentication requirements.
+
+Passwords that do not meet enterprise policy shall be rejected automatically.
+
+---
+
+# 12. Account Lockout Handling
+
+Locked accounts shall be managed using approved security procedures.
+
+Account lockout requirements include:
+
+- Verify the user's identity before unlocking an account.
+- Determine the reason for the lockout.
+- Review recent authentication attempts.
+- Check for indicators of unauthorized access.
+- Unlock the account only after verification is complete.
+- Require a password reset where suspicious activity is identified.
+- Escalate suspected account compromise to the Information Security Team.
+- Document all account unlock activities.
+
+Repeated account lockouts shall be investigated for potential malicious activity.
+
+---
+
+# 13. Audit Logging Requirements
+
+All password reset activities shall be logged to support security monitoring, investigations, and compliance reviews.
+
+Audit logs shall include:
+
+- Service request or ticket number.
+- User identifier.
+- Administrator performing the reset.
+- Date and time of the reset.
+- Identity verification method used.
+- MFA verification status.
+- Account lockout status.
+- Password reset outcome.
+- Systems affected.
+- Escalation details where applicable.
+
+Audit logs shall be retained and protected in accordance with the Enterprise Security Logging and Monitoring Standard.
+
+---
+
+# 14. Exception Handling
+
+Exceptions to this procedure shall follow the Enterprise Exception Management process.
+
+Exception requirements include:
+
+- Documented business justification.
+- Risk assessment.
+- Identification of compensating security controls.
+- Approval by the IAM Manager.
+- Information Security review where elevated risk exists.
+- Defined expiration date.
+- Periodic review of approved exceptions.
+- Documentation within the Enterprise Exception Register.
+
+Temporary exceptions shall be removed immediately upon expiration.
+
+---
+
+# 15. Escalation Process
+
+Password reset issues shall be escalated according to organizational procedures.
+
+### Level 1 – Service Desk
+
+Examples:
+
+- Standard password reset requests.
+- Account lockout assistance.
+- Self-Service Password Reset (SSPR) support.
+
+---
+
+### Level 2 – IAM Team
+
+Examples:
+
+- Failed identity verification.
+- MFA enrollment issues.
+- Directory service synchronization problems.
+- High-risk user account requests.
+
+---
+
+### Level 3 – Information Security Team
+
+Examples:
+
+- Suspected account compromise.
+- Repeated failed authentication attempts.
+- Privileged account password resets.
+- Security policy violations.
+
+---
+
+### Level 4 – Chief Information Security Officer (CISO)
+
+Examples:
+
+- Executive account password resets requiring exceptions.
+- Enterprise-wide authentication failures.
+- Regulatory or audit-related concerns.
+- Significant cybersecurity incidents affecting authentication services.
+
+All escalations shall be documented within the approved IT Service Management (ITSM) platform.
+
+---
+
+# 16. Documentation and Record Retention
+
+The following records shall be maintained:
+
+- Password reset requests.
+- Identity verification records.
+- Service Desk tickets.
+- IAM administrative actions.
+- MFA verification records.
+- Audit logs.
+- Exception approvals.
+- Escalation records.
+- Investigation notes where applicable.
+- Password reset verification results.
+
+Records shall be retained in accordance with the organization's Records Retention Policy and applicable legal, regulatory, and contractual requirements.
