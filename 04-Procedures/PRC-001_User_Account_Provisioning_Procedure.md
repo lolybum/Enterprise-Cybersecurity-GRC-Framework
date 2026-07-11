@@ -261,3 +261,150 @@ The following information shall be retained for each provisioning request:
 - Validation results.
 
 Provisioning records shall be retained in accordance with the organization's records retention requirements.
+
+---
+
+# 11. Quality Assurance and Verification
+
+Before a newly provisioned account is released to the user, the IAM Team shall perform a quality assurance review.
+
+Verification activities shall include:
+
+- Confirmation that the approved request matches the provisioned access.
+- Verification of user identity.
+- Validation of assigned security groups.
+- Confirmation of application access.
+- Verification of email account functionality.
+- Confirmation that password policies have been applied.
+- Verification that Multi-Factor Authentication (MFA) is enabled where required.
+- Validation that audit logging is operational.
+- Confirmation that privileged access has received all required approvals.
+- Documentation of verification results.
+
+Accounts failing verification shall not be released until all issues have been corrected.
+
+---
+
+# 12. Exception Handling
+
+Exceptions to this procedure shall follow the Enterprise Exception Management process.
+
+Exception requirements include:
+
+- Documented business justification.
+- Risk assessment.
+- Identification of compensating security controls.
+- Approval from the IAM Manager.
+- Approval from the Information Security Team for elevated access.
+- Defined expiration date.
+- Periodic review of approved exceptions.
+- Documentation within the Enterprise Exception Register.
+
+Temporary exceptions shall be removed immediately upon expiration.
+
+---
+
+# 13. Escalation Process
+
+Issues identified during account provisioning shall be escalated according to organizational procedures.
+
+Escalation examples include:
+
+### Level 1 – IAM Administrator
+
+Examples:
+
+- Incomplete requests.
+- Missing approvals.
+- Provisioning errors.
+- Incorrect group assignments.
+
+---
+
+### Level 2 – IAM Manager
+
+Examples:
+
+- Role conflicts.
+- Access policy violations.
+- High-risk access requests.
+- Delayed provisioning affecting business operations.
+
+---
+
+### Level 3 – Information Security Team
+
+Examples:
+
+- Privileged access concerns.
+- Segregation of Duties (SoD) conflicts.
+- Suspected fraudulent requests.
+- Security policy violations.
+
+---
+
+### Level 4 – Chief Information Security Officer (CISO)
+
+Examples:
+
+- Executive access requests requiring exception approval.
+- Enterprise-wide provisioning issues.
+- Significant security risks.
+- Regulatory or audit-related concerns.
+
+All escalations shall be documented within the approved IT Service Management (ITSM) platform.
+
+---
+
+# 14. Audit Logging Requirements
+
+All provisioning activities shall generate audit records sufficient to support security monitoring, investigations, and compliance reviews.
+
+Audit logs shall capture:
+
+- Request identifier.
+- User identifier.
+- Provisioning administrator.
+- Date and time of actions.
+- Systems affected.
+- Group memberships assigned.
+- Privileged access assignments.
+- MFA enrollment status.
+- Approval records.
+- Success or failure of provisioning activities.
+
+Audit logs shall be protected from unauthorized modification and retained in accordance with the Enterprise Security Logging and Monitoring Standard.
+
+---
+
+# 15. Post-Provisioning Activities
+
+Following successful provisioning, the IAM Team shall:
+
+- Notify the requestor and hiring manager.
+- Provide onboarding instructions to the user.
+- Require password change at first login where applicable.
+- Confirm successful user authentication.
+- Validate MFA functionality.
+- Verify access to required systems.
+- Close the provisioning request in the ITSM platform.
+- Archive provisioning records.
+- Update asset and identity inventories where applicable.
+- Monitor for abnormal account activity during the initial access period.
+
+Any issues identified after account activation shall be investigated promptly.
+
+---
+
+# 16. Roles and Responsibilities Matrix
+
+| Role | Responsibilities |
+|------|------------------|
+| Requestor | Submit complete and accurate access requests with business justification. |
+| Hiring Manager | Approve access requests and verify business need. |
+| Human Resources | Confirm employment status and notify IAM of onboarding, transfers, and terminations. |
+| IAM Administrator | Provision accounts, assign approved access, enforce password and MFA requirements, and document activities. |
+| IAM Manager | Oversee provisioning activities, approve exceptions, and resolve escalations. |
+| Information Security Team | Review privileged access, monitor compliance, and investigate security concerns. |
+| System Owners | Approve application-specific access and validate permissions where required. |
+| Internal Audit | Review provisioning processes and verify compliance with policies and standards. |
