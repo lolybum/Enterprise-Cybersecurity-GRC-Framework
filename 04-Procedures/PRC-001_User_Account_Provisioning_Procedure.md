@@ -408,3 +408,136 @@ Any issues identified after account activation shall be investigated promptly.
 | Information Security Team | Review privileged access, monitor compliance, and investigate security concerns. |
 | System Owners | Approve application-specific access and validate permissions where required. |
 | Internal Audit | Review provisioning processes and verify compliance with policies and standards. |
+
+---
+
+# 17. Compliance
+
+Compliance with this procedure shall be verified through:
+
+- Internal Identity and Access Management (IAM) audits.
+- User account provisioning reviews.
+- Access control assessments.
+- Multi-Factor Authentication (MFA) compliance reviews.
+- Segregation of Duties (SoD) assessments.
+- Privileged access reviews.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+- Periodic internal audit testing.
+
+Failure to comply with this procedure may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Temporary suspension of provisioning privileges.
+- Increased management oversight.
+- Formal risk acceptance where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this procedure shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the IAM Manager.
+- Be reviewed by the Information Security Team where elevated access is requested.
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This procedure aligns with:
+
+- NIST SP 800-53 Rev. 5 – Access Control (AC), Identification and Authentication (IA), and Personnel Security (PS) Control Families
+- NIST Cybersecurity Framework (CSF) 2.0
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+- Microsoft Identity Security Best Practices
+- OWASP Application Security Verification Standard (ASVS) – Authentication Requirements
+
+---
+
+# 20. Related Documents
+
+- GOV-031 Enterprise Identity and Access Management Policy
+- STD-001 Enterprise Password Standard
+- STD-002 Enterprise Multi-Factor Authentication Standard
+- STD-003 Enterprise Identity and Access Management Standard
+- STD-004 Enterprise Privileged Access Management Standard
+- PRC-002 Password Reset Procedure
+- PRC-003 Multi-Factor Authentication Enrollment Procedure
+- PRC-004 Privileged Access Request Procedure
+
+---
+
+# 21. Records Retention
+
+The following records shall be retained in accordance with the organization's Records Retention Policy:
+
+- User account requests.
+- Approval records.
+- IAM provisioning logs.
+- MFA enrollment records.
+- Audit logs.
+- Access validation results.
+- Exception approvals.
+- Escalation records.
+- ITSM tickets.
+- Provisioning verification checklists.
+
+Retention periods shall comply with applicable legal, regulatory, and contractual requirements.
+
+---
+
+# 22. Procedure Review
+
+This procedure shall be reviewed:
+
+- Annually.
+- Following significant IAM technology changes.
+- Following major security incidents involving user accounts.
+- Following internal or external audit findings.
+- Following regulatory or contractual changes.
+- Following significant organizational restructuring.
+
+All revisions shall be documented using the organization's document management process.
+
+---
+
+# 23. Approval
+
+| Role | Approval |
+|------|----------|
+| Chief Information Security Officer | Approved |
+| IAM Manager | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 24. Document Control
+
+| Item | Value |
+|------|-------|
+| Procedure ID | PRC-001 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Procedure Owner | IAM Manager |
+| Status | Approved |
+
+---
+
+**End of Procedure**
