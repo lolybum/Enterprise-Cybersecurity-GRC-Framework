@@ -74,3 +74,160 @@ Prior to MFA enrollment, the following requirements shall be met:
 - The account is active and in good standing.
 - A valid IT Service Management (ITSM) request exists where required.
 - The user has acknowledged the organization's Acceptable Use Policy.
+
+---
+
+# 5. Roles and Responsibilities
+
+## User
+
+The User shall:
+
+- Complete identity verification.
+- Register an approved MFA authentication method.
+- Protect registered authentication devices.
+- Promptly report lost, stolen, or replaced devices.
+- Complete MFA enrollment before accessing protected enterprise resources.
+
+## Hiring Manager
+
+The Hiring Manager shall:
+
+- Ensure new personnel complete MFA enrollment during onboarding.
+- Verify business need for access.
+- Support users experiencing enrollment issues.
+
+## Service Desk
+
+The Service Desk shall:
+
+- Assist users with MFA enrollment.
+- Verify user identity before providing assistance.
+- Document all MFA enrollment requests.
+- Escalate unresolved issues to the IAM Team.
+
+## Identity and Access Management (IAM) Team
+
+The IAM Team shall:
+
+- Administer the enterprise MFA solution.
+- Approve supported authentication methods.
+- Verify successful MFA enrollment.
+- Maintain MFA enrollment records.
+- Investigate enrollment failures.
+- Support MFA device replacement requests.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Monitor MFA enrollment compliance.
+- Review MFA security events.
+- Investigate suspected MFA compromise.
+- Recommend improvements to MFA controls.
+
+---
+
+# 6. Approved MFA Authentication Methods
+
+Only enterprise-approved authentication methods shall be used.
+
+Approved methods include:
+
+- Authenticator application (preferred).
+- Hardware security token (FIDO2/WebAuthn).
+- Smart card or PIV card.
+- Push notification through an approved authenticator application.
+- Time-Based One-Time Password (TOTP).
+- Certificate-based authentication where approved.
+
+The following methods shall only be used if specifically approved by the Information Security Team:
+
+- SMS verification.
+- Voice call verification.
+
+Unapproved authentication methods shall not be used.
+
+---
+
+# 7. User Identity Verification
+
+Prior to MFA enrollment, the user's identity shall be verified using approved enterprise processes.
+
+Identity verification may include:
+
+- Government-issued identification (in person).
+- Existing enterprise credentials.
+- Human Resources verification.
+- Manager confirmation where appropriate.
+- Approved identity proofing processes.
+- Existing MFA authentication for device replacement requests.
+
+Enrollment shall not proceed until identity verification has been successfully completed.
+
+---
+
+# 8. MFA Enrollment Workflow
+
+### Step 1 – Verify User Eligibility
+
+- Confirm the account is active.
+- Confirm the user requires MFA.
+- Verify identity.
+- Confirm completion of onboarding activities.
+
+---
+
+### Step 2 – Register Authentication Method
+
+- Launch the approved MFA enrollment portal.
+- Select an approved authentication method.
+- Register the authentication device.
+- Generate required enrollment credentials.
+- Associate the device with the user's enterprise account.
+
+---
+
+### Step 3 – Configure Security Settings
+
+- Apply enterprise MFA policy.
+- Configure authentication prompts.
+- Register backup authentication methods where permitted.
+- Verify policy synchronization.
+
+---
+
+### Step 4 – Validate Enrollment
+
+- Perform a successful MFA authentication.
+- Verify access to enterprise applications.
+- Confirm successful enrollment within the MFA management console.
+- Document enrollment completion.
+
+---
+
+# 9. Device Registration
+
+Approved authentication devices shall:
+
+- Be uniquely associated with a single user.
+- Be registered within the enterprise MFA platform.
+- Meet enterprise security requirements.
+- Be protected against unauthorized access.
+- Be removed promptly when replaced or retired.
+
+Lost or stolen devices shall be reported immediately and removed from the user's account.
+
+---
+
+# 10. Initial Authentication Validation
+
+Following enrollment, the IAM Team or user shall verify:
+
+- Successful MFA authentication.
+- Access to authorized applications.
+- Proper operation of the registered authentication method.
+- Enforcement of MFA policies.
+- Successful logging of authentication events.
+
+Enrollment shall not be considered complete until successful authentication has been verified.
