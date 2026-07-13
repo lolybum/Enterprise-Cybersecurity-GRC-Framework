@@ -81,3 +81,176 @@ Before initiating an access review, the following shall be completed:
 - Review participants identified.
 - IAM reporting tools operational.
 - Previous review findings available.
+
+---
+
+# 5. Roles and Responsibilities
+
+## Identity and Access Management (IAM) Team
+
+The IAM Team shall:
+
+- Coordinate enterprise access review campaigns.
+- Generate access review reports.
+- Validate user access inventories.
+- Track review completion.
+- Implement approved access changes.
+- Maintain access review records.
+
+## Managers
+
+Managers shall:
+
+- Review user access assigned to their direct reports.
+- Validate business need for assigned access.
+- Approve retention or removal of access.
+- Complete reviews within established timelines.
+- Escalate discrepancies where appropriate.
+
+## System Owners
+
+System Owners shall:
+
+- Review access to systems under their ownership.
+- Validate application-specific permissions.
+- Approve or reject access requests.
+- Identify excessive privileges.
+- Participate in remediation activities.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Review privileged access assignments.
+- Validate segregation of duties (SoD).
+- Monitor completion of access reviews.
+- Approve access review exceptions.
+- Escalate unresolved risks.
+
+## Internal Audit
+
+Internal Audit may:
+
+- Review completed access certifications.
+- Validate compliance with regulatory requirements.
+- Assess effectiveness of access review controls.
+- Recommend corrective actions.
+
+---
+
+# 6. Access Review Scheduling
+
+Identity and access reviews shall be conducted according to the approved enterprise review schedule.
+
+Minimum review frequencies include:
+
+| Access Type | Review Frequency |
+|-------------|-----------------|
+| Privileged Accounts | Quarterly |
+| High-Risk Applications | Quarterly |
+| Financial Systems | Quarterly |
+| Standard User Accounts | Semi-Annually |
+| Service Accounts | Semi-Annually |
+| Third-Party Accounts | Quarterly |
+| Cloud Administrative Accounts | Quarterly |
+| Emergency (Break-Glass) Accounts | After each use and Quarterly |
+
+Additional reviews may be initiated following:
+
+- Employee transfers.
+- Employee termination.
+- Organizational restructuring.
+- Security incidents.
+- Regulatory requirements.
+- Management request.
+
+---
+
+# 7. User Access Inventory
+
+Prior to each review, the IAM Team shall generate a complete user access inventory.
+
+The inventory shall include:
+
+- User identifier.
+- Employee name.
+- Department.
+- Manager.
+- Employment status.
+- Assigned roles.
+- Group memberships.
+- Privileged access assignments.
+- Multi-Factor Authentication (MFA) status.
+- Last login date.
+- Account status.
+- Assigned applications.
+- Access approval history.
+
+The inventory shall be validated before distribution to reviewers.
+
+---
+
+# 8. Manager Review Process
+
+Managers shall review access assigned to personnel under their supervision.
+
+The review shall verify:
+
+- Continued employment.
+- Current job responsibilities.
+- Business justification for access.
+- Least Privilege compliance.
+- Unused accounts.
+- Dormant accounts.
+- Shared account usage.
+- Temporary access assignments.
+- Separation of duties requirements.
+- Excessive permissions.
+
+Managers shall select one of the following actions:
+
+- Retain Access
+- Modify Access
+- Remove Access
+- Escalate for Investigation
+
+All decisions shall be documented within the enterprise Identity Governance platform or approved IT Service Management (ITSM) system.
+
+---
+
+# 9. Privileged Access Recertification
+
+Privileged accounts shall undergo enhanced review.
+
+The review shall verify:
+
+- Current business need.
+- Administrative responsibilities.
+- Multi-Factor Authentication (MFA) compliance.
+- Privileged Access Management (PAM) enrollment.
+- Emergency account usage.
+- Administrative group membership.
+- Just-in-Time (JIT) access usage where applicable.
+- Administrative activity logs.
+- Compliance with the Principle of Least Privilege.
+
+Privileged access that is no longer required shall be removed immediately following approval.
+
+---
+
+# 10. Segregation of Duties (SoD) Validation
+
+Access reviews shall include validation of Segregation of Duties (SoD).
+
+Validation activities include:
+
+- Identify conflicting roles.
+- Review incompatible permissions.
+- Evaluate financial approval conflicts.
+- Review administrative privilege combinations.
+- Assess compensating controls.
+- Document identified SoD conflicts.
+- Escalate unresolved conflicts.
+- Approve compensating controls where necessary.
+
+Confirmed SoD violations shall be remediated in accordance with the Enterprise Identity and Access Management Standard.
