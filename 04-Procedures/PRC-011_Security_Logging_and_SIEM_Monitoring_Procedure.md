@@ -243,3 +243,171 @@ Alert configuration requirements include:
 - Command and Control (C2) communications.
 
 Alert thresholds shall be reviewed periodically to reduce false positives and improve detection accuracy.
+
+---
+
+# 11. SIEM Correlation Rules
+
+The SIEM platform shall use correlation rules to identify malicious activity by analyzing events from multiple log sources.
+
+Correlation rule requirements include:
+
+- Detect brute-force authentication attacks.
+- Detect impossible travel events.
+- Detect privileged account misuse.
+- Detect excessive failed login attempts.
+- Detect suspicious PowerShell activity.
+- Detect privilege escalation events.
+- Detect lateral movement techniques.
+- Detect malware execution.
+- Detect ransomware indicators.
+- Detect data exfiltration attempts.
+- Detect unauthorized configuration changes.
+- Detect command-and-control (C2) communications.
+- Detect known Indicators of Compromise (IOCs).
+- Detect insider threat indicators.
+- Detect policy violations.
+
+Correlation rules shall be reviewed quarterly and updated based on emerging threats, threat intelligence, and lessons learned from security incidents.
+
+---
+
+# 12. Security Alert Triage
+
+All SIEM-generated alerts shall undergo triage by the Security Operations Center (SOC).
+
+Triage activities include:
+
+- Validate alert accuracy.
+- Identify false positives.
+- Determine event severity.
+- Assess business impact.
+- Determine affected assets.
+- Review associated logs.
+- Correlate related security events.
+- Assign incident priority.
+- Document investigation findings.
+- Escalate confirmed security incidents.
+
+Alert priorities shall follow the Enterprise Incident Severity Matrix.
+
+---
+
+# 13. Incident Escalation
+
+Confirmed security incidents shall be escalated in accordance with the Enterprise Security Incident Response Procedure.
+
+Escalation workflow includes:
+
+### Level 1 – SOC Analyst
+
+Responsibilities include:
+
+- Initial alert review.
+- Event validation.
+- Basic investigation.
+- False positive identification.
+- Documentation.
+
+---
+
+### Level 2 – Senior SOC Analyst
+
+Responsibilities include:
+
+- Advanced investigation.
+- Threat correlation.
+- Malware analysis.
+- Threat hunting.
+- Initial containment recommendations.
+
+---
+
+### Level 3 – Incident Response Team
+
+Responsibilities include:
+
+- Incident containment.
+- Eradication activities.
+- Forensic evidence collection.
+- Recovery coordination.
+- Executive reporting.
+
+---
+
+### Level 4 – Chief Information Security Officer (CISO)
+
+Responsibilities include:
+
+- Executive decision-making.
+- Regulatory notification oversight.
+- Business risk communication.
+- Coordination with executive leadership.
+- External stakeholder communication where required.
+
+All escalation activities shall be documented within the approved incident management platform.
+
+---
+
+# 14. Dashboard and Reporting
+
+The SIEM platform shall provide operational and executive dashboards.
+
+Dashboards shall include:
+
+- Security alerts by severity.
+- Open security incidents.
+- Mean Time to Detect (MTTD).
+- Mean Time to Respond (MTTR).
+- Log ingestion status.
+- Endpoint Detection and Response (EDR) events.
+- Authentication failures.
+- Threat intelligence matches.
+- Firewall events.
+- Vulnerability trends.
+- Compliance monitoring results.
+- Executive risk summaries.
+
+Reports shall be distributed according to approved reporting schedules.
+
+---
+
+# 15. Continuous Monitoring
+
+The SOC shall continuously monitor enterprise security events.
+
+Continuous monitoring activities include:
+
+- Review SIEM dashboards.
+- Investigate new alerts.
+- Monitor threat intelligence feeds.
+- Review endpoint security events.
+- Monitor privileged account activity.
+- Monitor firewall events.
+- Monitor cloud security alerts.
+- Review system health.
+- Verify log ingestion status.
+- Escalate significant findings.
+
+Monitoring shall operate 24x7 where required by business or regulatory requirements.
+
+---
+
+# 16. Documentation Requirements
+
+The following records shall be maintained:
+
+- SIEM onboarding documentation.
+- Log source inventory.
+- Correlation rule documentation.
+- Alert configuration records.
+- Alert investigation records.
+- Incident escalation records.
+- Dashboard reports.
+- Executive reports.
+- Threat hunting documentation.
+- Log retention records.
+- Audit logs.
+- Change Management records.
+
+Documentation shall be retained in accordance with the organization's Records Retention Policy and applicable legal, regulatory, and contractual requirements.
