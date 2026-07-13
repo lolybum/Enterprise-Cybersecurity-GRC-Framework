@@ -24,9 +24,9 @@ All procedures are reviewed annually and updated following significant regulator
 | PRC-004 | Privileged Access Request Procedure | PAM Team | Annual | Approved |
 | PRC-005 | Windows Server Hardening Procedure | Infrastructure | Annual | Approved |
 | PRC-006 | Linux Server Hardening Procedure | Infrastructure | Annual | Approved |
-| PRC-007 | Endpoint Protection Deployment Procedure | Security Operations | Annual | Planned |
-| PRC-008 | Firewall Rule Change Procedure | Network Security | Annual | Planned |
-| PRC-009 | Vulnerability Scanning Procedure | Security Operations | Annual | Planned |
+| PRC-007 | Endpoint Protection Deployment Procedure | Security Operations | Annual | Approved |
+| PRC-008 | Firewall Rule Change Procedure | Network Security | Annual | Approved |
+| PRC-009 | Vulnerability Scanning Procedure | Security Operations | Annual | Approved |
 | PRC-010 | Patch Deployment Procedure | Infrastructure | Annual | Planned |
 | PRC-011 | Security Log Review Procedure | SOC | Annual | Planned |
 | PRC-012 | Backup and Restore Procedure | Infrastructure | Annual | Planned |
