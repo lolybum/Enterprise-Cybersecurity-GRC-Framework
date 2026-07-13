@@ -263,3 +263,140 @@ Acceptable evidence may include:
 - Data flow diagrams.
 
 Evidence shall be reviewed for completeness, relevance, authenticity, and currency before assessment approval.
+
+---
+
+# 11. Risk Scoring
+
+Following completion of the security assessment, each vendor shall receive an overall risk score.
+
+Risk scoring shall consider:
+
+- Inherent risk rating.
+- Residual risk rating.
+- Data classification.
+- Business criticality.
+- Regulatory impact.
+- Security assessment results.
+- Control maturity.
+- Vulnerability management maturity.
+- Incident response capabilities.
+- Compliance certifications.
+- Financial stability where applicable.
+- Geographic and geopolitical risks.
+
+Enterprise risk ratings shall be assigned as follows:
+
+| Risk Rating | Description |
+|-------------|-------------|
+| Critical | Unacceptable risk requiring executive approval before engagement |
+| High | Significant risk requiring remediation before onboarding where feasible |
+| Medium | Moderate risk requiring documented remediation plans |
+| Low | Acceptable risk with routine monitoring |
+
+Risk ratings shall be reviewed and approved by the Information Security Team.
+
+---
+
+# 12. Remediation Tracking
+
+Security findings identified during the assessment shall be tracked until closure.
+
+Remediation activities include:
+
+- Document each finding.
+- Assign a finding owner.
+- Establish remediation due dates.
+- Track remediation progress.
+- Validate corrective actions.
+- Perform follow-up reviews.
+- Escalate overdue remediation.
+- Update the Third-Party Risk Register.
+- Notify Business Owners of outstanding risks.
+- Document closure evidence.
+
+High and Critical findings shall receive priority remediation.
+
+---
+
+# 13. Risk Acceptance
+
+Where identified risks cannot be fully remediated before vendor onboarding, formal risk acceptance shall be completed.
+
+Risk acceptance documentation shall include:
+
+- Vendor name.
+- Assessment date.
+- Description of identified risks.
+- Business justification.
+- Compensating security controls.
+- Residual risk assessment.
+- Business Owner approval.
+- Information Security approval.
+- Executive approval where required.
+- Risk acceptance expiration date.
+
+Accepted risks shall be reviewed periodically to ensure continued appropriateness.
+
+---
+
+# 14. Ongoing Monitoring
+
+Approved vendors shall undergo continuous security monitoring throughout the relationship.
+
+Monitoring activities include:
+
+- Annual security reassessments.
+- Continuous external attack surface monitoring.
+- Review of new security certifications.
+- Monitoring of vulnerability disclosures.
+- Review of threat intelligence.
+- Monitoring of regulatory actions.
+- Review of security incidents involving the vendor.
+- Contract compliance reviews.
+- Verification of remediation commitments.
+- Review of service changes affecting risk.
+
+Critical and High-risk vendors may require more frequent monitoring based on business and regulatory requirements.
+
+---
+
+# 15. Vendor Offboarding Security Review
+
+Prior to termination of a third-party relationship, a security offboarding review shall be completed.
+
+Offboarding activities include:
+
+- Confirm contract termination.
+- Disable vendor accounts.
+- Remove privileged access.
+- Revoke VPN and remote access.
+- Recover enterprise-issued assets.
+- Confirm secure return or destruction of enterprise data.
+- Verify removal of system integrations.
+- Archive assessment documentation.
+- Update the Third-Party Risk Register.
+- Document offboarding completion.
+
+Vendor offboarding shall be completed before final contract closure whenever practical.
+
+---
+
+# 16. Documentation Requirements
+
+The following records shall be maintained:
+
+- Vendor intake forms.
+- Vendor inventories.
+- Inherent risk assessments.
+- Security questionnaires.
+- Evidence review documentation.
+- Risk scoring worksheets.
+- Remediation tracking records.
+- Risk acceptance approvals.
+- Ongoing monitoring reports.
+- Vendor offboarding records.
+- Executive reports.
+- Audit documentation.
+
+Documentation shall be retained in accordance with the organization's Records Retention Policy and applicable legal, regulatory, and contractual requirements.
