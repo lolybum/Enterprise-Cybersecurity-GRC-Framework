@@ -84,3 +84,170 @@ Before collecting digital evidence, the following shall be available:
 - Secure transportation procedures.
 - Authorized forensic personnel.
 - Legal and Compliance contacts where required.
+
+---
+
+# 5. Roles and Responsibilities
+
+## Digital Forensics Team
+
+The Digital Forensics Team shall:
+
+- Identify digital evidence.
+- Collect evidence using approved forensic methods.
+- Preserve evidence integrity.
+- Maintain Chain of Custody documentation.
+- Perform forensic imaging.
+- Secure evidence throughout the investigation lifecycle.
+
+## Security Operations Center (SOC)
+
+The SOC Team shall:
+
+- Identify potential evidence sources.
+- Escalate incidents requiring forensic investigation.
+- Preserve volatile evidence where appropriate.
+- Coordinate with the Digital Forensics Team.
+- Document initial response activities.
+
+## Incident Response Team
+
+The Incident Response Team shall:
+
+- Coordinate evidence collection activities.
+- Ensure containment actions do not compromise evidence.
+- Support forensic investigations.
+- Maintain communication with stakeholders.
+- Assist with evidence preservation.
+
+## Information Security Team
+
+The Information Security Team shall:
+
+- Oversee evidence handling compliance.
+- Review forensic investigation activities.
+- Coordinate with Legal and Compliance.
+- Approve evidence handling exceptions.
+- Ensure adherence to enterprise security requirements.
+
+## Legal and Compliance
+
+Legal and Compliance shall:
+
+- Provide legal guidance.
+- Review evidence handling procedures.
+- Assess regulatory reporting obligations.
+- Coordinate with law enforcement where applicable.
+- Ensure evidence meets legal admissibility requirements.
+
+---
+
+# 6. Evidence Identification
+
+Potential digital evidence shall be identified as early as possible during an investigation.
+
+Evidence sources may include:
+
+- Workstations.
+- Laptops.
+- Servers.
+- Mobile devices.
+- Virtual machines.
+- Cloud resources.
+- Email systems.
+- Firewalls.
+- Routers.
+- Switches.
+- Endpoint Detection and Response (EDR) platforms.
+- Security Information and Event Management (SIEM) platforms.
+- Authentication systems.
+- Backup systems.
+- External storage devices.
+
+Each evidence source shall be documented before collection begins.
+
+---
+
+# 7. Evidence Collection
+
+Evidence shall be collected using approved forensic techniques that preserve integrity.
+
+Collection activities include:
+
+- Photograph the evidence where appropriate.
+- Record the physical location.
+- Record the collection date and time.
+- Record device condition.
+- Collect volatile memory where appropriate.
+- Collect forensic disk images.
+- Collect log files.
+- Collect network captures.
+- Collect authentication records.
+- Collect cloud audit logs.
+- Collect relevant application data.
+
+Evidence collection shall minimize alteration of the original evidence.
+
+---
+
+# 8. Evidence Labeling
+
+Every evidence item shall receive a unique evidence identifier.
+
+Evidence labels shall include:
+
+- Evidence Identification Number.
+- Case Number.
+- Incident Number.
+- Description of Evidence.
+- Device Type.
+- Serial Number (if applicable).
+- Collection Date.
+- Collection Time.
+- Collector Name.
+- Location Collected.
+- Classification.
+- Tamper-Evident Seal Number (where applicable).
+
+Evidence labels shall remain attached throughout the evidence lifecycle.
+
+---
+
+# 9. Chain of Custody Documentation
+
+A Chain of Custody record shall accompany every evidence item.
+
+The record shall include:
+
+- Evidence Identification Number.
+- Case Number.
+- Description of Evidence.
+- Collection Date and Time.
+- Collector Name.
+- Transfer Date and Time.
+- Receiving Individual.
+- Reason for Transfer.
+- Storage Location.
+- Final Disposition.
+
+Every transfer of evidence shall be documented to maintain an uninterrupted Chain of Custody.
+
+---
+
+# 10. Evidence Preservation
+
+Digital evidence shall be preserved to prevent alteration, destruction, or unauthorized access.
+
+Preservation activities include:
+
+- Create forensic images using approved write-blocking technology.
+- Calculate and record cryptographic hash values (e.g., SHA-256).
+- Verify hash values following acquisition.
+- Store original evidence securely.
+- Restrict evidence access to authorized personnel.
+- Use tamper-evident packaging.
+- Maintain environmental protections for physical media.
+- Encrypt digital evidence where appropriate.
+- Preserve evidence in its original state.
+
+Original evidence shall not be modified during forensic examination unless specifically authorized and documented.
