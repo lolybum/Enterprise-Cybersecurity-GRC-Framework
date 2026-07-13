@@ -32,7 +32,7 @@ All procedures are reviewed annually and updated following significant regulator
 | PRC-012 | Backup and Restore Procedure | Infrastructure | Annual | Approved |
 | PRC-013 | Encryption Key Rotation Procedure | Security Engineering | Annual | Approved |
 | PRC-014 | Cloud Resource Security Review Procedure | Cloud Security | Annual | Approved |
-| PRC-015 | Secure Code Review Procedure | Application Security | Annual | Planned |
+| PRC-015 | Secure Code Review Procedure | Application Security | Annual | Approved |
 | PRC-016 | Vendor Security Assessment Procedure | Third-Party Risk | Annual | Planned |
 | PRC-017 | Data Loss Prevention Incident Procedure | Security Operations | Annual | Planned |
 | PRC-018 | Security Incident Response Procedure | Incident Response | Annual | Planned |
