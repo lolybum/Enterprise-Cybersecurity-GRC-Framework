@@ -231,3 +231,168 @@ Following enrollment, the IAM Team or user shall verify:
 - Successful logging of authentication events.
 
 Enrollment shall not be considered complete until successful authentication has been verified.
+
+---
+
+# 11. Backup Authentication Methods
+
+To ensure business continuity while maintaining strong security controls, users may register approved backup authentication methods.
+
+Requirements include:
+
+- Backup authentication methods shall be approved by the Information Security Team.
+- A minimum of one backup authentication method should be registered where technically supported.
+- Backup methods shall meet the same security requirements as primary authentication methods.
+- Users shall periodically verify that backup authentication methods remain functional.
+- Backup authentication methods shall be removed immediately when no longer required.
+
+Examples of approved backup methods include:
+
+- Secondary authenticator application.
+- Secondary hardware security key.
+- Recovery codes where supported.
+- Certificate-based authentication where approved.
+
+Backup authentication methods shall never reduce the overall security posture of the enterprise.
+
+---
+
+# 12. Lost or Stolen Device Procedure
+
+Users shall immediately report any lost, stolen, or compromised MFA device.
+
+The following steps shall be followed:
+
+### Step 1 – Report the Incident
+
+- Notify the Service Desk immediately.
+- Report suspected compromise to the Information Security Team.
+- Create an IT Service Management (ITSM) ticket.
+
+### Step 2 – Verify Identity
+
+- Complete identity verification.
+- Confirm employment status.
+- Validate ownership of the affected account.
+
+### Step 3 – Disable the Device
+
+- Remove the lost or stolen device from the MFA platform.
+- Invalidate active authentication sessions where appropriate.
+- Review recent authentication activity.
+
+### Step 4 – Register a Replacement Device
+
+- Register a new approved authentication device.
+- Perform MFA enrollment validation.
+- Confirm successful authentication.
+
+All actions shall be documented within the ITSM platform.
+
+---
+
+# 13. MFA Device Replacement
+
+Replacement of MFA devices shall follow an approved verification process.
+
+Requirements include:
+
+- Identity verification prior to replacement.
+- Approval by the IAM Team where required.
+- Removal of the previous authentication device.
+- Registration of the replacement device.
+- Validation of successful authentication.
+- Documentation of replacement activities.
+- Review of recent authentication logs.
+- Notification to the user upon completion.
+
+Replacement requests involving privileged accounts shall receive additional security review.
+
+---
+
+# 14. Audit Logging Requirements
+
+All MFA enrollment and management activities shall generate audit records.
+
+Audit logs shall include:
+
+- User identifier.
+- Enrollment date and time.
+- Authentication method enrolled.
+- Administrator performing the action where applicable.
+- Device registration events.
+- Device replacement events.
+- Lost or stolen device reports.
+- Successful and failed enrollment attempts.
+- Exception approvals.
+- Escalation records.
+
+Audit logs shall be protected against unauthorized modification and retained in accordance with the Enterprise Security Logging and Monitoring Standard.
+
+---
+
+# 15. Exception Handling
+
+Exceptions to this procedure shall follow the Enterprise Exception Management process.
+
+Exception requirements include:
+
+- Documented business justification.
+- Risk assessment.
+- Identification of compensating security controls.
+- Approval by the IAM Manager.
+- Information Security review where elevated risk exists.
+- Defined expiration date.
+- Periodic review of approved exceptions.
+- Documentation within the Enterprise Exception Register.
+
+Temporary exceptions shall be removed immediately upon expiration.
+
+---
+
+# 16. Escalation Process
+
+Issues identified during MFA enrollment shall be escalated according to organizational procedures.
+
+### Level 1 – Service Desk
+
+Examples:
+
+- Standard enrollment assistance.
+- Authentication application installation.
+- User guidance.
+
+---
+
+### Level 2 – IAM Team
+
+Examples:
+
+- Enrollment failures.
+- Device registration issues.
+- Synchronization problems.
+- High-risk user requests.
+
+---
+
+### Level 3 – Information Security Team
+
+Examples:
+
+- Suspected MFA compromise.
+- Unauthorized enrollment attempts.
+- Privileged account enrollment issues.
+- Security policy violations.
+
+---
+
+### Level 4 – Chief Information Security Officer (CISO)
+
+Examples:
+
+- Enterprise-wide MFA failures.
+- Executive authentication exceptions.
+- Regulatory or audit-related concerns.
+- Significant cybersecurity incidents involving authentication.
+
+All escalations shall be documented within the approved IT Service Management (ITSM) platform.
