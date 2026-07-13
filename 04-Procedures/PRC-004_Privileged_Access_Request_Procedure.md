@@ -419,3 +419,117 @@ Examples:
 - Significant cybersecurity incidents involving privileged accounts.
 
 All escalations shall be documented within the approved IT Service Management (ITSM) platform.
+
+---
+
+# 17. Compliance
+
+Compliance with this procedure shall be verified through:
+
+- Internal Identity and Access Management (IAM) audits.
+- Privileged Access Management (PAM) operational reviews.
+- Privileged account recertification reviews.
+- Segregation of Duties (SoD) assessments.
+- Privileged session monitoring reviews.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+- Internal audit testing.
+- Continuous compliance monitoring.
+
+Failure to comply with this procedure may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Temporary suspension of privileged access.
+- Increased management oversight.
+- Formal risk acceptance where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this procedure shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the PAM Manager.
+- Be reviewed by the Information Security Team.
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This procedure aligns with:
+
+- NIST SP 800-53 Rev. 5 – Access Control (AC) and Identification and Authentication (IA) Control Families
+- NIST SP 800-63B – Digital Identity Guidelines
+- NIST Cybersecurity Framework (CSF) 2.0
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+- Microsoft Privileged Access Security Guidance
+- CyberArk Privileged Access Security Best Practices
+
+---
+
+# 20. Related Documents
+
+- GOV-031 Enterprise Identity and Access Management Policy
+- STD-002 Enterprise Multi-Factor Authentication Standard
+- STD-003 Enterprise Identity and Access Management Standard
+- STD-004 Enterprise Privileged Access Management Standard
+- PRC-001 User Account Provisioning Procedure
+- PRC-002 Password Reset Procedure
+- PRC-003 Multi-Factor Authentication (MFA) Enrollment Procedure
+
+---
+
+# 21. Procedure Review
+
+This procedure shall be reviewed:
+
+- Annually.
+- Following significant changes to PAM technologies.
+- Following privileged access security incidents.
+- Following audit findings.
+- Following regulatory or contractual changes.
+- Following significant organizational restructuring.
+
+All revisions shall be documented using the organization's document management process.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Chief Information Security Officer | Approved |
+| PAM Manager | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Procedure ID | PRC-004 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Procedure Owner | PAM Manager |
+| Status | Approved |
+
+---
+
+**End of Procedure**
