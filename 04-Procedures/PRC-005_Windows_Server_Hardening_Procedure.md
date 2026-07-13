@@ -232,3 +232,128 @@ Firewall requirements include:
 - Forward firewall logs to the enterprise logging platform.
 
 Firewall rules shall be reviewed periodically to ensure continued compliance with enterprise security requirements.
+
+---
+
+# 11. Windows Update Configuration
+
+Windows Update shall be configured to ensure timely installation of security patches and critical updates.
+
+Configuration requirements include:
+
+- Enable automatic security updates where approved.
+- Configure Windows Server Update Services (WSUS) or Microsoft Intune where deployed.
+- Validate update source configuration.
+- Install critical security updates according to the Enterprise Patch Management Standard.
+- Schedule maintenance windows for updates.
+- Verify successful installation of updates.
+- Reboot servers when required.
+- Document update failures.
+- Escalate failed updates according to change management procedures.
+
+All updates shall be validated prior to production deployment where practical.
+
+---
+
+# 12. Remote Desktop Security
+
+Remote Desktop Services (RDS) shall be secured to minimize unauthorized administrative access.
+
+Configuration requirements include:
+
+- Enable Remote Desktop only where business justified.
+- Restrict Remote Desktop access to authorized administrators.
+- Require Network Level Authentication (NLA).
+- Enforce Multi-Factor Authentication (MFA) where supported.
+- Limit Remote Desktop access through approved firewall rules.
+- Restrict access using administrative security groups.
+- Disable clipboard, printer, and drive redirection where not required.
+- Configure idle session timeouts.
+- Enable session logging.
+- Review Remote Desktop access periodically.
+
+Remote administrative access shall be protected using enterprise-approved secure access solutions.
+
+---
+
+# 13. Audit Policy Configuration
+
+Windows Audit Policies shall be configured using approved enterprise baselines.
+
+Audit requirements include:
+
+- Log account logon events.
+- Log logon and logoff events.
+- Log account management activities.
+- Log privilege use.
+- Log process creation events.
+- Log object access where appropriate.
+- Log policy changes.
+- Log system events.
+- Log directory service access for Domain Controllers.
+- Configure advanced audit policies where supported.
+
+Audit configurations shall support incident response, forensic investigations, and regulatory compliance.
+
+---
+
+# 14. Logging and Monitoring
+
+Windows servers shall forward security logs to the enterprise logging platform.
+
+Logging requirements include:
+
+- Forward Windows Event Logs to the Security Information and Event Management (SIEM) platform.
+- Monitor authentication events.
+- Monitor privilege escalation events.
+- Monitor Windows Defender alerts.
+- Monitor firewall events.
+- Monitor system integrity events.
+- Monitor scheduled task creation.
+- Monitor service creation and modification.
+- Monitor PowerShell activity where appropriate.
+- Configure alerts for high-risk security events.
+
+Logs shall be protected against unauthorized modification and retained according to the Enterprise Security Logging and Monitoring Standard.
+
+---
+
+# 15. Validation and Compliance Checks
+
+Following hardening activities, the server shall undergo validation to confirm compliance with enterprise requirements.
+
+Validation activities include:
+
+- Verify compliance with approved Windows security baselines.
+- Perform vulnerability scanning.
+- Review local security policy settings.
+- Validate Windows Defender configuration.
+- Validate Windows Firewall configuration.
+- Confirm successful update installation.
+- Verify audit policy configuration.
+- Validate logging to the SIEM platform.
+- Review privileged account configuration.
+- Confirm removal of unnecessary services and software.
+
+Servers failing validation shall not be promoted to production until corrective actions have been completed.
+
+---
+
+# 16. Documentation Requirements
+
+The following records shall be maintained for each hardened Windows Server:
+
+- Server hostname.
+- Asset identifier.
+- Operating system version.
+- Hardening completion date.
+- Security baseline version applied.
+- Windows Update status.
+- Firewall configuration summary.
+- Audit policy configuration.
+- Vulnerability scan results.
+- Validation checklist.
+- Exception approvals where applicable.
+- Change Management records.
+
+Documentation shall be retained in accordance with the organization's Records Retention Policy.
