@@ -229,3 +229,129 @@ Firewall requirements include:
 - Verify firewall configuration after system updates.
 
 Firewall configurations shall comply with the Enterprise Network Security Standard.
+
+---
+
+# 11. Package Management and Security Updates
+
+Linux servers shall be maintained using approved package repositories and secure update procedures.
+
+Package management requirements include:
+
+- Configure approved enterprise software repositories.
+- Verify package authenticity using cryptographic signatures.
+- Remove unsupported or deprecated packages.
+- Apply security patches in accordance with the Enterprise Patch Management Standard.
+- Test critical updates prior to production deployment where practical.
+- Schedule maintenance windows for updates.
+- Remove obsolete kernels after validation.
+- Verify successful package installation.
+- Document failed updates.
+- Escalate update failures according to Change Management procedures.
+
+Only trusted repositories approved by the organization shall be used.
+
+---
+
+# 12. Audit Logging Configuration
+
+Linux audit logging shall be configured to support security monitoring, incident response, and compliance requirements.
+
+Configuration requirements include:
+
+- Enable the Linux Audit Framework (auditd).
+- Log authentication events.
+- Log privilege escalation events.
+- Log sudo activities.
+- Log user account creation and modification.
+- Log changes to critical system files.
+- Log service start and stop events.
+- Log kernel module loading.
+- Log system configuration changes.
+- Protect audit logs from unauthorized modification.
+
+Audit logs shall comply with the Enterprise Security Logging and Monitoring Standard.
+
+---
+
+# 13. File System Security
+
+Critical system files and directories shall be protected using approved security controls.
+
+Configuration requirements include:
+
+- Restrict permissions on system configuration files.
+- Restrict access to `/etc/passwd` and `/etc/shadow`.
+- Protect SSH configuration files.
+- Configure appropriate ownership of system directories.
+- Enable secure mount options where appropriate.
+- Disable execution from temporary directories where feasible.
+- Restrict write access to critical system locations.
+- Monitor file integrity using approved tools where deployed.
+- Encrypt sensitive data where required.
+- Periodically review file permissions.
+
+File system permissions shall support the Principle of Least Privilege.
+
+---
+
+# 14. Logging and Monitoring
+
+Linux servers shall forward security logs to the enterprise logging platform.
+
+Logging requirements include:
+
+- Forward system logs to the Security Information and Event Management (SIEM) platform.
+- Monitor authentication events.
+- Monitor sudo activity.
+- Monitor failed login attempts.
+- Monitor privilege escalation events.
+- Monitor firewall events.
+- Monitor SSH activity.
+- Monitor service failures.
+- Configure alerts for high-risk security events.
+- Protect log integrity and confidentiality.
+
+Logs shall be retained in accordance with the Enterprise Security Logging and Monitoring Standard.
+
+---
+
+# 15. Validation and Compliance Checks
+
+Following hardening activities, each Linux server shall undergo validation to confirm compliance with enterprise requirements.
+
+Validation activities include:
+
+- Verify compliance with approved Linux security baselines.
+- Perform vulnerability scanning.
+- Review user and group configurations.
+- Validate SSH configuration.
+- Validate firewall configuration.
+- Confirm successful installation of security updates.
+- Verify audit logging configuration.
+- Validate log forwarding to the SIEM platform.
+- Review privileged account configuration.
+- Confirm removal of unnecessary packages and services.
+
+Servers failing validation shall not be promoted to production until corrective actions have been completed.
+
+---
+
+# 16. Documentation Requirements
+
+The following records shall be maintained for each hardened Linux server:
+
+- Server hostname.
+- Asset identifier.
+- Linux distribution and version.
+- Hardening completion date.
+- Security baseline version applied.
+- Package update status.
+- Firewall configuration summary.
+- Audit logging configuration.
+- Vulnerability scan results.
+- Validation checklist.
+- Exception approvals where applicable.
+- Change Management records.
+
+Documentation shall be retained in accordance with the organization's Records Retention Policy.
