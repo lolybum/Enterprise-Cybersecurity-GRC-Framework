@@ -254,3 +254,126 @@ Validation activities include:
 - Approve compensating controls where necessary.
 
 Confirmed SoD violations shall be remediated in accordance with the Enterprise Identity and Access Management Standard.
+
+---
+
+# 11. Access Removal Workflow
+
+Access identified as unnecessary, excessive, or unauthorized during the review process shall be removed promptly.
+
+Access removal activities include:
+
+- Validate the review decision.
+- Obtain required approvals.
+- Submit an access removal request through the approved Identity Governance or IT Service Management (ITSM) platform.
+- Remove unnecessary role assignments.
+- Remove group memberships.
+- Remove privileged access where applicable.
+- Disable dormant accounts where required.
+- Verify successful access removal.
+- Notify the affected manager and system owner.
+- Document all access removal activities.
+
+Access removal shall be completed in accordance with the organization's defined service level objectives (SLOs).
+
+---
+
+# 12. Exception Management
+
+Where access cannot be removed immediately due to operational or business requirements, an exception shall be requested.
+
+Exception requests shall include:
+
+- Business justification.
+- User information.
+- Systems affected.
+- Roles involved.
+- Risk assessment.
+- Compensating security controls.
+- Risk owner approval.
+- Information Security approval.
+- Exception expiration date.
+- Planned remediation date.
+
+Approved exceptions shall be reviewed periodically and maintained within the Enterprise Exception Register.
+
+---
+
+# 13. Audit Evidence Collection
+
+Evidence supporting each access review shall be retained for audit purposes.
+
+Evidence shall include:
+
+- Access review reports.
+- User access inventories.
+- Manager review decisions.
+- System Owner approvals.
+- Privileged access review records.
+- Segregation of Duties (SoD) assessments.
+- Access removal confirmations.
+- Exception approvals.
+- Executive summary reports.
+- Completion records.
+
+Evidence shall be protected from unauthorized modification and retained according to the organization's Records Retention Policy.
+
+---
+
+# 14. Reporting and Metrics
+
+The IAM Team shall prepare periodic reports to evaluate the effectiveness of the access review program.
+
+Reports shall include:
+
+- Review completion percentage.
+- Number of users reviewed.
+- Number of privileged accounts reviewed.
+- Number of access removals.
+- Outstanding review tasks.
+- Number of Segregation of Duties (SoD) conflicts identified.
+- Number of approved exceptions.
+- Average review completion time.
+- Overdue reviews.
+- Trend analysis.
+
+Reports shall be distributed to executive management, Information Security, Internal Audit, and System Owners.
+
+---
+
+# 15. Review Completion and Closure
+
+An access review shall be considered complete only after:
+
+- All assigned reviews have been completed.
+- All required approvals have been obtained.
+- Approved access removals have been implemented.
+- Outstanding exceptions have been documented.
+- Review evidence has been retained.
+- Reports have been generated.
+- Executive summaries have been distributed where required.
+- Findings have been documented.
+- Corrective actions have been assigned where applicable.
+
+Completed reviews shall be archived according to the organization's Records Retention Policy.
+
+---
+
+# 16. Documentation Requirements
+
+The following records shall be maintained:
+
+- Access review schedules.
+- User access inventories.
+- Review assignments.
+- Manager review records.
+- System Owner approvals.
+- Privileged access review reports.
+- Segregation of Duties (SoD) assessments.
+- Access removal records.
+- Exception approvals.
+- Audit evidence.
+- Executive reports.
+- Change Management records where applicable.
+
+Documentation shall be retained in accordance with the organization's Records Retention Policy and applicable legal, regulatory, and contractual requirements.
