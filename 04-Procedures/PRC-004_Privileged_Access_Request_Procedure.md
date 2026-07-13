@@ -260,3 +260,162 @@ Break-Glass requirements include:
 - Documentation of all emergency activities.
 
 All Break-Glass events shall be reviewed as part of the organization's post-incident review process.
+
+---
+
+# 11. Privileged Session Monitoring
+
+All privileged sessions shall be monitored to ensure authorized use and support security investigations.
+
+Monitoring requirements include:
+
+- Session recording where technically supported.
+- Real-time monitoring of high-risk privileged sessions.
+- Logging of authentication events.
+- Logging of privileged commands where supported.
+- Monitoring of privileged account activity.
+- Detection of anomalous privileged behavior.
+- Alert generation for suspicious activities.
+- Secure retention of session logs.
+- Protection of monitoring records from unauthorized modification.
+- Periodic review of privileged session logs.
+
+Monitoring data shall be retained in accordance with the Enterprise Security Logging and Monitoring Standard.
+
+---
+
+# 12. Access Review and Recertification
+
+Privileged access shall be reviewed regularly to ensure continued business need.
+
+Review requirements include:
+
+- Quarterly privileged access reviews.
+- Manager validation of continued business need.
+- System Owner review of assigned privileges.
+- Information Security review of privileged roles.
+- Removal of unnecessary privileges.
+- Validation of Segregation of Duties (SoD).
+- Review of inactive privileged accounts.
+- Documentation of review results.
+- Tracking of corrective actions.
+
+Access that is no longer required shall be revoked immediately.
+
+---
+
+# 13. Privileged Access Revocation
+
+Privileged access shall be removed promptly when it is no longer required.
+
+Revocation shall occur following:
+
+- Employee termination.
+- Role change.
+- Transfer to another department.
+- Completion of temporary assignments.
+- Expiration of Just-in-Time (JIT) access.
+- Completion of emergency (Break-Glass) access.
+- Discovery of unauthorized privileged activity.
+- Information Security direction.
+
+Following revocation, the PAM Team shall:
+
+- Remove privileged group memberships.
+- Disable privileged accounts where appropriate.
+- Remove privileged credentials from password vaults.
+- Terminate active privileged sessions.
+- Verify successful removal of access.
+- Document all revocation activities.
+
+---
+
+# 14. Audit Logging Requirements
+
+All privileged access activities shall generate audit records.
+
+Audit logs shall include:
+
+- Request identifier.
+- User identifier.
+- Privileged role assigned.
+- Systems affected.
+- Approval records.
+- Provisioning date and time.
+- Session start and end times.
+- Administrative actions performed.
+- Privileged access revocation activities.
+- Break-Glass access activities.
+- Exception approvals.
+- Escalation records.
+
+Audit logs shall be retained and protected in accordance with the Enterprise Security Logging and Monitoring Standard.
+
+---
+
+# 15. Exception Handling
+
+Exceptions to this procedure shall follow the Enterprise Exception Management process.
+
+Exception requirements include:
+
+- Documented business justification.
+- Risk assessment.
+- Identification of compensating security controls.
+- Approval by the PAM Manager.
+- Information Security review.
+- Defined expiration date.
+- Periodic review of approved exceptions.
+- Documentation within the Enterprise Exception Register.
+
+Temporary exceptions shall be removed immediately upon expiration.
+
+---
+
+# 16. Escalation Process
+
+Issues involving privileged access shall be escalated according to organizational procedures.
+
+### Level 1 – PAM Administrator
+
+Examples:
+
+- Standard provisioning requests.
+- Group membership updates.
+- Password vault synchronization issues.
+- Routine administrative support.
+
+---
+
+### Level 2 – PAM Manager
+
+Examples:
+
+- High-risk privileged access requests.
+- Delayed provisioning.
+- Access conflicts.
+- Policy interpretation issues.
+
+---
+
+### Level 3 – Information Security Team
+
+Examples:
+
+- Segregation of Duties (SoD) conflicts.
+- Unauthorized privileged activity.
+- Privileged account compromise.
+- Security policy violations.
+
+---
+
+### Level 4 – Chief Information Security Officer (CISO)
+
+Examples:
+
+- Executive privileged access exceptions.
+- Enterprise-wide privileged access issues.
+- Regulatory or audit concerns.
+- Significant cybersecurity incidents involving privileged accounts.
+
+All escalations shall be documented within the approved IT Service Management (ITSM) platform.
