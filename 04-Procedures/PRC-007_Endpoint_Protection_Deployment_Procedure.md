@@ -348,3 +348,119 @@ The following records shall be maintained for each protected endpoint:
 - Change Management records.
 
 Documentation shall be retained in accordance with the organization's Records Retention Policy.
+
+---
+
+# 17. Compliance
+
+Compliance with this procedure shall be verified through:
+
+- Internal Information Security audits.
+- Endpoint protection deployment reviews.
+- Endpoint Detection and Response (EDR) health assessments.
+- Anti-malware configuration reviews.
+- Endpoint firewall configuration assessments.
+- Device control policy reviews.
+- Security logging and monitoring assessments.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+
+Failure to comply with this procedure may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Delayed endpoint deployment.
+- Increased management oversight.
+- Formal risk acceptance where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this procedure shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Endpoint Security Manager.
+- Be reviewed by the Information Security Team.
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This procedure aligns with:
+
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST Cybersecurity Framework (CSF) 2.0
+- CIS Controls v8
+- Microsoft Defender for Endpoint Security Baselines
+- Microsoft Security Compliance Toolkit (SCT)
+- CrowdStrike Falcon Deployment Guide
+- SentinelOne Deployment Best Practices
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- STD-005 Enterprise Secure Configuration Baseline Standard
+- STD-008 Enterprise Endpoint Protection Standard
+- STD-009 Enterprise Network Security Standard
+- STD-012 Enterprise Security Logging and Monitoring Standard
+- STD-019 Enterprise Security Incident Response Standard
+- PRC-005 Windows Server Hardening Procedure
+- PRC-006 Linux Server Hardening Procedure
+
+---
+
+# 21. Procedure Review
+
+This procedure shall be reviewed:
+
+- Annually.
+- Following significant endpoint protection platform upgrades.
+- Following major endpoint security incidents.
+- Following audit findings.
+- Following regulatory or contractual changes.
+- Following significant changes to enterprise endpoint architecture.
+
+All revisions shall be documented using the organization's document management process.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Chief Information Security Officer | Approved |
+| Endpoint Security Manager | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Procedure ID | PRC-007 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Procedure Owner | Endpoint Security Manager |
+| Status | Approved |
+
+---
+
+**End of Procedure**
