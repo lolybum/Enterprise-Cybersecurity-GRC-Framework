@@ -251,3 +251,141 @@ Initial response activities include:
 - Activate the Incident Response Plan where applicable.
 
 All actions shall be documented within the approved Incident Management platform.
+
+---
+
+# 11. Containment Procedures
+
+Following incident confirmation, containment measures shall be implemented to limit the spread and impact of the incident while preserving business operations where possible.
+
+Containment activities include:
+
+- Isolate affected endpoints from the network.
+- Block malicious IP addresses and domains.
+- Disable compromised user accounts.
+- Revoke compromised authentication tokens.
+- Block malicious firewall traffic.
+- Disable affected services where required.
+- Preserve critical business operations whenever possible.
+- Monitor for additional malicious activity.
+- Document all containment actions.
+
+Containment actions shall be approved by the Incident Response Team Leader when operationally feasible.
+
+---
+
+# 12. Evidence Collection and Chain of Custody
+
+Digital evidence shall be collected and preserved to support investigations, legal proceedings, and regulatory requirements.
+
+Evidence collection activities include:
+
+- Capture volatile memory where appropriate.
+- Acquire forensic disk images.
+- Collect system and application logs.
+- Preserve firewall logs.
+- Preserve SIEM alerts.
+- Preserve EDR telemetry.
+- Collect network packet captures where available.
+- Preserve email evidence.
+- Record timestamps.
+- Secure evidence in approved storage.
+
+Chain of Custody requirements include:
+
+- Assign a unique evidence identifier.
+- Record evidence description.
+- Record date and time of collection.
+- Record collector name.
+- Record transfer history.
+- Record storage location.
+- Restrict evidence access.
+- Protect evidence integrity.
+- Retain evidence according to legal and regulatory requirements.
+
+Evidence shall remain admissible and protected against unauthorized modification.
+
+---
+
+# 13. Eradication
+
+Following successful containment, the Incident Response Team shall remove the root cause of the incident.
+
+Eradication activities include:
+
+- Remove malware.
+- Eliminate persistence mechanisms.
+- Remove unauthorized accounts.
+- Patch exploited vulnerabilities.
+- Reconfigure affected systems.
+- Reset compromised credentials.
+- Remove malicious scheduled tasks.
+- Remove unauthorized software.
+- Update endpoint protection signatures.
+- Validate eradication success.
+
+Systems shall not proceed to recovery until eradication activities have been completed successfully.
+
+---
+
+# 14. Recovery
+
+Following eradication, affected systems shall be restored to normal business operations.
+
+Recovery activities include:
+
+- Restore systems from approved backups where necessary.
+- Reconnect isolated systems.
+- Validate operating system functionality.
+- Validate application functionality.
+- Verify user authentication.
+- Verify network connectivity.
+- Confirm business service availability.
+- Monitor systems for signs of recurring compromise.
+- Obtain System Owner approval before returning systems to production.
+- Document recovery activities.
+
+Recovery shall occur in accordance with the organization's Business Continuity and Disaster Recovery procedures.
+
+---
+
+# 15. Post-Incident Review
+
+A formal Post-Incident Review (PIR) shall be conducted following closure of significant security incidents.
+
+The review shall include:
+
+- Incident timeline.
+- Root cause analysis.
+- Incident response effectiveness.
+- Communication effectiveness.
+- Business impact assessment.
+- Regulatory obligations.
+- Control effectiveness.
+- Improvement opportunities.
+- Assigned corrective actions.
+- Executive summary.
+
+The Post-Incident Review shall be completed within the organization's defined review timeframe.
+
+---
+
+# 16. Lessons Learned
+
+The Incident Response Team shall conduct a Lessons Learned session following significant incidents.
+
+Lessons learned activities include:
+
+- Identify successful response activities.
+- Identify response gaps.
+- Review detection effectiveness.
+- Review containment effectiveness.
+- Review recovery effectiveness.
+- Recommend control improvements.
+- Update security monitoring use cases.
+- Update incident response playbooks.
+- Update security awareness training where appropriate.
+- Track corrective actions through completion.
+
+Lessons learned shall be incorporated into future incident response planning and continuous improvement initiatives.
+
