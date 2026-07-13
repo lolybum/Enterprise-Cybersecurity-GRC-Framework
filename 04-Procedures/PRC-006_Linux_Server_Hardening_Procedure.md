@@ -355,3 +355,118 @@ The following records shall be maintained for each hardened Linux server:
 - Change Management records.
 
 Documentation shall be retained in accordance with the organization's Records Retention Policy.
+
+---
+
+# 17. Compliance
+
+Compliance with this procedure shall be verified through:
+
+- Internal Information Security audits.
+- Linux server hardening reviews.
+- Secure configuration baseline assessments.
+- Vulnerability scanning and remediation verification.
+- Linux firewall configuration reviews.
+- SSH configuration assessments.
+- Audit logging and monitoring reviews.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+
+Failure to comply with this procedure may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Delayed production deployment.
+- Increased management oversight.
+- Formal risk acceptance where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this procedure shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Infrastructure Security Manager.
+- Be reviewed by the Information Security Team.
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This procedure aligns with:
+
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST SP 800-123 – Guide to General Server Security
+- NIST Cybersecurity Framework (CSF) 2.0
+- CIS Benchmarks for Linux
+- DISA Security Technical Implementation Guides (STIGs)
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- STD-005 Enterprise Secure Configuration Baseline Standard
+- STD-007 Enterprise Linux Server Hardening Standard
+- STD-008 Enterprise Endpoint Protection Standard
+- STD-009 Enterprise Network Security Standard
+- STD-011 Enterprise Patch Management Standard
+- STD-012 Enterprise Security Logging and Monitoring Standard
+- PRC-005 Windows Server Hardening Procedure
+
+---
+
+# 21. Procedure Review
+
+This procedure shall be reviewed:
+
+- Annually.
+- Following significant Linux operating system releases.
+- Following major security incidents affecting Linux servers.
+- Following audit findings.
+- Following regulatory or contractual changes.
+- Following significant infrastructure changes.
+
+All revisions shall be documented using the organization's document management process.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Chief Information Security Officer | Approved |
+| Infrastructure Security Manager | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Procedure ID | PRC-006 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Procedure Owner | Infrastructure Security Manager |
+| Status | Approved |
+
+---
+
+**End of Procedure**

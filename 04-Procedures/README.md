@@ -21,9 +21,9 @@ All procedures are reviewed annually and updated following significant regulator
 | PRC-001 | User Account Provisioning Procedure | IAM Manager | Annual | Approved |
 | PRC-002 | Password Reset Procedure | IAM Manager | Annual | Approved |
 | PRC-003 | Multi-Factor Authentication Enrollment Procedure | IAM Manager | Annual | Approved |
-| PRC-004 | Privileged Access Request Procedure | PAM Team | Annual | Planned |
-| PRC-005 | Windows Server Hardening Procedure | Infrastructure | Annual | Planned |
-| PRC-006 | Linux Server Hardening Procedure | Infrastructure | Annual | Planned |
+| PRC-004 | Privileged Access Request Procedure | PAM Team | Annual | Approved |
+| PRC-005 | Windows Server Hardening Procedure | Infrastructure | Annual | Approved |
+| PRC-006 | Linux Server Hardening Procedure | Infrastructure | Annual | Approved |
 | PRC-007 | Endpoint Protection Deployment Procedure | Security Operations | Annual | Planned |
 | PRC-008 | Firewall Rule Change Procedure | Network Security | Annual | Planned |
 | PRC-009 | Vulnerability Scanning Procedure | Security Operations | Annual | Planned |
