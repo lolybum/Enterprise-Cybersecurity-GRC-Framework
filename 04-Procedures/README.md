@@ -27,8 +27,8 @@ All procedures are reviewed annually and updated following significant regulator
 | PRC-007 | Endpoint Protection Deployment Procedure | Security Operations | Annual | Approved |
 | PRC-008 | Firewall Rule Change Procedure | Network Security | Annual | Approved |
 | PRC-009 | Vulnerability Scanning Procedure | Security Operations | Annual | Approved |
-| PRC-010 | Patch Deployment Procedure | Infrastructure | Annual | Planned |
-| PRC-011 | Security Log Review Procedure | SOC | Annual | Planned |
+| PRC-010 | Patch Deployment Procedure | Infrastructure | Annual | Approved |
+| PRC-011 | Security Log Review Procedure | SOC | Annual | Approved |
 | PRC-012 | Backup and Restore Procedure | Infrastructure | Annual | Planned |
 | PRC-013 | Encryption Key Rotation Procedure | Security Engineering | Annual | Planned |
 | PRC-014 | Cloud Resource Security Review Procedure | Cloud Security | Annual | Planned |
