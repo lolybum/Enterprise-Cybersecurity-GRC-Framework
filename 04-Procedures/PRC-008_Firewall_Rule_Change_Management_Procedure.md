@@ -408,3 +408,117 @@ The following records shall be maintained:
 - Change Management records.
 
 Documentation shall be retained in accordance with the organization's Records Retention Policy.
+
+---
+
+# 17. Compliance
+
+Compliance with this procedure shall be verified through:
+
+- Internal Information Security audits.
+- Firewall rule configuration reviews.
+- Firewall rule recertification assessments.
+- Network security architecture reviews.
+- Security logging and monitoring assessments.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+- Internal audit testing.
+- Continuous compliance monitoring.
+
+Failure to comply with this procedure may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Delayed firewall rule implementation.
+- Increased management oversight.
+- Formal risk acceptance where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this procedure shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Network Security Manager.
+- Be reviewed by the Information Security Team.
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This procedure aligns with:
+
+- NIST SP 800-53 Rev. 5 – Security and Privacy Controls for Information Systems and Organizations
+- NIST Cybersecurity Framework (CSF) 2.0
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+- PCI DSS v4.0 – Network Security Controls (where applicable)
+- ITIL 4 – Change Enablement Practice
+- Vendor firewall security best practices (e.g., Palo Alto Networks, Cisco Secure Firewall, Fortinet FortiGate, Check Point)
+
+---
+
+# 20. Related Documents
+
+- GOV-024 Enterprise Security Architecture Policy
+- STD-005 Enterprise Secure Configuration Baseline Standard
+- STD-009 Enterprise Network Security Standard
+- STD-012 Enterprise Security Logging and Monitoring Standard
+- STD-020 Enterprise Business Continuity and Disaster Recovery Standard
+- PRC-019 Security Incident Response Procedure
+- PRC-020 Disaster Recovery Activation Procedure
+
+---
+
+# 21. Procedure Review
+
+This procedure shall be reviewed:
+
+- Annually.
+- Following significant firewall platform upgrades.
+- Following major network security incidents.
+- Following audit findings.
+- Following regulatory or contractual changes.
+- Following significant changes to enterprise network architecture.
+
+All revisions shall be documented using the organization's document management process.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Chief Information Security Officer | Approved |
+| Network Security Manager | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Procedure ID | PRC-008 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Procedure Owner | Network Security Manager |
+| Status | Approved |
+
+---
+
+**End of Procedure**
