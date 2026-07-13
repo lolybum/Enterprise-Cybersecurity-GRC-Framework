@@ -224,3 +224,127 @@ Configuration requirements include:
 - Investigate unauthorized device connection events.
 
 Device control settings shall support the organization's Data Loss Prevention (DLP) and Endpoint Protection requirements.
+
+---
+
+# 11. Security Policy Assignment
+
+Enterprise endpoint protection policies shall be assigned according to device type, business function, and organizational risk.
+
+Policy assignment requirements include:
+
+- Assign the approved endpoint security policy.
+- Apply role-based endpoint security configurations.
+- Configure policy inheritance where applicable.
+- Verify successful policy synchronization.
+- Restrict unauthorized policy modifications.
+- Validate endpoint policy version.
+- Review policy assignments periodically.
+- Document approved policy exceptions.
+
+Endpoints shall not operate without an assigned enterprise security policy.
+
+---
+
+# 12. Compliance Validation
+
+Each endpoint shall undergo compliance validation following deployment.
+
+Validation activities include:
+
+- Confirm endpoint protection agent installation.
+- Verify Endpoint Detection and Response (EDR) functionality.
+- Validate anti-malware protection.
+- Verify firewall configuration.
+- Confirm device control policy enforcement.
+- Verify endpoint encryption where required.
+- Validate operating system patch level.
+- Confirm communication with the management console.
+- Verify policy synchronization.
+- Review endpoint compliance status.
+
+Endpoints failing validation shall not be released to production until deficiencies have been corrected.
+
+---
+
+# 13. Logging and Monitoring
+
+Endpoint protection platforms shall generate security logs to support monitoring, investigations, and compliance.
+
+Logging requirements include:
+
+- Malware detection events.
+- Ransomware detection events.
+- Endpoint isolation events.
+- Policy modification events.
+- Firewall events.
+- Device control events.
+- USB connection events.
+- EDR detection events.
+- Administrative actions.
+- Agent health status.
+
+Security logs shall be forwarded to the enterprise Security Information and Event Management (SIEM) platform and protected against unauthorized modification.
+
+---
+
+# 14. Threat Detection and Response
+
+The Endpoint Security Team shall investigate and respond to endpoint security events.
+
+Response activities include:
+
+- Review endpoint security alerts.
+- Validate detected threats.
+- Isolate compromised endpoints where necessary.
+- Perform malware eradication.
+- Coordinate incident response activities.
+- Restore endpoints following remediation.
+- Conduct post-incident reviews.
+- Update detection rules based on lessons learned.
+- Document response activities.
+- Escalate significant incidents according to the Enterprise Security Incident Response Procedure.
+
+High-risk endpoint security events shall be handled in accordance with the Enterprise Security Incident Response Plan.
+
+---
+
+# 15. Validation and Compliance Checks
+
+Following deployment, each endpoint shall undergo a security validation process.
+
+Validation requirements include:
+
+- Verify endpoint registration.
+- Validate EDR functionality.
+- Confirm malware protection status.
+- Validate firewall configuration.
+- Confirm device control enforcement.
+- Verify policy assignment.
+- Confirm successful communication with the management console.
+- Perform vulnerability assessment where required.
+- Review security logs.
+- Document validation results.
+
+Endpoints that fail validation shall be remediated before production use.
+
+---
+
+# 16. Documentation Requirements
+
+The following records shall be maintained for each protected endpoint:
+
+- Endpoint asset identifier.
+- Device owner.
+- Operating system version.
+- Endpoint protection software version.
+- EDR status.
+- Anti-malware status.
+- Firewall configuration summary.
+- Device control policy.
+- Compliance validation results.
+- Vulnerability assessment results where applicable.
+- Exception approvals.
+- Change Management records.
+
+Documentation shall be retained in accordance with the organization's Records Retention Policy.
