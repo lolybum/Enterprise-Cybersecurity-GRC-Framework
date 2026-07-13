@@ -377,3 +377,119 @@ The following records shall be maintained:
 - Change Management records where applicable.
 
 Documentation shall be retained in accordance with the organization's Records Retention Policy and applicable legal, regulatory, and contractual requirements.
+
+---
+
+# 17. Compliance
+
+Compliance with this procedure shall be verified through:
+
+- Internal Identity and Access Management (IAM) audits.
+- Enterprise access certification reviews.
+- Privileged access recertification assessments.
+- Segregation of Duties (SoD) compliance reviews.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+- Internal audit testing.
+- Continuous compliance monitoring.
+- Identity governance maturity assessments.
+
+Failure to comply with this procedure may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Immediate removal of unauthorized access.
+- Increased management oversight.
+- Formal risk acceptance where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this procedure shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the Identity and Access Management (IAM) Manager.
+- Be reviewed by the Information Security Team.
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This procedure aligns with:
+
+- NIST SP 800-53 Rev. 5 – Access Control (AC) and Identification and Authentication (IA) Control Families
+- NIST SP 800-63B – Digital Identity Guidelines
+- NIST Cybersecurity Framework (CSF) 2.0
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+- ISACA Identity Governance Best Practices
+- COBIT 2019 Governance Framework
+
+---
+
+# 20. Related Documents
+
+- GOV-031 Enterprise Identity and Access Management Policy
+- STD-002 Enterprise Multi-Factor Authentication Standard
+- STD-003 Enterprise Identity and Access Management Standard
+- STD-004 Enterprise Privileged Access Management Standard
+- STD-018 Enterprise Access Review Standard
+- PRC-001 User Account Provisioning Procedure
+- PRC-002 Password Reset Procedure
+- PRC-003 Multi-Factor Authentication (MFA) Enrollment Procedure
+- PRC-004 Privileged Access Request Procedure
+
+---
+
+# 21. Procedure Review
+
+This procedure shall be reviewed:
+
+- Annually.
+- Following significant changes to IAM technologies.
+- Following identity-related security incidents.
+- Following audit findings.
+- Following regulatory or contractual changes.
+- Following significant organizational restructuring.
+
+All revisions shall be documented using the organization's document management process.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Chief Information Security Officer | Approved |
+| Identity and Access Management (IAM) Manager | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Procedure ID | PRC-012 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Procedure Owner | Identity and Access Management (IAM) Manager |
+| Status | Approved |
+
+---
+
+**End of Procedure**
