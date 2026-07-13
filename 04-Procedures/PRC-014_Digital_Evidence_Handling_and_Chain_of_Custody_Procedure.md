@@ -251,3 +251,128 @@ Preservation activities include:
 - Preserve evidence in its original state.
 
 Original evidence shall not be modified during forensic examination unless specifically authorized and documented.
+
+---
+
+# 11. Forensic Imaging
+
+Where forensic examination is required, forensic images shall be created using approved forensic tools and methodologies.
+
+Forensic imaging requirements include:
+
+- Use approved forensic imaging software.
+- Use write-blocking devices when acquiring storage media.
+- Create a complete bit-for-bit forensic image.
+- Calculate cryptographic hash values before acquisition where possible.
+- Verify cryptographic hash values after image creation.
+- Preserve original evidence without modification.
+- Document imaging procedures.
+- Record imaging start and completion times.
+- Record imaging tool version.
+- Store forensic images securely.
+
+Only verified forensic images shall be used during analysis whenever possible.
+
+---
+
+# 12. Evidence Storage
+
+Digital evidence shall be stored securely to prevent unauthorized access, modification, destruction, or loss.
+
+Storage requirements include:
+
+- Store evidence in approved secure evidence lockers or repositories.
+- Restrict access using Role-Based Access Control (RBAC).
+- Encrypt digital evidence at rest.
+- Maintain physical security controls.
+- Maintain environmental controls for physical media.
+- Log all evidence access activities.
+- Perform periodic inventory reconciliation.
+- Verify evidence integrity periodically using cryptographic hashes.
+- Retain evidence according to legal and regulatory requirements.
+
+Evidence storage locations shall be approved by the Information Security Team.
+
+---
+
+# 13. Evidence Transfer
+
+Transfers of digital evidence shall maintain an uninterrupted Chain of Custody.
+
+Transfer requirements include:
+
+- Verify evidence identity before transfer.
+- Verify evidence integrity prior to transfer.
+- Record transfer date and time.
+- Record transferring individual.
+- Record receiving individual.
+- Document purpose of transfer.
+- Verify tamper-evident seals where applicable.
+- Obtain receiving party acknowledgement.
+- Update Chain of Custody documentation immediately.
+- Secure evidence during transportation.
+
+Evidence shall only be transferred to authorized personnel.
+
+---
+
+# 14. Evidence Disposal
+
+Digital evidence shall be disposed of only after authorization and expiration of all legal, regulatory, and business retention requirements.
+
+Disposal activities include:
+
+- Verify retention period has expired.
+- Obtain disposal approval.
+- Confirm no active investigations remain.
+- Securely destroy digital media using approved methods.
+- Destroy physical evidence where authorized.
+- Record disposal date.
+- Record disposal method.
+- Record approving authority.
+- Update evidence inventory.
+- Retain disposal documentation.
+
+Evidence disposal shall comply with applicable legal, regulatory, and organizational requirements.
+
+---
+
+# 15. Audit Requirements
+
+Digital evidence handling activities shall be subject to periodic audit.
+
+Audit activities include:
+
+- Review Chain of Custody documentation.
+- Verify evidence inventory.
+- Review evidence storage controls.
+- Verify cryptographic hash validation.
+- Review evidence transfer records.
+- Verify evidence access logs.
+- Validate forensic imaging documentation.
+- Review disposal records.
+- Assess compliance with forensic procedures.
+- Document audit findings.
+
+Audit findings shall be tracked until corrective actions have been completed.
+
+---
+
+# 16. Documentation Requirements
+
+The following records shall be maintained:
+
+- Chain of Custody forms.
+- Evidence inventories.
+- Evidence labels.
+- Forensic imaging records.
+- Hash verification records.
+- Evidence transfer records.
+- Evidence storage logs.
+- Evidence access logs.
+- Disposal records.
+- Investigation reports.
+- Audit reports.
+- Corrective action records.
+
+Documentation shall be retained in accordance with the organization's Records Retention Policy and applicable legal, regulatory, and contractual requirements.
