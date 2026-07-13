@@ -396,3 +396,117 @@ Examples:
 - Significant cybersecurity incidents involving authentication.
 
 All escalations shall be documented within the approved IT Service Management (ITSM) platform.
+
+---
+
+# 17. Compliance
+
+Compliance with this procedure shall be verified through:
+
+- Internal Identity and Access Management (IAM) audits.
+- Multi-Factor Authentication (MFA) enrollment reviews.
+- Authentication control assessments.
+- Access control compliance reviews.
+- Regulatory compliance assessments.
+- Executive management reviews.
+- Independent assurance activities.
+- Periodic audit testing.
+- Information Security monitoring.
+- Continuous compliance reporting.
+
+Failure to comply with this procedure may result in:
+
+- Corrective action plans.
+- Mandatory remediation activities.
+- Temporary suspension of enrollment privileges.
+- Increased management oversight.
+- Formal risk acceptance where appropriate.
+- Disciplinary action in accordance with organizational policies.
+- Contractual action for third parties where applicable.
+
+---
+
+# 18. Exceptions
+
+Exceptions to this procedure shall:
+
+- Be formally documented.
+- Include a valid business justification.
+- Include a documented risk assessment.
+- Identify compensating security controls.
+- Be approved by the IAM Manager.
+- Be reviewed by the Information Security Team where elevated risk exists.
+- Include an expiration date.
+- Be reviewed at least annually.
+
+Approved exceptions shall be maintained within the Enterprise Exception Register.
+
+---
+
+# 19. References
+
+This procedure aligns with:
+
+- NIST SP 800-53 Rev. 5 – Identification and Authentication (IA) Control Family
+- NIST SP 800-63B – Digital Identity Guidelines: Authentication and Lifecycle Management
+- NIST Cybersecurity Framework (CSF) 2.0
+- ISO/IEC 27001:2022
+- ISO/IEC 27002:2022
+- CIS Controls v8
+- Microsoft Entra ID Security Best Practices
+- FIDO Alliance Authentication Standards
+
+---
+
+# 20. Related Documents
+
+- GOV-031 Enterprise Identity and Access Management Policy
+- STD-001 Enterprise Password Standard
+- STD-002 Enterprise Multi-Factor Authentication Standard
+- STD-003 Enterprise Identity and Access Management Standard
+- PRC-001 User Account Provisioning Procedure
+- PRC-002 Password Reset Procedure
+- PRC-004 Privileged Access Request Procedure
+
+---
+
+# 21. Procedure Review
+
+This procedure shall be reviewed:
+
+- Annually.
+- Following significant changes to authentication technologies.
+- Following MFA-related security incidents.
+- Following audit findings.
+- Following regulatory or contractual changes.
+- Following significant organizational restructuring.
+
+All revisions shall be documented using the organization's document management process.
+
+---
+
+# 22. Approval
+
+| Role | Approval |
+|------|----------|
+| Chief Information Security Officer | Approved |
+| IAM Manager | Approved |
+| Information Security Governance Committee | Approved |
+
+---
+
+# 23. Document Control
+
+| Item | Value |
+|------|-------|
+| Procedure ID | PRC-003 |
+| Version | 1.0 |
+| Effective Date | July 2026 |
+| Review Cycle | Annual |
+| Classification | Internal |
+| Procedure Owner | IAM Manager |
+| Status | Approved |
+
+---
+
+**End of Procedure**
