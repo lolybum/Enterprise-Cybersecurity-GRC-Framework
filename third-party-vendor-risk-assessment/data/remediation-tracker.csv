@@ -1,0 +1,10 @@
+Finding ID,Treatment Strategy,Corrective Action,Owner,Due Date,Priority,Blocking Condition,Status
+F-01,Mitigate and Transfer,Execute security addendum with 24-hour incident notification,Legal,Before contract,Critical,Yes,Open
+F-03,Mitigate or Avoid,Provide tested 4-hour recovery or approved continuity workaround,BCM and Business Owner,Before go-live,Critical,Yes,Open
+F-02,Mitigate,Commit to 15-day Critical SLA and 72-hour exploit containment,Vendor CISO,60 days,High,No,Open
+F-04,Mitigate,Provide complete subprocessor register regions and 30-day notice,Privacy and Legal,Before contract,High,Yes,Open
+F-05,Mitigate,Provide detailed sanitized penetration test and retest evidence,Vendor Security,Before go-live,High,Yes,Open
+F-08,Mitigate and Transfer,Negotiate assurance-review and incident-triggered audit rights,Legal,Before contract,High,Yes,Open
+F-06,Mitigate,Add deletion certificate and annual deletion attestation,Data Owner,90 days,Moderate,No,Open
+F-07,Mitigate,Run customer-notification tabletop and provide after-action report,Incident Management,180 days,Moderate,No,Open
+

@@ -1,0 +1,37 @@
+Domain,ID,Control Question,Vendor Response,Evidence,Score,Assessment
+Governance,1,Security program approved and reviewed annually?,Yes,Policy suite and governance minutes,2,Effective
+Governance,2,Independent assurance current and in scope?,Yes,SOC 2 Type II and ISO 27001,2,Effective
+Governance,3,Security roles and accountability defined?,Yes,Organization chart and RACI,2,Effective
+IAM,4,MFA enforced for privileged and remote access?,Yes,IAM standard and configuration evidence,2,Effective
+IAM,5,Access reviews performed at least quarterly?,Yes,Q1 and Q2 review samples,2,Effective
+IAM,6,Joiner mover leaver process time-bound?,Yes,HR IAM procedure and tickets,2,Effective
+IAM,7,Customer SSO and role-based access available?,Yes,SAML design and RBAC matrix,2,Effective
+Data Protection,8,Data encrypted in transit and at rest?,Yes,TLS 1.2+ and AES-256 design,2,Effective
+Data Protection,9,Key-management duties segregated?,Yes,KMS design and access review,2,Effective
+Data Protection,10,Retention and secure deletion defined?,Partial,Schedule and deletion procedure,1,Partially effective
+Data Protection,11,Data residency and processing locations transparent?,Partial,Architecture and subprocessor list,1,Partially effective
+Privacy,12,Privacy impact assessments performed?,Yes,DPIA template and sample,2,Effective
+Privacy,13,Data subject requests supported?,Yes,Procedure and SLA dashboard,2,Effective
+Privacy,14,Breach notification contractually time-bound?,No,Standard DPA,0,Ineffective
+Cloud and Network,15,Network segmentation and tenant isolation tested?,Yes,Architecture and SOC controls,2,Effective
+Cloud and Network,16,Secure configuration baselines enforced?,Yes,CIS-aligned standard and CSPM report,2,Effective
+Cloud and Network,17,Endpoint protection covers production admin assets?,Yes,EDR coverage report,2,Effective
+Secure Development,18,Security requirements integrated into SDLC?,Yes,SDLC standard and release checklist,2,Effective
+Secure Development,19,SAST DAST dependency and secret scanning used?,Yes,Pipeline evidence,2,Effective
+Secure Development,20,High-risk changes independently approved?,Yes,Change samples,2,Effective
+Vulnerability,21,Critical vulnerabilities remediated within 15 days?,No,Policy states 30 days,0,Ineffective
+Vulnerability,22,External penetration test performed annually?,Partial,Executive summary only,1,Partially effective
+Vulnerability,23,Internet-facing assets continuously scanned?,Yes,Scanner dashboard,2,Effective
+Monitoring,24,Central logs protected and monitored 24x7?,Yes,SIEM design and SOC schedule,2,Effective
+Monitoring,25,Alert use cases reviewed and tested?,Yes,Quarterly tuning records,2,Effective
+Incident Response,26,Incident plan exercised at least annually?,Yes,Tabletop report,2,Effective
+Incident Response,27,Customer communication procedures tested?,Partial,Procedure without notification SLA,1,Partially effective
+Resilience,28,Recovery meets 4-hour RTO and 1-hour RPO?,No,DR test shows 12-hour RTO and 1-hour RPO,0,Ineffective
+Resilience,29,Backups encrypted immutable and restoration-tested?,Yes,Backup standard and test results,2,Effective
+Fourth Party,30,Subprocessors risk-assessed before use?,Yes,TPRM procedure and samples,2,Effective
+Fourth Party,31,Advance notice and location transparency provided?,Partial,List lacks regions and offers 10-day notice,1,Partially effective
+Physical Security,32,Physical security inherited from validated data centers?,Yes,Cloud-provider assurance,2,Effective
+Personnel Security,33,Screening NDA and annual training implemented?,Yes,HR policy and training metrics,2,Effective
+Contract,34,Audit deletion incident and termination rights adequate?,Partial,Standard agreement requires edits,1,Partially effective
+Insurance,35,Cyber insurance adequate and current?,Yes,Ten-million-dollar certificate,2,Effective
+
