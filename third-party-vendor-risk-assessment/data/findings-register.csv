@@ -1,0 +1,10 @@
+Finding ID,Finding,Domain,Likelihood,Impact,Inherent Score,Inherent Rating,Required Treatment,Target Residual Score,Target Residual Rating,Owner
+F-01,No fixed breach-notification deadline,Incident and Contract,4,5,20,Critical,Require notification within 24 hours of confirmed incident,8,Moderate,Legal and CISO
+F-02,Critical vulnerability SLA is 30 days,Vulnerability Management,4,4,16,High,Adopt 15-day SLA and 72-hour containment for active exploitation,8,Moderate,Vendor CISO
+F-03,DR recovery misses 4-hour business RTO,Resilience,4,5,20,Critical,Validate 4-hour recovery or approve tested workaround,10,Moderate,BCM and Business Owner
+F-04,Subprocessor locations and notice incomplete,Fourth Party and Privacy,3,4,12,High,Provide regions 30-day notice and objection right,6,Moderate,Privacy and Legal
+F-05,Penetration-test detail and retest evidence limited,Assurance,3,4,12,High,Provide detailed sanitized report and closure evidence,4,Low,Vendor Security
+F-06,Deletion evidence not independently validated,Data Lifecycle,3,3,9,Moderate,Provide deletion attestation sample evidence and contract certificate,4,Low,Data Owner
+F-07,Customer communication exercise incomplete,Incident Response,3,3,9,Moderate,Run notification tabletop and provide after-action report,4,Low,Incident Management
+F-08,Standard contract limits customer audit rights,Contract,3,4,12,High,Add assurance review and incident-triggered audit rights,6,Moderate,Legal
+
